@@ -180,8 +180,9 @@ Running the C++ unit tests
 .. Should we mention you need to be at the top level directory to run
    scons to build and run as well as sudo?
 
-The tests under ``jstests/`` folder are written in mongo shell javascript.
-However there are a set of C++ unit tests also.  To run them:
+The tests under ``jstests/`` folder are written in :program:`mongo`
+shell javascript. However there are a set of C++ unit tests also. To
+run them:
 
 .. code-block:: none
 

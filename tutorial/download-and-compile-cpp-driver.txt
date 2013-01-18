@@ -7,6 +7,8 @@
 Download and Compile C++ Driver
 ===============================
 
+.. _download-cpp-driver:
+
 Download C++ Driver
 -------------------
 
@@ -32,6 +34,8 @@ page.
 The full server source is quite large, so the tarballs above may be
 easier. Also if using the full server source tree, use ``scons
 mongoclient`` to build just the client library.
+
+.. _compile-and-link-cpp-driver:
 
 Compile and Link C++ Driver
 ---------------------------
