@@ -236,6 +236,6 @@ Then use the line above to run the binary generated:
 
    ./build/linux2/dd/durableDefaultOff/mongo/platform/atomic_word_test
 
-.. see-also::
+.. seealso::
 
-   * `scons <http://www.scons.org/>`_
+   - `scons <http://www.scons.org/>`_
