@@ -1,5 +1,6 @@
 .. http://www.mongodb.org/display/DOCS/Smoke+Tests
 
+.. _smoke-tests:
 ===========
 Smoke Tests
 ===========

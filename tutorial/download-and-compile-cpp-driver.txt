@@ -1,6 +1,8 @@
 .. http://www.mongodb.org/pages/viewpage.action?pageId=21269361
 .. http://www.mongodb.org/pages/viewpage.action?pageId=21266598
 
+.. _download-and-compile-cpp-driver:
+
 ===============================
 Download and Compile C++ Driver
 ===============================
