@@ -12,19 +12,23 @@ Test Organization
 
 .. is :file: a valid directive?
 
-.. just changed a few of the directories
+.. TODO 
+   - :file:`src/mongo/dbtests/.*cpp`
+   - :file:`jstests/slowNightly/*js` has tests that take longer and run only at night
+   - :file:`jstests/slowWeekly/*.js` has tests that take even longer and run only once a week
 
-- :file:`src/mongo/dbtests/.*cpp` has C++ unit tests
-- :file:`jstests/*.js` has core tests
-- :file:`jstests/repl*/*.js` has replication tests
-- :file:`jstests/sharding/*.js` has sharding tests
-- :file:`jstests/slowNightly/*js` has tests that take longer and run only at night
-- :file:`jstests/slowWeekly/*.js` has tests that take even longer and run only once a week
+* :file:`dbtests/.*cpp` has C++ unit tests
+* :file:`jstests/*.js` has core tests
+* :file:`jstests/repl*/*.js` has replication tests
+* :file:`jstests/sharding/*.js` has sharding tests
+* :file:`slowNightly/*js` has tests that take longer and run only at night
+* :file:`slowWeekly/*.js` has tests that take even longer and run only once a week
+
 
 Running all the tests
 ---------------------
 
-.. Some notes as I run through this:
+.. TODO Some notes as I run through this:
 
 .. 1) Prerequisite: scons, python
 
@@ -57,40 +61,33 @@ Running all the tests
    scons smokeRepl smokeClone
    scons startMongod smokeParallel
 
+
 smoke.py
 --------
 
-:file:`smoke.py` lets you run a subset of the tests in ``jstests/``
-directory. When :file:`smoke.py` is running the tests, it starts up an
-instance of :program:`mongod`, runs the tests, and then shuts it down
-again. You can run it while running other instances of MongoDB on the
-same machine: it uses ports in the 30000 range and its own data
-directories.
+:file:`smoke.py` lets you run a subsets of the tests in :file:`jstests/`.
+When it is running tests, it starts up an instance of mongod, runs the tests,
+and then shuts it down again.
+You can run it while running other instances of MongoDB on the same machine:
+it uses ports in the 30000 range and its own data directories.
 
-For the moment, :file:`smoke.py` must be run from the top-level
-directory of a MongoDB source repository. This directory must contain
-at least the :program:`mongo` and :program:`mongod` binaries. To run
-certain tests, you'll also need to build the tools and
-:program:`mongos`. Before running the tests, it is a good idea to run
-the following:
+For the moment, :file:`smoke.py` must be run from the top-level directory
+of a MongoDB source repository.
+This directory must contain at least the :program:`mongo` and
+:program:`mongod` binaries.
+To run certain tests, you'll also need to build the tools and :program:`mongos`.
+It's a good idea to run ``scons .`` before running the tests.
 
-.. code-block:: sh
+To run :file:`smoke.py` you'll need a recent version of
+`PyMongo <http://api.mongodb.org/python/current/installation.html>`_.
 
-   scons .
+To see the possible options, run:
 
-To run :file:`smoke.py`, you'll need a recent version of `PyMongo
-<http://api.mongodb.org/python/current/installation.html>`_.
-
-To see the possible options for :file:`smoke.py`, run:
+.. TODO  break this block up so I don't need to use the $
 
 .. code-block:: sh
 
-   python buildscripts/smoke.py --help
-
-The command returns the following options:
-
-.. code-block:: sh
-
+   $ python buildscripts/smoke.py --help
    Usage: smoke.py [OPTIONS] ARGS*
 
    Options:
@@ -115,28 +112,7 @@ The command returns the following options:
      --small-oplog         Run tests with master/slave replication & use a small
                            oplog
 
-.. we seem to be missing the following options:
-   --nojournal           Do not turn on journaling in tests
-   --nopreallocj         Do not preallocate journal files in tests
-   --auth                Run standalone mongods in tests with authentication
-                        enabled
-   --keyFile=KEYFILE     Path to keyFile to use to run replSet and sharding
-                        tests with authentication enabled
-   --ignore=IGNORE_FILES
-                        Pattern of files to ignore in tests
-   --only-old-fails      Check the failfile and only run all tests that failed
-                        last time
-   --reset-old-fails     Clear the failfile. Do this if all tests pass
-   --with-cleanbb        Clear database files from previous smoke.py runs
-   --buildlogger-builder=BUILDLOGGER_BUILDER
-                        Set the "builder name" for buildlogger
-   --buildlogger-buildnum=BUILDLOGGER_BUILDNUM
-                        Set the "build number" for buildlogger
-   --buildlogger-credentials=BUILDLOGGER_CREDENTIALS
-                        Path to Python file containing buildlogger credentials
-   --buildlogger-phase=BUILDLOGGER_PHASE
-                        Set the "phase" for buildlogger (e.g. "core", "auth")
-                        for display in the webapp (optional)
+.. TODO we seem to be missing some options, if we're printing out what the screen shows
 
 .. note::
 
@@ -155,24 +131,24 @@ You can specify as many files as you want.
 
 You can also run a suite of tests.  Suites are predefined and include:
 
-- ``test``
-- ``all``
-- ``perf``
-- ``js``
-- ``quota``
-- ``jsPerf``
-- ``disk``
-- ``jsSlowNightly``
-- ``jsSlowWeekly``
-- ``parallel``
-- ``clone``
-- ``repl`` (master/slave replication tests)
-- ``replSets`` (replica set tests)
-- ``auth``
-- ``sharding``
-- ``tool``
-- ``client``
-- ``mongosTest``
+* `test`
+* `all`
+* `perf`
+* `js`
+* `quota`
+* `jsPerf`
+* `disk`
+* `jsSlowNightly`
+* `jsSlowWeekly`
+* `parallel`
+* `clone`
+* `repl` (master/slave replication tests)
+* `replSets` (replica set tests)
+* `auth`
+* `sharding`
+* `tool`
+* `client`
+* `mongosTest`
 
 To run a suite, specify the suite's name:
 
@@ -180,19 +156,19 @@ To run a suite, specify the suite's name:
 
    python buildscripts/smoke.py js
 
-Running a JavaScript test manually
-----------------------------------
+Running a jstest manually
+-------------------------
 
-.. Changed replsetarb3.js to replsetarb2.js since
-   my replsets directory didn't have replsetarb3.js
+.. TODO change replsetarb3.js to replsetarb2.js since
+   my current replsets directory doesn't have replsetarb3.js
    
 .. sudo to access the data directory?
 
-You can run a JavaScript test directly from the shell, for example:
+You can run a jstest directly from the shell, for example:
 
 .. code-block:: sh
 
-   mongo --nodb jstests/replsets/replsetarb2.js
+   mongo --nodb jstests/replsets/replsetarb3.js
 
 Running the C++ unit tests
 --------------------------
@@ -203,26 +179,26 @@ Running the C++ unit tests
 .. Should we mention you need to be at the top level directory to run
    scons to build and run as well as sudo?
 
-The tests under ``jstests/`` folder are written in :program:`mongo`
-shell JavaScript. However there are a set of C++ unit tests in
-``src/mongo/unittest/``. To run them:
+The tests under ``jstests/`` folder are written in mongo shell javascript.
+However there are a set of C++ unit tests also.  To run them:
 
 .. code-block:: none
 
    scons test
    ./test
 
-Build the C++ unit tests by running:
+.. TODO  the parenthesis should be moved to previous paragraph
+   since you build at the top level directory and it's confusing here
+   - not to mention, missing end parenthesis)
+
+Build the unit tests (in ``src/mongo/unittest/`` by running:
+
+.. TODO  break this block up so I don't need to use the $
 
 .. code-block:: sh
 
-   scons build/unittests.txt
-
-Near the end of the build, the output should display something similar
-to the following:
-
-.. code-block:: none
-   
+   $ scons build/unittests.txt
+   /* build output */
    Generating build/unittests.txt
            build/linux2/dd/durableDefaultOff/mongo/platform/atomic_word_test
            ...
@@ -232,10 +208,12 @@ to the following:
 
 Then use the line above to run the binary generated:
 
+.. TODO  get rid of $ once the sentence above is fixed
+
 .. code-block:: sh
 
-   ./build/linux2/dd/durableDefaultOff/mongo/platform/atomic_word_test
+   $ ./build/linux2/dd/durableDefaultOff/mongo/platform/atomic_word_test
 
 .. seealso::
 
-   - `scons <http://www.scons.org/>`_
+   * `scons <http://www.scons.org/>`_
