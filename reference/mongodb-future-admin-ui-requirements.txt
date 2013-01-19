@@ -1,0 +1,31 @@
+.. http://www.mongodb.org/display/DOCS/UI
+
+.. _mongodb-future-admin-ui-requirements:
+
+====================================
+MongoDB Future Admin UI Requirements
+====================================
+
+Spec/requirements for a future MongoDB admin UI.
+
+- list databases
+
+  - repair, drop, clone?
+  
+- collections
+
+  - ``validate()``, datasize, indexsize, clone/copy
+  
+- indexes
+
+- queries - ``explain()`` output
+
+- security: view users, adjust
+
+- see replication status of slave and master
+
+- sharding
+
+- ``system.profile`` viewer ; enable disable profiling
+
+- ``curop`` / ``killop`` support
