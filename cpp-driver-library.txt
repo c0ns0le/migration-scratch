@@ -1,12 +1,54 @@
-.. http://www.mongodb.org/pages/viewpage.action?pageId=16646453
-.. http://www.mongodb.org/pages/viewpage.action?pageId=21268822
-.. http://www.mongodb.org/display/DOCS/Connecting
+.. http://www.mongodb.org/pages/viewpage.action?pageId=16646453    WRITING-116 C++ BSON Library
+.. http://www.mongodb.org/pages/viewpage.action?pageId=21268822    WRITING-119 C++ getLastError 
+.. http://www.mongodb.org/display/DOCS/Connecting                  WRITING-121 Connecting
+.. http://www.mongodb.org/pages/viewpage.action?pageId=133409      WRITING-76 C++ Language Center 
 
 .. _cpp-driver-library:
 
 ==================
 C++ Driver Library
 ==================
+
+A C++ driver is available for communicating with the MongoDB. As the
+database is written in C++, the driver actually uses some core MongoDB
+code -- this is the same driver that the database uses itself for
+replication.
+
+The driver has been compiled successfully on Linux, OS X, Windows, and
+Solaris.
+
+See also the following C++ Driver documents:
+
+- :ref:`download-and-compile-cpp-driver`
+
+- :ref:`getting-started-with-cpp-driver`
+
+- `API Documentation <http://api.mongodb.org/cplusplus/>`_
+
+- HOWTO
+
+  - `Tailable Cursor <http://docs.mongodb.org/manual/tutorial/create-tailable-cursor/>`_
+
+  - :ref:`bson-array-examples-in-cpp`
+
+- `MongoDB Database and C++ Driver Source Code`_ (at github). See the
+  client subdirectory for client driver related files.
+
+Additional Notes
+----------------
+
+.. TODO change Building reference to correct reference
+
+- The :ref:`Building` documentation covers compiling the entire database, but
+  some of the notes there may be helpful for compiling client
+  applications too.
+
+- There is also a pure `C driver`_ for MongoDB. For true C++ apps we
+  recommend using the C++ driver.
+
+.. _`MongoDB Database and C++ Driver Source Code`: https://github.com/mongodb/mongo
+
+.. _`C driver`: https://github.com/mongodb/mongo-c-driver
 
 .. _cpp-bson-library:
 
