@@ -1,0 +1,82 @@
+.. http://www.mongodb.org/display/DOCS/Kernel+exception+architecture WRITING-161
+
+.. _kernel-exception-architecture:
+
+=============================
+Kernel Exception Architecture
+=============================
+
+There are several different types of assertions used in the MongoDB
+code. In brief:
+
+- ``uassert`` checks for per-operation user errors. Operation-fatal.
+
+- ``massert`` checks per-operation invariants. Operation-fatal.
+
+- ``verify`` is a synonym for ``massert``, that doesn't require an error code.
+
+- ``fassert`` checks fatal process invariants. Process-fatal.
+
+- ``wassert`` warn (log) and continue.
+
+- Calling ``assert`` is not allowed. Use one of the above instead.
+
+- ``dassert`` just calls ``verify`` but only in debug mode. Do not use!
+
+When per-operation invariant checks fail, the current operation fails,
+but the process and connection persist. This means that ``massert``,
+``uassert`` and ``verify`` only terminate the current operation, not
+the whole process. Be careful not to corrupt process state by
+mistakenly using these assertions midway through mutating process
+state. Examples of this include ``uassert`` and ``massert`` inside of
+constructors and destructors. ``fassert`` failures will terminate the
+entire process; this is used for low-level checks where continuing
+might lead to corrupt data or loss of data on disk.
+
+Both ``massert`` and ``uassert`` take error codes, so that all errors
+have codes associated with them. These :ref:`error codes <error-codes>`
+are assigned incrementally; the numbers have no meaning other than a
+way to associate a log message with a line of code. ``scons`` checks for
+duplicates, but if you want the next available code you can run:
+
+.. code-block:: sh
+
+   python buildscripts/errorcodes.py
+   
+.. TODO replace error codes reference with real reference when migrated
+
+A failed operation-fatal assertion throws an ``AssertionException`` or
+a child of that. The inheritance hierarchy is something like:
+
+- :class:`std::exception`
+ 
+  - :class:`mongo::DBException`
+
+    - :class:`mongo::AssertionException`
+
+      - :class:`mongo::UserException`
+
+      - :class:`mongo::MsgAssertionException`
+
+See :file:`util/assert_util.h`.
+
+Generally, code in the server should be prepared to catch a
+``DBException``. UserAssertionException's are particularly common
+as errors and should be expected. We use `resource acquisition is
+initialization`_ heavily.
+
+.. _`resource acquisition is initialization`:
+   http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization
+
+Gotchas to watch out for:
+
+- Generally, don't throw a ``AssertionException`` directly. Functions
+  like ``uasserted()`` do work beyond just that. In particular,
+  it makes sure that the ``getLastError`` structures are set up properly.
+
+- Think about where your asserts are in constructors, as the destructor
+  wouldn't be called. (But at a minimum, use ``wassert`` a lot therein,
+  we want to know if something is wrong.)
+
+- Don't throw in destructors of course.
+
