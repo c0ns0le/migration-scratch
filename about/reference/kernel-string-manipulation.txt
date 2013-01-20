@@ -1,0 +1,62 @@
+.. http://www.mongodb.org/display/DOCS/Kernel+string+manipulation WRITING-163
+
+.. _kernel-string-manipulation:
+
+==========================
+Kernel String Manipulation
+==========================
+
+For string manipulation, use the :file:`util/mongoutils/str.h` library.
+
+``str.h``
+---------
+
+:file:`util/mongoutils/str.h` provides string helper functions for each
+manipulation. Add new functions here rather than lines and lines of
+code to your app that are not generic.
+
+Typically these functions return a string and take two as parameters :
+
+.. code-block:: cpp
+
+   string f(string,string). 
+
+Thus we wrap them all in a namespace called ``str``.
+
+``str::stream()`` is quite useful:
+
+.. code-block:: cpp
+
+   uassert(12345, str::stream() << "bad ns:" << ns, isok);
+
+``StringData``
+--------------
+
+.. code-block:: cpp
+
+   /** A StringData object wraps a 'const string&' or a 'const char*' without
+    * copying its contents. The most common usage is as a function argument that
+    * takes any of the two forms of strings above. Fundamentally, this class tries
+    * go around the fact that string literals in C++ are char[N]'s.
+    *
+    * Note that the object StringData wraps around must be alive while the StringData
+    * is.
+   */
+   class StringData {
+
+See also :file:`bson/stringdata.h`.
+
+``mongoutils``
+--------------
+
+MongoUtils has its own namespace. Its code has these basic properties:
+
+#. are not database specific, rather, true utilities
+
+#. are cross platform
+
+#. may require boost headers, but not libs (header-only works with mongoutils)
+
+#. are clean and easy to use in any c++ project without pulling in lots of other stuff
+
+#. apache license

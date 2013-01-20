@@ -79,4 +79,3 @@ Gotchas to watch out for:
   we want to know if something is wrong.)
 
 - Don't throw in destructors of course.
-
