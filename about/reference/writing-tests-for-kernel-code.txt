@@ -1,0 +1,112 @@
+.. http://www.mongodb.org/display/DOCS/Writing+tests WRITING-166
+
+.. _writing-tests-for-kernel-code:
+
+=============================
+Writing Tests for Kernel Code
+=============================
+
+We have four general flavors of tests currently.
+
+General guidelines
+------------------
+
+It is important that tests can be run in parallel and still succeed.
+For example, make sure that:
+
+- Try to use a unique collection name, for example named after the test
+
+  .. code-block:: javascript
+
+     t = db.jstests_currentop
+
+- If checking on current operations, make sure to add an ``ns`` filter.
+
+  .. code-block:: javascript
+  
+     db.currentOp( { ns: "test.mytest" } )
+     
+- If possible, try to avoid things that are global to :program:`mongod` or the
+  database (oplog, profiling, fsync)
+
+If the test cannot be run in parallel, add it to the blacklist in
+``skipTests`` in :file:`shell/utils.js`.
+
+dbtests (Deprecated - avoid adding to this)
+-------------------------------------------
+
+Old-style C++ unit tests are in the ``dbtests/`` subfolder. See the
+code therein. To run:
+
+.. code-block:: sh
+
+   scons test
+   ./test --help
+
+Unit tests
+----------
+
+New-style C++ unit tests use the Unit Test framework in
+``src/mongo/unittest``. The actual unit test files appear in the same
+subdirectory as the source file being tested. 
+
+To run all the tests:
+
+.. code-block:: sh
+
+   scons smokeCppUnittests
+   
+jstests
+-------
+
+Many tests are written as .js scripts that are executed via the
+:program:`mongo` shell. See the Smoke Tests link at the bottom for how
+to run comprehensive sets of tests. To run a particular test:
+
+.. code-block:: sh
+
+   # start mongod first then run a few simple tests:
+   mongo jstests/basic*.js
+
+Note there are several subdirectories for different test suites.
+``slowNightly`` is run by the buildbots only once a night;
+``slowWeekly`` only once a week. Most other tests are ran every CI
+cycle (all the time).
+
+Also note that that the js tests rely on functions defined in the
+``shell`` directory (see :file:`servers.js` and :file:`utils.js` in
+particular).
+
+lint
+----
+
+``scons lint`` will run `cpplint
+<https://code.google.com/p/google-styleguide/>`_ with the flags we care
+about over the entire codebase. This is how buildbot runs ``lint``.
+
+To run ``lint`` on an individual file or directory, use 
+
+.. code-block:: sh
+
+   python buildscripts/lint.py src/mongo/platform/
+
+Use the ``--nudge`` flag to turn on warnings for rules we may turn on soon.
+
+Lightweight startup test
+------------------------
+
+You can inherit from class ``mongo::UnitTest`` and make a test that
+runs at program startup. These tests run EVERY TIME the program starts.
+Thus, they should be minimal: the test should ideally take 1ms or less
+to run. Why run the tests in the general program? This gives some
+validation at program run time that the build is reasonable. For
+example, we test that pcre supports UTF8 regex in one of these tests at
+startup. If someone had built the server with other settings, this
+would be flagged upon execution, even if the test suite has not been
+invoked. Most tests are not of this sort.
+
+.. seealso::
+
+   - :ref:`Smoke Tests`
+   
+   - `<http://buildbot.mongodb.org/>`_

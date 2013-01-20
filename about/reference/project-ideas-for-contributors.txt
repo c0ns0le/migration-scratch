@@ -1,0 +1,187 @@
+.. http://www.mongodb.org/display/DOCS/Project+Ideas WRITING-165
+
+.. _project-ideas-for-contributors:
+
+==============================
+Project Ideas for Contributors
+==============================
+
+If you're interested in getting involved in the MongoDB community (or
+the open source community in general) a great way to do so is by
+starting or contributing to a MongoDB related project. Here we've
+listed some project ideas for you to get started on. For some of these
+ideas projects are already underway, and for others nothing (that we
+know of) has been started yet.
+
+10gen Labs 
+----------
+
+Contribute to a project in 10gen labs, 10gen's incubator for open
+source MongoDB tools. There are a number of projects that can use the
+community's input
+
+- `Mongo-connecter`_
+
+- `Storage-viz`_ for visualizing MongoDB storage and indexes.
+
+- `Edda`_ a log visualizer for MongoDB.
+
+- `Sleepy Mongoose`_ A REST Interface for MongoDB
+
+.. _`Mongo-connecter`: https://github.com/10gen-labs/mongo-connector
+
+.. _`Storage-viz`: https://github.com/10gen-labs/storage-viz
+
+.. _`Edda`: https://github.com/10gen-labs/edda
+
+.. _`Sleepy Mongoose`: https://github.com/10gen-labs/sleepy.mongoose
+
+A GUI
+-----
+
+One feature that is often requested for MongoDB is a GUI, much like
+CouchDB's futon or phpMyAdmin. There are a couple of projects working
+on this sort of thing that are worth checking out:
+
+- `Futon 4 Mongo`_
+
+- :ref:`HTTP Interface <http-interface>`_
+
+.. TODO replace with real reference link when wiki page is ported
+
+.. _`Futon 4 Mongo`: http://github.com/sbellity/futon4mongo
+
+We've also started to :ref:`spec out
+<mongodb-future-admin-ui-requirements>` the features that a tool like
+this should provide.
+
+A REST Interface
+-----------------
+
+There are a number of requests for a REST API for MongoDB. There are a
+number of existing projects out there that could use contributors
+
+- `Sleepy Mongoose`_ a full-feature HTTP Interface for MongoDB
+
+- `DrowsyDromedary`_ is a REST layer for MongoDB based on Ruby.
+
+- `MongoDB Rest (Node.js)`_ is an alpha REST interface to MongoDB, which
+  uses the `MongoDB Node Native driver`_.
+
+- `Mongodb Java REST server`_ based on `Jetty`_.
+
+.. _`Sleepy Mongoose`: https://github.com/10gen-labs/sleepy.mongoose
+
+.. _`DrowsyDromedary`: https://github.com/zuk/DrowsyDromedary
+
+.. _`MongoDB Rest (Node.js)`: http://github.com/tdegrunt/mongodb-rest
+
+.. _`MongoDB Node Native driver`: http://github.com/christkv/node-mongodb-native
+
+.. _`Mongodb Java REST server`: https://sites.google.com/site/mongodbjavarestserver/home
+
+.. _`Jetty`: http://www.eclipse.org/jetty/
+
+Try MongoDB!
+------------
+
+It would be neat to have a web version of the MongoDB Shell that
+allowed users to interact with a real MongoDB instance (for doing the
+tutorial, etc). A project that does something similar (using a basic
+MongoDB emulator) is here:
+
+`<http://github.com/banker/mongulator>`_
+
+`Mongoly`_ is another great interactive tutorial by Karl Seguin
+
+.. _`Mongoly`: http://tutorial.mongly.com/tutorial/index
+
+Real-time Full Text Search Integration
+--------------------------------------
+
+It would be interesting to try to nicely integrate a search backend
+like Xapian, Lucene or Sphinx with MongoDB. One idea would be to use
+MongoDB's oplog (which is used for master-slave replication) to keep
+the search engine up to date.
+
+GridFS FUSE
+-----------
+
+There is a project working towards creating a FUSE filesystem on top of
+GridFS - something like this would create a bunch of interesting
+potential uses for MongoDB and GridFS:
+
+`<http://github.com/mikejs/gridfs-fuse>`_
+
+Framework Adaptors
+------------------
+
+Working towards adding MongoDB support to major web frameworks is a
+great project, and work has been started on this for a variety of
+different frameworks (please use google to find out if work has already
+been started for your favorite framework).
+
+Logging and Session Adaptors
+----------------------------
+
+MongoDB works great for storing logs and session information. There are
+a couple of projects working on supporting this use case directly.
+
+- Logging: 
+
+  - `Zend`_
+  - `Python`_
+  - `Rails`_
+
+.. _`Zend`: http://raphaelstolt.blogspot.com/2009/09/logging-to-mongodb-and-accessing-log.html
+
+.. _`Python`: http://github.com/andreisavu/mongodb-log
+
+.. _`Rails`: http://github.com/peburrows/mongo_db_logger
+
+- Sessions: 
+
+  - `web.py`_
+
+  - `Beaker`_
+
+.. _`web.py`: http://github.com/whilefalse/webpy-mongodb-sessions
+
+.. _`Beaker`: http://pypi.python.org/pypi/mongodb_beaker
+
+Package Managers
+----------------
+
+Add support for installing MongoDB with your favorite package manager
+and let us know!
+
+Locale-aware collation / sorting
+--------------------------------
+
+MongoDB doesn't yet know how to sort query results in a
+locale-sensitive way.  If you can think up a good way to do it and
+implement it, we'd like to know!
+
+Drivers
+-------
+
+If you use an esoteric/new/awesome programming language write a driver
+to support MongoDB! Again, check google to see what people have started
+for various languages.
+
+Some that might be nice:
+
+- Scheme (probably starting with PLT)
+
+- GNU R
+
+- Visual Basic
+
+- Lisp (e.g, Common Lisp)
+
+- Delphi
+
+- Falcon
+
+Write a killer app that uses MongoDB as the persistence layer!
+--------------------------------------------------------------
