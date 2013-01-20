@@ -50,7 +50,7 @@ can also be downloaded as a separate, "standalone" tarball (See
    cd mongo-cxx-driver-nightly/
    scons
 
-You may wish to compile and link ``client/simple_client_demo.cpp`` to
+You may wish to compile and link :file:`client/simple_client_demo.cpp` to
 verify that everything compiles and links fine.
    
 
@@ -69,7 +69,7 @@ Using mongo_client_lib.cpp instead of a library
 ``````````````````````````````````````````````` 
 
 If you have a compatibility problem with the library, include
-``mongo_client_lib.cpp`` in your project instead. For example:
+:file:`mongo_client_lib.cpp` in your project instead. For example:
 
 .. code-block:: sh
 
@@ -84,21 +84,21 @@ Compile on Windows
    We tend to test MongoDB with Windows using Visual Studio 2010. 2008
    works, although you may have to tweak settings in some cases.
 
-Include ``mongoclient.lib`` in your application.
+Include :file:`mongoclient.lib` in your application.
 
-To build ``mongoclient.lib``:
+To build :file:`mongoclient.lib`:
 
 .. code-block:: sh
 
    scons mongoclient
 
-Alternatively, include client/mongo_client_lib.cpp in your project.
+Alternatively, include :file:`client/mongo_client_lib.cpp` in your project.
 
 For Windows, see also:
 
-   - ``bson/bsondemo/bsondemo.vcxproj``
+   - :file:`bson/bsondemo/bsondemo.vcxproj`
 
-   - ``client/examples/simple_client_demo.vcxproj``
+   - :file:`client/examples/simple_client_demo.vcxproj`
 
    - `Prebuilt Boost Libraries`_
 
@@ -117,7 +117,7 @@ Other notes for Windows:
 
 - Include the ``WinSock`` library in your application:
   :menuselection:`Linker --> Input --> Additional Dependencies` - add
-  ``ws2_32.lib``.
+  :file:`ws2_32.lib`.
 
 Windows Troubleshooting
 ```````````````````````

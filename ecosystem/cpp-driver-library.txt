@@ -60,9 +60,9 @@ the BSON specification (see `<http://www.bsonspec.org/>`_). This library can
 be used standalone for object serialization and deserialization even
 when one is not using MongoDB at all.
 
-Include ``bson/bson.h`` or ``db/jsobj.h`` in your application (not
-both). ``bson.h`` is new and may not work in some situations, was is good
-for light header-only usage of BSON (see the ``bsondemo.cpp`` example).
+Include :file:`bson/bson.h` or :file:`db/jsobj.h` in your application (not
+both). :file:`bson.h` is new and may not work in some situations, was is good
+for light header-only usage of BSON (see the :file:`bsondemo.cpp` example).
 
 Key classes:
 
@@ -145,7 +145,8 @@ C++ getLastError
 ----------------
 
 - ``string`` `mongo::DBClientWithCommands::getLastError();`_
-     Get error result from the last operation on this connection. Empty string if no error.
+     Get error result from the last operation on this connection. Empty
+     string if no error.
 
 - ``BSONObj DBClientWithCommands::getLastErrorDetailed();``
      Get the full last error object. See the :ref:`getLastError Command

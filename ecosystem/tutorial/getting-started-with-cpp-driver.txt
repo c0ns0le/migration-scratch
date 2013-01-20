@@ -46,7 +46,7 @@ separately and build it.
 Unix
 ----
 
-For Unix, the MongoDB driver library is ``libmongoclient.a``. Run ``scons
+For Unix, the MongoDB driver library is :file:`libmongoclient.a`. Run ``scons
 --help`` to see all building options.
 
 Full Database Source Driver Build
@@ -110,8 +110,8 @@ Writing Client Code
 Connecting
 ~~~~~~~~~~
 
-Let's make a ``tutorial.cpp`` file that connects to the database (see
-``client/examples/tutorial.cpp`` for full text of the examples below):
+Let's make a :file:`tutorial.cpp` file that connects to the database (see
+:file:`client/examples/tutorial.cpp` for full text of the examples below):
 
 .. code-block:: cpp
 
@@ -285,7 +285,7 @@ retrieve the particular ``BSONElement`` from the enclosing object:
    // or:
    //BSONElement name = p.getField("name");
    
-See the api docs, and jsobj.h, for more information.
+See the api docs, and :file:`jsobj.h`, for more information.
 
 Our query above, written as JSON, is of the form
 
@@ -295,7 +295,7 @@ Our query above, written as JSON, is of the form
 
 Queries are BSON objects of a particular format -- in fact, we could
 have used the ``BSON()`` macro above instead of ``QUERY()``. See class
-`Query`_ in ``dbclient.h`` for more information on Query objects, and the
+`Query`_ in :file:`dbclient.h` for more information on Query objects, and the
 Sorting section below.
 
 .. _`Query`: http://api.mongodb.org/cplusplus/current/classmongo_1_1_query.html
@@ -378,7 +378,7 @@ is equivalent to the following C++ code:
 Example
 -------
 
-A simple example illustrating usage of BSON arrays and the "$nin"
+A simple example illustrating usage of BSON arrays and the ``$nin``
 operator is available `here <https://gist.github.com/1528272>`_.
 
 Further Reading
