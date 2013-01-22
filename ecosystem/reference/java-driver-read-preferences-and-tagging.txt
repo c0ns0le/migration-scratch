@@ -45,7 +45,7 @@ Implementation
 
 The Java driver implements MongoDB’s read preferences with the
 ``ReadPreference`` class. Client applications allocate the desired read
-mode by calling one of ``ReadPreference``’s static factory methods. One
+mode by calling one of ``ReadPreference``'s static factory methods. One
 factory method exists for each mode.
 
 .. code-block:: java
@@ -157,7 +157,7 @@ before completion. Here’s an example in the Java driver:
    // an insert with the custom write concern
    coll.insert(new BasicDBObject("name", "simple doc"), concern);
 
-By allocating a write concern using the ``“DRSafe”`` error mode and passing
+By allocating a write concern using the ``"DRSafe"`` error mode and passing
 it in on the insert, we have now ensured that our data has been backed
 up to two separate regions and will be available should a data center
 fail.
@@ -174,7 +174,7 @@ the easiest is to simply use the nearest mode.
 
    DBObject query = new BasicDBObject("name", "simple doc")
    DBObject result =
-      coll.findOne(query, null, ReadPreference.nearest());
+       coll.findOne(query, null, ReadPreference.nearest());
 
 By using the nearest mode the driver will automatically send the read
 to one of a set of nodes with the lowest ping time relative to the
@@ -192,16 +192,16 @@ be served by the node living in our Los Angeles data center.
 
    // initialize a properly tagged read preference
    ReadPreference tagged_pref =
-   ReadPreference.secondaryPreferred(new BasicDBObject("datacenter", "Los Angeles"));
+       ReadPreference.secondaryPreferred(new BasicDBObject("datacenter", "Los Angeles"));
 
    // include the tagged read preference in this request}}
    DBObject result = coll.findOne(}}
-   new BasicDBObject("name", "simple doc"), null, tagged_pref);
+       new BasicDBObject("name", "simple doc"), null, tagged_pref);
 
 Read preferences can also accept multiple tags. Returning to our
 example application, suppose we want to send our reads either the
-``“Los Angeles”`` node, or failing to find a healthy member in Los
-Angeles a node in the ``“US_West”`` region:
+``"Los Angeles"`` node, or failing to find a healthy member in Los
+Angeles a node in the ``"US_West"`` region:
 
 .. code-block:: java
 
@@ -210,12 +210,12 @@ Angeles a node in the ``“US_West”`` region:
    DBObject tagSetTwo = new BasicDBObject("region", "US_West");
 
    ReadPreference pref =
-   ReadPreference.primaryPreferred(tagSetOne, tagSetTwo);
+       ReadPreference.primaryPreferred(tagSetOne, tagSetTwo);
 
 In this example, the driver looks first for a member tagged with
-datacenter ``“Los Angeles”``. If it cannot find an available member,
+datacenter ``"Los Angeles"``. If it cannot find an available member,
 the driver will it look for a member tagged with region of
-``“US_West”``. You may use a tag set to define a set of required tags a
+``"US_West"``. You may use a tag set to define a set of required tags a
 member node must have to be used for the read. For example:
 
 .. code-block:: java
@@ -226,11 +226,11 @@ member node must have to be used for the read. For example:
    DBObject tagSetTwo = new BasicDBObject("region", "US_West");
 
    ReadPreference pref =
-   ReadPreference.primaryPreferred(tagSetOne, tagSetTwo);
+       ReadPreference.primaryPreferred(tagSetOne, tagSetTwo);
 
 The difference being the driver is looking for a node that is tagged
-with both data center Los Angeles and on rack 1, or a node that is in
-region ``“US_West”``.
+with both data center ``"Los Angeles"`` and on rack ``1``, or a node
+that is in region ``"US_West"``.
 
 You can set the Read Preference at the operation, collection, ``DB``,
 ``Mongo``, ``MongoOptions``, or ``MongoURI`` level, and the preference
