@@ -84,7 +84,6 @@ you decide to create many ``MongoClient`` instances, note that:
   clean up resources
 
 .. versionadded:: 2.10.0
-
    The `MongoClient`_ class is new in version 2.10.0. For releases
    prior to that, please use the `Mongo`_ class instead.
 
@@ -166,7 +165,7 @@ write concern can be overridden on the database, collection, and
 individual update operations. Please consult the `API Documentation`_ for
 details.
 
-.. versionchanged: 
+.. versionchanged:: 2.10.0 
    Prior to version 2.10.0, the default write concern is
    `WriteConcern.NORMAL`_. Under normal circumstances, clients will
    typically change this to ensure they are notified of problems
