@@ -1,0 +1,90 @@
+.. http://www.mongodb.org/display/DOCS/Kernel+class+rules WRITING-158
+.. http://www.mongodb.org/display/DOCS/Kernel+concurrency+rules WRITING-160
+
+.. _kernel-class-and-concurrency-rules:
+
+==================================
+Kernel Class and Concurrency Rules
+==================================
+
+.. _kernel-class-rules:
+
+Kernel Class Rules
+------------------
+
+Design Guidelines
+~~~~~~~~~~~~~~~~~
+
+- **Never use multiple inheritance.** If you need the service of
+  several classes, use delegation. The only possible but highly
+  unlikely exception to this is if your class inherits from other pure
+  abstract classes.
+
+- Have a comment before a class that explains its purpose. Perhaps the
+  class name is so clear that this is obvious. Then some commentary on
+  what you are up to.
+
+- Only add *members and methods to a class if they make sense* w.r.t the
+  bullet above. If you find yourself unsure to where to hook a piece of
+  logic, rethink the class and surrounding classes purposes.
+
+- *Class names and methods names are to be descriptive* of what they do.
+  Avoid generic overloaded names (e.g., write, add, ...) to make grep
+  easier (and maybe reading too).
+
+- Don't put implementation details in the header unless the user of the
+  class needs to know them. Sometimes single line inline
+  implementations are good "documentation". If something needs to be
+  inline for performance, put it at the bottom of the fine using the
+  ``inline`` keyword instead of in the middle of the class definition (if
+  the implementation is more than a line or two long).
+
+- Assume all methods can throw a ``DBException``. If a class should never
+  throw (e.g can be called in a destructor), that should be clear.
+
+- *Write a unit test for each class you create*. If you can't easily
+  write a unit test for the class, that is a strong hint it has way too
+  many external dependencies.
+
+- *Do not create early hierarchies*. An early hierarchy is a one where
+  there is only one type of derived class. If you need to separate
+  functionality, use delegation instead. In that case, make sure to
+  test separately.
+
+- Avoid ``friend``.
+
+- Default to making classes *non-assignable and non-copyable*. (Use
+  ``boost::noncopyable``.)
+
+Layout Guidelines
+~~~~~~~~~~~~~~~~~
+
+- For classes where layout matters (anything with #pragma pack), put
+  data members together at the top of the class. You must also have a
+  ``BOOST_STATIC_ASSERT(sizeof(ClassName) == EXPECTED_SIZE)`` either
+  directly under the class or in the associated :file:`.cpp` file
+
+.. _kernel-concurrency-rules:
+
+Kernel Concurrency rules
+------------------------
+
+All concurrency classes must be placed under ``utils/concurrency``. You
+will find several helper libraries there.
+
+- Do not add mutexes without discussion with others. Concurrency and
+  correctness is very hard in the large. Great care is required. For
+  example the concurrency model in replica sets is hard to understand
+  and error prone (at least it was initially and probably still is). 
+  
+If you think there is a real need for an exception to the list below
+let's have the group weigh in and get a consensus on the exception:
+
+- Do not use/add recursive locks.
+
+- Do not use rwlocks.
+
+- Always acquire locks in a consistent order. In fact, the
+  ``MutexDebugger`` can assist with verification of this.
+  ``MutexDebugger`` is on for ``_DEBUG`` builds and will alert if locks
+  are taken in opposing orders during the run.
