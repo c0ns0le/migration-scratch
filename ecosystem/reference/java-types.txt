@@ -80,10 +80,10 @@ represent binary objects, which allows to pick a custom type byte.
 Timestamp Data
 --------------
 
-A timestamp is a special object used by Mongo as an ID based on time,
+A timestamp is a special object used by MongoDB as an ID based on time,
 represented by a (time in second, incremental id) pair (it is used
-notably in the replication ``oplog``). A timestamp is represented by the
-``BSONTimestamp`` class.
+notably in the replication ``oplog``). A timestamp is represented by
+the ``BSONTimestamp`` class.
 
 Code Data
 ---------
