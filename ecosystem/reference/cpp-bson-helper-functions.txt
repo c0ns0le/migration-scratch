@@ -1,10 +1,10 @@
 .. http://www.mongodb.org/display/DOCS/List+of+helper+functions
 
-.. _list-of-cpp-bson-helper-functions:
+.. _cpp-bson-helper-functions:
 
-=================================
-List of C++ BSON Helper Functions
-=================================
+=========================
+C++ BSON Helper Functions
+=========================
 
 This is a non-exhaustive list of helper functions for use in the C++
 stream syntax. An exhaustive list is here: `bsonmisc.h`_
