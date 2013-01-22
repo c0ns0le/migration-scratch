@@ -1,11 +1,12 @@
 .. http://www.mongodb.org/display/DOCS/Kernel+class+rules WRITING-158
 .. http://www.mongodb.org/display/DOCS/Kernel+concurrency+rules WRITING-160
+.. http://www.mongodb.org/display/DOCS/Memory+management WRITING-164
 
-.. _kernel-class-and-concurrency-rules:
+.. _kernel-class-concurrency-memory-management-rules:
 
-==================================
-Kernel Class and Concurrency Rules
-==================================
+==================================================
+Kernel Class, Concurrency, Memory Management Rules
+==================================================
 
 .. _kernel-class-rules:
 
@@ -76,7 +77,7 @@ will find several helper libraries there.
   correctness is very hard in the large. Great care is required. For
   example the concurrency model in replica sets is hard to understand
   and error prone (at least it was initially and probably still is). 
-  
+
 If you think there is a real need for an exception to the list below
 let's have the group weigh in and get a consensus on the exception:
 
@@ -88,3 +89,19 @@ let's have the group weigh in and get a consensus on the exception:
   ``MutexDebugger`` can assist with verification of this.
   ``MutexDebugger`` is on for ``_DEBUG`` builds and will alert if locks
   are taken in opposing orders during the run.
+
+.. _memory-management-guidelines:
+
+Memory Management Guidelines
+----------------------------
+
+- Avoid using bare pointers for dynamically allocated objects. Prefer
+  ``scoped_ptr``, ``shared_ptr``, or another RAII class such as ``BSONObj``.
+
+- Do not use auto_ptr's and refactor legacy ones out whenever possible.
+  (Careful with C++ driver and backward compatibility though.)
+
+- If you assign the output of ``new/malloc()`` directly to a bare
+  pointer you should document where it gets deleted/freed, who owns it
+  along the way, and how exception safety is ensured. If you cannot
+  answer all three questions then you probably have a leak.
