@@ -1,0 +1,81 @@
+.. http://www.mongodb.org/display/DOCS/Kernel+logging WRITING-162
+
+.. _kernel-logging-rules:
+
+====================
+Kernel Logging Rules
+====================
+
+Basic Rules
+-----------
+
+- ``cout``/``cerr`` should never be used 
+
+  - *except* early in process startup before the ``log()`` system is
+    initialized
+
+    For such cases, it would be good to use ``cerr``, but right now
+    there is a mix of ``cout`` and ``cerr``
+
+- Include :file:`log_internal.h` to use the ``LOG()`` helper macro
+
+  - Avoid including :file:`log_internal.h` in any code that may pollute
+    C++ driver headers.
+
+  - Use ``MONGO_LOG()`` instead of ``LOG()`` for code included by C++
+    driver headers.
+
+Normal Logging
+--------------
+
+- Debugging with levels of verbosity. See the ``-v`` command line option
+  (default level is 0). If the global log level is less than ``x``, no
+  functions in the steam are executed.
+
+  .. code-block:: cpp
+
+      LOG( int x ) << ...
+
+- Informational
+
+  .. code-block:: cpp
+
+     log() << ...
+
+- Rate limited
+
+  .. code-block:: cpp
+
+     LOGSOME() << ...
+
+- Warnings
+
+  - recoverable, e.g. replica set node down
+
+  .. code-block:: cpp
+
+     warning() << ...
+
+- Errors
+
+  - unexpected system state (disk full)
+
+  - internal code errors
+
+  .. code-block:: cpp
+
+     error() << ...
+
+Debugging Helpers
+-----------------
+
+- ``PRINT( x )`` - prints expression text and value (can also do
+  ``PRINT(x.method())``)
+
+- ``PRINTFL`` - prints file and line (good for tracing execution)
+
+- ``printStackTrace()`` - shows a stack trace. Alternative to using a
+  debugger.
+
+- ``GEODEBUG``, etc... - used for incredibly verbose logging for a
+  section of code that has to be turned on at compile time

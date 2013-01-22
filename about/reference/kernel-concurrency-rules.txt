@@ -1,0 +1,27 @@
+.. http://www.mongodb.org/display/DOCS/Kernel+concurrency+rules WRITING-160
+
+.. _kernel-concurrency-rules:
+
+========================
+Kernel Concurrency Rules
+========================
+
+All concurrency classes must be placed under ``utils/concurrency``. You
+will find several helper libraries there.
+
+- Do not add mutexes without discussion with others. Concurrency and
+  correctness is very hard in the large. Great care is required. For
+  example the concurrency model in replica sets is hard to understand
+  and error prone (at least it was initially and probably still is). 
+
+If you think there is a real need for an exception to the list below
+let's have the group weigh in and get a consensus on the exception:
+
+- Do not use/add recursive locks.
+
+- Do not use rwlocks.
+
+- Always acquire locks in a consistent order. In fact, the
+  ``MutexDebugger`` can assist with verification of this.
+  ``MutexDebugger`` is on for ``_DEBUG`` builds and will alert if locks
+  are taken in opposing orders during the run.
