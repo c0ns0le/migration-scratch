@@ -1,0 +1,382 @@
+.. http://www.mongodb.org/display/DOCS/Kernel+code+style WRITING-159
+
+.. _kernel-code-style:
+
+=================
+Kernel Code Style
+=================
+
+Basics
+------
+
+- Use spaces, no literal tabs.
+
+- 4 spaces per indentation.
+
+- Limit lines to 100 columns.
+
+- Use LF (Unix-style) line endings, not CR-LF (DOS).
+  git has a config option in Windows to convert line endings
+  automatically (``core.autocrlf``) 
+  
+- For anything that isn't explicitly covered here, default to the
+  Google C++ Style Guide:
+  `<http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml>`_
+
+Case
+----
+
+Use camelCase for most ``varNames``.
+
+See important notes on case on the parent page for user facing names!
+
+Comments
+--------
+
+We follow
+`<http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Comment
+s>`_ for placement of comments.
+
+As for style, we use javadoc's in classes and methods (public or
+private) and simple comments for variables and inside code:
+
+.. code-block:: cpp
+
+   /**
+    * My class has X as a goal in life
+    * Note: my class is fully synchronized
+    */
+   class DoesX {
+
+   ...
+     /**
+      * This methods prints something and turns off the lights.
+      * @param y the something to be printed
+      */
+      void printAndGo(const std::string& y) const;
+
+   ...
+    private:
+       // a map from a namespace into the min key of a chunk
+       // one entry per chunk that lives in this server
+       std::map<std::string, BSONObj> _chunkMap;
+
+       /**
+        * Helper that finds the light switch
+        */
+       Pos findSwitch() const;
+
+       /** @return the light switch state. */
+       State getSwitchState() const;
+   };
+
+.. code-block:: cpp
+
+   void DoX(bool y) {
+       // if y is false, we do not need to do a certain action and explaining
+       // why that is takes multiple lines.
+       if (!y) {
+           printf("y is true!\n");
+       }
+   }
+
+Don't forget – even if a class's purpose is obvious, you can put a
+comment on it as to why it exists!
+
+Inlines
+-------
+
+- Put long inline functions in a `-inl.h
+  <http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#The_-inl.h_Files>`_
+  file.
+
+- If your inline function is a single line long, put it and its decl on
+  the same line e.g.:
+
+  .. code-block:: cpp
+
+       int length() const { return _length; }
+
+- If a function is not performance sensitive, and it isn't one (or 2)
+  lines long, put it in the cpp file. Keep code out of headers.
+
+Strings
+-------
+
+See :file:`util/mongoutils/str.h` and :file:`bson/stringdata.h`
+
+- Use 
+
+  .. code-block:: cpp
+  
+    str::startsWith()
+    str::endsWith()
+    
+  and not ``strstr()``.
+
+- Use 
+
+  .. code-block:: cpp
+
+     << 'c'
+
+  and not ``<< "c"``.
+
+- Use 
+
+  .. code-block:: cpp
+
+     str[0] == '\0'
+
+  and not ``strlen(str) == 0``.
+
+See :ref:`Kernel string manipulation <kernel-string-manipulation>`.
+
+Brackets
+--------
+
+.. code-block:: cpp
+
+   if (0) {
+   }
+   else if (0) {
+   }
+   else {
+   }
+
+   do {
+   } while (0);
+
+Class Members
+-------------
+
+.. code-block:: cpp
+
+   class Foo {
+      int _bar;
+   };
+
+Functions
+---------
+
+Declaration
+~~~~~~~~~~~
+
+.. code-block:: cpp
+
+   void foo(int v, MyType myItem);
+
+Avoid declarations of extern functions in source files! Instead,
+``#include`` a proper ``.h`` file. Be sure to match the header filename
+to the source filename where the function definition appears.
+
+Definition
+~~~~~~~~~~
+
+.. code-block:: cpp
+
+   void foo(int v, MyType myItem) {
+   }
+
+Invocation
+~~~~~~~~~~
+
+.. code-block:: cpp
+
+   foo(1, MyType());
+
+Templates
+---------
+
+.. code-block:: cpp
+
+   set<int> s;
+
+Namespaces
+----------
+
+.. code-block:: cpp
+
+   namespace foo {
+      int foo;
+      namespace bar {
+         int bar;
+      }
+   }
+
+Start of File
+-------------
+
+.. code-block:: none
+
+   license (AGPL or Apache, depending on C++ driverness)
+
+Assertions
+----------
+
+See :ref:`Kernel exception architecture <kernel-exception-architecture>`
+
+Return Early
+------------
+
+- BAD
+
+  .. code-block:: cpp
+
+     int foo() {
+        if (x) {
+          ...
+        }
+     }
+
+- GOOD
+
+  .. code-block:: cpp
+
+     int foo() {
+        if (!x)
+          return;
+
+        ...
+     }
+
+Keeps indentation levels down and makes more readable.
+
+Numeric Constants
+-----------------
+
+Large, round numeric constants should be written in multiplied form so
+that you never need to count digits.
+
+.. code-block:: cpp
+
+   const int tenMillion = 10*1000*1000;
+   const int megabyte = 1024*1024;
+
+Explicit Constructors
+---------------------
+
+To avoid implicit type conversion, use the ``explicit`` keyword before
+constructors that take a single parameter.
+
+#includes
+---------
+
+- Use "double quotes" for 10gen code, <angle brackets> for 3rd party or library headers.
+
+  .. code-block:: cpp
+
+     examples:
+     #include "mongo/pch.h"
+     #include <boost/thread.h>
+     #include <vector>
+
+- Always use forward relative path from ``mongo/src/``; do not use ``..``
+
+  .. code-block:: cpp
+
+     correct:
+     #include "mongo/db/namespace_details.h"
+
+     incorrect:
+     #include "../db/namespace_details.h"
+
+For ``cpp`` Files
+-----------------
+
+- Include :file:`mongo/pch.h` first. blank line.
+
+- Include your :file:`.h` file next, if applicable. blank line.
+
+- Include third party headers next, sorted. blank line.
+
+- Include 10gen headers last, sorted.
+
+.. code-block:: cpp
+
+   example for classy.cpp:
+   #include "mongo/pch.h"
+
+   #include "mongo/db/classy.h"
+
+   #include <boost/thread.h>
+   #include <stdio.h>
+   #include <string>
+
+   #include "mongo/db/db.h"
+   #include "mongo/db/namespace_details.h"
+   #include "mongo/util/concurrency/qlock.h"
+
+For ``h`` files
+---------------
+
+- ``#pragma`` once at the top
+
+- Forward declare, if possible, in lieu of including 10gen headers in
+  headers. Only include things that are directly used in the header
+  itself.
+
+- Include third party headers first, sorted. blank line.
+
+- Include 10gen headers last, sorted.
+
+- Be extremely careful about including :file:`pch.h` in a header.
+
+File Names
+----------
+
+- Class definitions should go in a header file with the same name as
+  the class. Insert ``_`` in place of a capital letter. Do not use capital
+  letters in filenames! For example:
+
+  - ClassyClass's definition goes in :file:`classy_class.h`. 
+
+  - ClassyClass's member function implementations go in :file:`classy_class.cpp`.
+
+- Do not be afraid to make another file, even if it is really small.
+  This is preferable to inserting your new class into a preexisting
+  file.
+
+Casting
+-------
+
+- Do not use C-style casts, ever.
+
+- Use ``static_cast<>`` or ``const_cast<>``.
+
+- Be aware that ``dynamic_cast<>``, unlike other casts, is done at run-time and calls a function.
+  You should always check the return status of ``dynamic_cast<>`` for ``null``.
+
+- ``reinterpret_cast<>`` should be used sparingly and is typically done
+  for converting structures to raw bytes for use with I/O drivers.
+
+RAII and Bare vs. Smart Pointers
+--------------------------------
+
+- Aspire to embrace RAII
+
+- When writing functions that take or return bare pointers, document
+  the ownership semantics in the header comment. 
+  
+  - Is the caller responsible for managing returned pointer's memory?
+
+  - Does the callee take ownership of the pointed-to parameter, or does
+    the caller retain ownership. 
+    
+  Prefer caller-retains ownership of parameters and takes ownership of
+  returned pointers, but use the appropriate policy for each situation.
+
+- Generally, bare calls to ``delete`` and ``free()`` are red flags
+
+  - except in destructors
+
+- Use smart pointers such as ``boost::scoped_ptr`` and
+  ``std::auto_ptr`` (know the difference between them!) to avoid memory
+  leaks and ensure all ``new``'s and ``malloc``'s are paired with ``delete``'s and
+  ``free``'s
+
+- Use ``ON_BLOCK_EXIT`` or ``ScopeGuard`` to protect other resources that must be released
+
+  - e.g. ``fopen``/``fclose`` pairs
+
+  - Or, write an object to do this for you via constructor and destructor
