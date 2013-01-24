@@ -1,0 +1,25 @@
+.. http://www.mongodb.org/display/DOCS/Database+Internals WRITING-181
+
+.. _database-internals:
+
+==================
+Database Internals
+==================
+
+This section provides information for developers who want to write
+drivers or tools for MongoDB, contribute code to the MongoDB codebase
+itself, and for those who are just curious how it works internally.
+
+Sub-sections of this section:
+
+- :ref:`Durability Internals <durability-internals>`
+
+- :ref:`Parsing Stack Traces <parsing-stack-traces>`
+
+- :ref:`Error Codes <error-codes>`
+
+- :ref:`Replication Internals <replication-internals>`
+
+- :ref:`Smoke Tests <smoke-tests>`
+
+- :ref:`Pairing Internals <pairing-internals>`
