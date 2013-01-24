@@ -90,7 +90,7 @@ Windows
 .. TODO need to use link to the migrated building for Windows page
 
 For more information see the :ref:`Building for Windows
-<building-for-windows>` page.
+<build-for-windows>` page.
 
 Compiling
 ---------

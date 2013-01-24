@@ -159,10 +159,10 @@ C++ getLastError
      Get error result from the last operation on this connection. Empty
      string if no error.
 
-- ``BSONObj DBClientWithCommands::getLastErrorDetailed();`` Get the
-  full last error object. See the `getLastError Command
-  <http://docs.mongodb.org/manual/core/write-operations/#write-concern>`_
-  page for details.
+- ``BSONObj DBClientWithCommands::getLastErrorDetailed();`` 
+     Get the full last error object. See the `getLastError Command
+     <http://docs.mongodb.org/manual/core/write-operations/#write-concern>`_
+     page for details.
 
 See `client/simple_client_demo.cpp`_ for an example.
 
