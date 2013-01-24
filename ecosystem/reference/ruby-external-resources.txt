@@ -116,10 +116,6 @@ Projects
 
   Resource Oriented Architecture (REST) for Sinatra and MongoMapper.
 
-- `Shorty <http://github.com/dancroak/shorty/>`_
-
-  A URL-shortener written with Sinatra and the MongoDB Ruby driver.
-
 - `NewsMonger <http://github.com/banker/newsmonger>`_
 
   A simple social news application demonstrating MongoMapper and Rails.
@@ -137,6 +133,10 @@ Projects
 
   A question and answer site similar to Stack Overflow. Live version at
   `shapado.com <http://shapado.com>`_.
+
+.. Does not seem to exist
+.. - `Shorty <http://github.com/dancroak/shorty/>`_
+.. A URL-shortener written with Sinatra and the MongoDB Ruby driver.
 
 Libraries
 ---------
