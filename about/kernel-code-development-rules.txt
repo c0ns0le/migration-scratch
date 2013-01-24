@@ -1,0 +1,105 @@
+.. http://www.mongodb.org/display/DOCS/MongoDB+kernel+code+development+rules WRITING-157
+
+.. _kernel-code-development-rules:
+
+=============================
+Kernel Code Development Rules
+=============================
+
+C++ Style Guide
+---------------
+
+Coding conventions for the MongoDB C++ code:
+
+- :ref:`Code Review <code+reviews>`
+
+- :ref:`Kernel class rules <kernel-class-rules>`
+
+- :ref:`Kernel code style <kernel-code-style>`
+
+- :ref:`Kernel concurrency rules <kernel-concurrency-rules>`
+
+- :ref:`Kernel exception architecture <kernel-exception-architecture>`
+
+- :ref:`Kernel logging rules <kernel-logging-rules>`
+
+- :ref:`Kernel string manipulation <kernel-string-manipulation>`
+
+- :ref:`Kernel memory management guidelines <kernel-memory-management-guidelines>`
+
+- :ref:`Writing tests for kernel code <writing-tests-for-kernel-code>`
+
+For anything not mentioned here, default to `google c++ style guide
+<http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml>`_.
+
+JS Style Guide
+--------------
+
+10gen follows the `google javascript style guide
+<http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml>`_.
+
+Git Committing and Pushing
+--------------------------
+
+- Commit messages should have the case in the message SERVER-XXX.
+
+- Commit messages should be descriptive enough that a glance can tell
+  the basics.
+
+- Commits should only include 1 thought.
+
+- Do *NOT* push until running the :ref:`test suite <smoke-tests>`.
+
+User Facing Conventions 
+------------------------
+
+.. warning::
+
+   These are very important as we can't change them easily -- Much more
+   than code conventions!
+
+Anything users see -- command line options, command names, command
+output, we need to think hard and carefully about the name to be used,
+and the exact format and consistency of the items output. For example,
+``serverStatus`` output is a bit of a mismash of lowercase and camelCase.
+Let's fix that over time, starting with new things.
+
+Anything user facing must be run by several team members first.
+
+.. important::
+
+   - Do NOT add a new $operator without signoff by the entire team.
+
+   - Do NOT add a new command without signoff by the entire team.
+
+Use camelCase for About Everything
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- ``--commandLineOptions``
+
+- ``{ commandNames : 1, commandOption : "abc" }``
+
+- Names of fields in objects we generate - such as command responses,
+  profiler fields.
+
+Include units in fields
+~~~~~~~~~~~~~~~~~~~~~~~
+
+In things like ``serverStatus``, include the units in the stat name if
+there is any chance of ambiguity. For example:
+
+- ``writtenMB``
+
+- ``timeMs``
+
+We should have standards for these -- i.e. megabytes should always be
+``MB`` and not ``Mb`` and ``Megabytes`` in different places. So the
+standards are:
+
+- For bytes: use ``MB`` and show in megabytes unless you know it will be
+  tiny. Note you can use a float so ``0.1MB`` is fine to show.
+
+- For time: use millis (``Ms``) for time by default. You can also use
+  Secs and a float for times you know will be very long.
+
+- For microseconds, use ``Micros`` as the suffix, e.g., ``timeMicros``.
