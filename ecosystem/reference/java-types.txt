@@ -6,6 +6,8 @@
 Java Types
 ==========
 
+.. default-domain:: mongodb
+
 Object Ids
 ----------
 

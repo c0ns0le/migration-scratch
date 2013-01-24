@@ -6,6 +6,8 @@
 Kernel Exception Architecture
 =============================
 
+.. default-domain:: mongodb
+
 There are several different types of assertions used in the MongoDB
 code. In brief:
 

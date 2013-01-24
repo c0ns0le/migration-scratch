@@ -6,6 +6,8 @@
 CSharp Driver Quick Start
 =========================
 
+.. default-domain:: mongodb
+
 Introduction
 ------------
 

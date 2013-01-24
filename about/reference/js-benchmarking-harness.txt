@@ -6,6 +6,8 @@
 JS Benchmarking Harness
 =======================
 
+.. default-domain:: mongodb
+
 This ``benchRun`` command is designed as a QA baseline perf measurement
 tool, not designed to be a "benchmark".
 

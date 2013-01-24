@@ -6,6 +6,8 @@
 Kernel Memory Management Guidelines
 ===================================
 
+.. default-domain:: mongodb
+
 - Avoid using bare pointers for dynamically allocated objects. Prefer
   ``scoped_ptr``, ``shared_ptr``, or another RAII class such as ``BSONObj``.
 

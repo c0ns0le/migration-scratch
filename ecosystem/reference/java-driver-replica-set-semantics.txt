@@ -7,6 +7,8 @@
 Java Driver Replica Set Semantics
 =================================
 
+.. default-domain:: mongodb
+
 The MongoDB Java driver handles failover in replicated setups with
 tunable levels of transparency to the user. By default, a ``Mongo``
 connection object will ignore failures of secondaries, and only reads

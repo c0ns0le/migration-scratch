@@ -7,6 +7,8 @@
 Download and Compile C++ Driver
 ===============================
 
+.. default-domain:: mongodb
+
 .. _download-cpp-driver:
 
 Download C++ Driver

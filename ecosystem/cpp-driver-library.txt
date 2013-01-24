@@ -9,6 +9,8 @@
 C++ Driver Library
 ==================
 
+.. default-domain:: mongodb
+
 A C++ driver is available for communicating with the MongoDB. As the
 database is written in C++, the driver actually uses some core MongoDB
 code -- this is the same driver that the database uses itself for
@@ -27,7 +29,8 @@ See also the following C++ Driver documents:
 
 - HOWTO
 
-  - `Tailable Cursor <http://docs.mongodb.org/manual/tutorial/create-tailable-cursor/>`_
+  - `Tailable Cursor
+    <http://docs.mongodb.org/manual/tutorial/create-tailable-cursor/>`_
 
   - :ref:`bson-array-examples-in-cpp`
 
@@ -46,7 +49,8 @@ Additional Notes
 - There is also a pure `C driver`_ for MongoDB. For true C++ apps we
   recommend using the C++ driver.
 
-.. _`MongoDB Database and C++ Driver Source Code`: https://github.com/mongodb/mongo
+.. _`MongoDB Database and C++ Driver Source Code`:
+   https://github.com/mongodb/mongo
 
 .. _`C driver`: https://github.com/mongodb/mongo-c-driver
 
@@ -77,13 +81,17 @@ Key classes:
 
 See :ref:`BSON examples in the Getting Started guide <getting-started-bson-examples>`
 
-.. _`mongo::BSONObj (aka bson::bo)`: http://api.mongodb.org/cplusplus/current/classmongo_1_1_b_s_o_n_obj.html
+.. _`mongo::BSONObj (aka bson::bo)`:
+   http://api.mongodb.org/cplusplus/current/classmongo_1_1_b_s_o_n_obj.html
 
-.. _`mongo::BSONElement (bson::be)`: http://api.mongodb.org/cplusplus/current/classmongo_1_1_b_s_o_n_element.html
+.. _`mongo::BSONElement (bson::be)`:
+   http://api.mongodb.org/cplusplus/current/classmongo_1_1_b_s_o_n_element.html
 
-.. _`mongo::BSONObjBuilder (bson::bob)`: http://api.mongodb.org/cplusplus/current/classmongo_1_1_b_s_o_n_obj_builder.html
+.. _`mongo::BSONObjBuilder (bson::bob)`:
+   http://api.mongodb.org/cplusplus/current/classmongo_1_1_b_s_o_n_obj_builder.html
 
-.. _`mongo::BSONObjIterator (bson::bo::iterator)`: http://api.mongodb.org/cplusplus/current/classmongo_1_1_b_s_o_n_obj_iterator.html
+.. _`mongo::BSONObjIterator (bson::bo::iterator)`:
+   http://api.mongodb.org/cplusplus/current/classmongo_1_1_b_s_o_n_obj_iterator.html
 
 Standalone Usage
 ~~~~~~~~~~~~~~~~
@@ -94,7 +102,8 @@ headers only.
 
 See the `bsondemo.cpp example at github.com`_.
 
-.. _`bsondemo.cpp example at github.com`: https://github.com/mongodb/mongo/blob/master/src/mongo/bson/bsondemo/bsondemo.cpp
+.. _`bsondemo.cpp example at github.com`:
+   https://github.com/mongodb/mongo/blob/master/src/mongo/bson/bsondemo/bsondemo.cpp
 
 API Documentation
 ~~~~~~~~~~~~~~~~~
@@ -110,7 +119,8 @@ Add
 
    using namespace bson;
 
-to your code to use the following shorter more C++ style names for the BSON classes:
+to your code to use the following shorter more C++ style names for the
+BSON classes:
 
 .. code-block:: cpp
 
@@ -137,7 +147,8 @@ the parent class ``DBClientInterface``.
 to a single MongoDB database server (or shard manager). Other classes
 exist for connecting to a replica set.
 
-See `http://api.mongodb.org/cplusplus/`_ for details on each of the above classes.
+See `http://api.mongodb.org/cplusplus/`_ for details on each of the
+above classes.
 
 .. _cpp-getLastError:
 
@@ -148,16 +159,20 @@ C++ getLastError
      Get error result from the last operation on this connection. Empty
      string if no error.
 
-- ``BSONObj DBClientWithCommands::getLastErrorDetailed();``
-     Get the full last error object. See the :ref:`getLastError Command
-     <write-concern>` page for details.
+- ``BSONObj DBClientWithCommands::getLastErrorDetailed();`` Get the
+  full last error object. See the `getLastError Command
+  <http://docs.mongodb.org/manual/core/write-operations/#write-concern>`_
+  page for details.
 
 See `client/simple_client_demo.cpp`_ for an example.
 
 .. seealso::
 
-   :ref:`getLastError Command <write-concern>`
+  `getLastError Command
+  <http://docs.mongodb.org/manual/core/write-operations/#write-concern>`_
 
-.. _`mongo::DBClientWithCommands::getLastError();`: http://api.mongodb.org/cplusplus/#5ad5855d5be74bc144d443f00927340d
+.. _`mongo::DBClientWithCommands::getLastError();`:
+   http://api.mongodb.org/cplusplus/#5ad5855d5be74bc144d443f00927340d
 
-.. _`client/simple_client_demo.cpp`: https://github.com/mongodb/mongo/blob/master/src/mongo/client/simple_client_demo.cpp
+.. _`client/simple_client_demo.cpp`:
+   https://github.com/mongodb/mongo/blob/master/src/mongo/client/simple_client_demo.cpp

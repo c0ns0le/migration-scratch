@@ -6,6 +6,8 @@
 Writing Tests for Kernel Code
 =============================
 
+.. default-domain:: mongodb
+
 We have four general flavors of tests currently.
 
 General guidelines

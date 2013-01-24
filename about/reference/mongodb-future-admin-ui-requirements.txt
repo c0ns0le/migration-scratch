@@ -6,6 +6,8 @@
 MongoDB Future Admin UI Requirements
 ====================================
 
+.. default-domain:: mongodb
+
 Spec/requirements for a future MongoDB admin UI.
 
 - list databases

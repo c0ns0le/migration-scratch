@@ -6,6 +6,8 @@
 BSON Array Examples in C++
 ==========================
 
+.. default-domain:: mongodb
+
 .. code-block:: cpp
 
    // examples

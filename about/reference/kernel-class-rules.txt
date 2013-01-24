@@ -6,6 +6,8 @@
 Kernel Class Rules
 ==================
 
+.. default-domain:: mongodb
+
 Design Guidelines
 -----------------
 

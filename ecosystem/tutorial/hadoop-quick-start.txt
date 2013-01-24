@@ -6,6 +6,8 @@
 Hadoop Quick Start
 ==================
 
+.. default-domain:: mongodb
+
 MongoDB and Hadoop are a powerful combination and can be used together
 to deliver complex analytics and data processing for data stored in
 MongoDB. The following guide shows how you can start working with the

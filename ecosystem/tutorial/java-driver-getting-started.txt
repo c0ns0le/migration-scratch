@@ -6,6 +6,8 @@
 Java Driver Getting Started
 ===========================
 
+.. default-domain:: mongodb
+
 Introduction
 -------------
 
@@ -66,11 +68,11 @@ At this point, the ``db`` object will be a connection to a MongoDB server
 for the specified database. With it, you can do further operations. 
 
 .. note::
-
-The ``MongoClient`` instance actually represents a pool of connections
-to the database; you will only need one instance of class
-``MongoClient`` even with multiple threads. See the :ref:`concurrency
-<java-driver-concurrency>` doc page for more information.
+   The ``MongoClient`` instance actually represents a pool of
+   connections to the database; you will only need one instance of
+   class ``MongoClient`` even with multiple threads. See the
+   :ref:`concurrency <java-driver-concurrency>` doc page for more
+   information.
 
 The ``MongoClient`` class is designed to be thread safe and shared
 among threads. Typically you create only 1 instance for a given
@@ -128,9 +130,11 @@ them from the ``db`` (and print out any that are there) :
        System.out.println(s);
    }
 
-and assuming that there are two collections, ``name`` and ``address``, in the database, you would see
+and assuming that there are two collections, ``name`` and ``address``,
+in the database, you would see
 
-.. code-block:: java
+.. code-block:: none
+
    name
    address
 
@@ -146,7 +150,8 @@ the `getCollection(String collectionName)`_ method:
 
    DBCollection coll = db.getCollection("testCollection");
 
-Once you have this collection object, you can now do things like insert data, query for data, etc
+Once you have this collection object, you can now do things like insert
+data, query for data, etc
 
 .. _`getCollection(String collectionName)`: 
    http://api.mongodb.org/java/current/com/mongodb/DB.html#getCollection%28java.lang.String%29
@@ -154,7 +159,8 @@ Once you have this collection object, you can now do things like insert data, qu
 Setting Write Concern
 ~~~~~~~~~~~~~~~~~~~~~
 
-As of version 2.10.0, the default write concern is `WriteConcern.ACKNOWLEDGED`_, but it can be easily changed:
+As of version 2.10.0, the default write concern is
+`WriteConcern.ACKNOWLEDGED`_, but it can be easily changed:
 
 .. code-block:: java
 
@@ -239,7 +245,6 @@ and you should see
      "info" : { "x" : 203 , "y" : 102}}
 
 .. note::
-
    The ``_id`` element has been added automatically by MongoDB to your
    document. Remember, MongoDB reserves element names that start with
    "_"/"$" for internal use.
@@ -312,7 +317,10 @@ and that should print all 101 documents in the collection.
 Getting A Single Document with A Query
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We can create a query to pass to the find() method to get a subset of the documents in our collection. For example, if we wanted to find the document for which the value of the "i" field is 71, we would do the following ;
+We can create a query to pass to the find() method to get a subset of
+the documents in our collection. For example, if we wanted to find the
+document for which the value of the "i" field is 71, we would do the
+following ;
 
 .. code-block:: java
 

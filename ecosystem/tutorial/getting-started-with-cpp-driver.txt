@@ -6,6 +6,8 @@
 Getting Started with the C++ Driver
 ===================================
 
+.. default-domain:: mongodb
+
 This document is an introduction to usage of the MongoDB database from
 a C++ program.
 
@@ -223,7 +225,7 @@ do something similar with the non-stream builder syntax:
    BSONObj p =
      BSONObjBuilder().genOID().append("name","Joe").append("age",33).obj();
 
-Other helpers are listed :ref:`here <list-of-cpp-bson-helper-functions>`.
+Other helpers are listed :ref:`here <cpp-bson-helper-functions>`.
 
 Inserting
 ---------
@@ -397,7 +399,7 @@ are many more capabilities. For further exploration:
 
 - See `GridFS`_ file storage information in the API docs;
 
-- See the HOWTO pages under the :ref:`C++ Language Center <cpp-language-center>`
+- See the HOWTO pages under the :ref:`C++ Language Center <cpp-driver-library>`
 
 - Consider getting involved to make the product (either C++ driver,
   tools, or the database itself) better!

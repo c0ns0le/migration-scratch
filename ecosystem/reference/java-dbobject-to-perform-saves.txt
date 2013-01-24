@@ -6,6 +6,8 @@
 Java DBObject to Perform Saves
 ==============================
 
+.. default-domain:: mongodb
+
 The Java driver provides a ``DBObject`` interface to save custom
 objects to the database.
 

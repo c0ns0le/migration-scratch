@@ -6,6 +6,8 @@
 Java Driver and Aggregation Framework
 =====================================
 
+.. default-domain:: mongodb
+
 Release 2.2.0 of MongoDB introduces the aggregation framework. Designed
 to be both performant and easy to use, the aggregation framework
 calculates aggregate values, (such as counts, totals and averages),

@@ -6,6 +6,8 @@
 Kernel String Manipulation
 ==========================
 
+.. default-domain:: mongodb
+
 For string manipulation, use the :file:`util/mongoutils/str.h` library.
 
 ``str.h``

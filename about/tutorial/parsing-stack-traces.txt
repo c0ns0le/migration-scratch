@@ -6,6 +6,8 @@
 Parsing Stack Traces
 ====================
 
+.. default-domain:: mongodb
+
 ``addr2line``
 -------------
 

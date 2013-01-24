@@ -6,6 +6,8 @@
 Project Ideas for Contributors
 ==============================
 
+.. default-domain:: mongodb
+
 If you're interested in getting involved in the MongoDB community (or
 the open source community in general) a great way to do so is by
 starting or contributing to a MongoDB related project. Here we've

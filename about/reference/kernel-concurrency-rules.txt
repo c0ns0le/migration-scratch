@@ -6,6 +6,8 @@
 Kernel Concurrency Rules
 ========================
 
+.. default-domain:: mongodb
+
 All concurrency classes must be placed under ``utils/concurrency``. You
 will find several helper libraries there.
 

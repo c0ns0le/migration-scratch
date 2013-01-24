@@ -9,6 +9,8 @@
 CSharp Driver LINQ Tutorial
 ===========================
 
+.. default-domain:: mongodb
+
 Introduction
 ------------
 

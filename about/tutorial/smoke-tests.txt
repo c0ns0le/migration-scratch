@@ -5,6 +5,8 @@
 Smoke Tests
 ===========
 
+.. default-domain:: mongodb
+
 Test Organization
 -----------------
 

@@ -6,6 +6,8 @@
 Kernel Code Development Rules
 =============================
 
+.. default-domain:: mongodb
+
 C++ Style Guide
 ---------------
 

@@ -6,6 +6,8 @@
 Java Driver Concurrency
 =======================
 
+.. default-domain:: mongodb
+
 The Java MongoDB driver is thread safe. If you are using in a web
 serving environment, for example, you should create a single ``Mongo``
 instance, and you can use it in every request. The ``Mongo`` object

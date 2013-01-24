@@ -6,6 +6,8 @@
 C Driver Library
 ================
 
+.. default-domain:: mongodb
+
 .. TODO could probably redirect to http://api.mongodb.org/c/current/
 
 The MongoDB C Driver is the 10gen-supported driver for MongoDB. It's
@@ -34,7 +36,7 @@ written in pure C.
 Download and build
 ------------------
 
-The C driver is hosted at `GitHub
+The C driver is hosted at `GitHub C driver
 <http://github.com/mongodb/mongo-c-driver>`_. You can download the
 latest stable version 0.7.1 from `GitHub
 <https://github.com/mongodb/mongo-c-driver/zipball/v0.7.1>`_ or `Amazon

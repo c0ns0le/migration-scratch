@@ -6,6 +6,8 @@
 Erlang Language Center
 ======================
 
+.. default-domain:: mongodb
+
 - Driver Download
 
   - `<https://github.com/mongodb/mongodb-erlang>`_

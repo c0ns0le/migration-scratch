@@ -6,6 +6,8 @@
 Kernel Logging Rules
 ====================
 
+.. default-domain:: mongodb
+
 Basic Rules
 -----------
 

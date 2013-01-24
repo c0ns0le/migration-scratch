@@ -6,6 +6,8 @@
 Kernel Code Style
 =================
 
+.. default-domain:: mongodb
+
 Basics
 ------
 

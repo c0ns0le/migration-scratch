@@ -6,6 +6,8 @@
 Hadoop
 ======
 
+.. default-domain:: mongodb
+
 The MongoDB Hadoop Adapter is a plugin for Hadoop that provides Hadoop
 the ability to use MongoDB as an input source and/or an output source.
 

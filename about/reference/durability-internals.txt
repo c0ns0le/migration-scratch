@@ -6,6 +6,8 @@
 Durability Internals
 ====================
 
+.. default-domain:: mongodb
+
 .. warning::
 
    The main durability page (not the internals page) is the `Journaling
