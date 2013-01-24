@@ -170,12 +170,12 @@ Groovy
   <http://github.com/poiati/gmongo>`_
 
   - `GMongo 0.5 Release Writeup
-    <http://blog.paulopoiati.com/2010/06/20/gmongo-0-5-released/>`_
+    <http://blog.paulopoiati.com/2010/06/20/gmongo-0-5-released>`_
 
 JavaScript (Rhino)
 ------------------
 
-- `MongoDB-Rhino <http://code.google.com/p/mongodb-rhino/>`_ 
+- `MongoDB-Rhino <http://code.google.com/p/mongodb-rhino>`_ 
 
       A toolset to provide full integration between the Rhino
       JavaScript engine for the JVM and MongoDB. Uses the MongoDB Java

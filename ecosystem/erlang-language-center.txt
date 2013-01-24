@@ -21,8 +21,9 @@ Erlang Language Center
 Third Party Frameworks and Libs
 -------------------------------
 
-- `Mongrel <http://code.google.com/p/mongrel/>`_ A record/document
-  mapper that maps Erlang records to MongoDB documents
+- `Mongrel <http://code.google.com/p/mongrel>`_
+     A record/document mapper that maps Erlang records to MongoDB
+     documents
 
   - `API Documentation for Mongrel
     <http://mongrelmapper.appspot.com/api/index.html>`_

@@ -18,7 +18,7 @@ Driver Tarballs
 ~~~~~~~~~~~~~~~
 
 The C++ client library can be found at
-`<http://dl.mongodb.org/dl/cxx-driver/>`_ .
+`<http://dl.mongodb.org/dl/cxx-driver>`_ .
 
 
 .. note::

@@ -25,12 +25,12 @@ See also the following C++ Driver documents:
 
 - :ref:`getting-started-with-cpp-driver`
 
-- `API Documentation <http://api.mongodb.org/cplusplus/>`_
+- `API Documentation <http://api.mongodb.org/cplusplus>`_
 
 - HOWTO
 
   - `Tailable Cursor
-    <http://docs.mongodb.org/manual/tutorial/create-tailable-cursor/>`_
+    <http://docs.mongodb.org/manual/tutorial/create-tailable-cursor>`_
 
   - :ref:`bson-array-examples-in-cpp`
 
@@ -60,7 +60,7 @@ C++ BSON Library
 ----------------
 
 The MongoDB C++ driver library includes a bson package that implements
-the BSON specification (see `<http://www.bsonspec.org/>`_). This library can
+the BSON specification (see `<http://www.bsonspec.org>`_). This library can
 be used standalone for object serialization and deserialization even
 when one is not using MongoDB at all.
 
@@ -108,7 +108,7 @@ See the `bsondemo.cpp example at github.com`_.
 API Documentation
 ~~~~~~~~~~~~~~~~~
 
-- `<http://api.mongodb.org/cplusplus/>`_
+- `<http://api.mongodb.org/cplusplus>`_
 
 Short Class Names
 ~~~~~~~~~~~~~~~~~
