@@ -260,10 +260,10 @@ Or using initialization code instead of attributes:
 Any fields or properties that do not have an explicit ``Order`` will occur
 after those that do have an ``Order``.
 
-Identifying the "Id" Field or Property 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Identifying the Id Field or Property 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To identify which field or property of a class is the "Id" you can
+To identify which field or property of a class is the Id you can
 write:
 
 .. code-block:: csharp
@@ -283,7 +283,7 @@ Or using initialization code instead of attributes:
    });
 
 When not using ``AutoMap``, you can also map a field or property and
-identify it as the "Id" in one step as follows:
+identify it as the Id in one step as follows:
 
 .. code-block:: csharp
 
@@ -292,14 +292,14 @@ identify it as the "Id" in one step as follows:
        // mappings for other fields and properties
    });
 
-Selecting an IdGenerator to Use for an "Id" Field or Property
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Selecting an IdGenerator to Use for an Id Field or Property
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you Insert a document the C# driver checks to see if the "Id"
+When you Insert a document the C# driver checks to see if the ``Id``
 member has been assigned a value, and if not, generates a new unique
-value for it. Since the "Id" member can be of any type, the driver
-requires the help of a matching IdGenerator to check whether the
-"Id" has a value assigned to it and to generate a new value if
+value for it. Since the ``Id`` member can be of any type, the driver
+requires the help of a matching ``IdGenerator`` to check whether the
+``Id`` has a value assigned to it and to generate a new value if
 necessary. The driver has the following ``IdGenerators`` built-in:
 
 - ``BsonObjectIdGenerator``
@@ -316,8 +316,8 @@ necessary. The driver has the following ``IdGenerators`` built-in:
 
 - ``ZeroIdChecker<T>``
 
-Some of these IdGenerators are used automatically for commonly used
-"Id" types:
+Some of these ``IdGenerators`` are used automatically for commonly used
+``Id`` types:
 
 - ``BsonObjectIdGenerator`` is used for ``BsonObjectId``
 
@@ -328,7 +328,7 @@ Some of these IdGenerators are used automatically for commonly used
 - ``StringObjectIdGenerator`` is used for strings represented externally as
   ``ObjectId``
   
-To select an IdGenerator to use for your "Id" field or property write: 
+To select an ``IdGenerator`` to use for your ``Id`` field or property write: 
 
 .. code-block:: csharp
 
@@ -357,12 +357,12 @@ You could also say that you want to use the ``CombGuidGenerator`` for all
    );
 
 The ``NullIdChecker`` and ``ZeroIdChecker<T>`` IdGenerators can be used
-when you don't have an IdGenerator for an "Id" type but you want to
-enforce that the "Id" is not null or zero. These pseudo-IdGenerators
+when you don't have an ``IdGenerator`` for an ``Id`` type but you want to
+enforce that the ``Id`` is not null or zero. These pseudo-IdGenerators
 throw an exception if their ``GenerateId`` method is called. You can
 select it for an individual member just like a ``CombGuidGenerator``
 was selected in the previous example, or you can turn on one or both of
-these IdGenerators for all types as follows:
+these ``IdGenerators`` for all types as follows:
 
 .. code-block:: csharp
 
@@ -372,7 +372,7 @@ these IdGenerators for all types as follows:
 .. note::
    In version 1.0 of the C# Driver ``NullIdChecker`` and ``ZeroIdChecker<T>``
    were always used, but it was decided that their use should be
-   optional, since null and zero are valid values for an "Id" as far as
+   optional, since null and zero are valid values for an ``Id`` as far as
    the server is concerned, so they should only be considered an error
    if the developer has specifically said they should be.
 

@@ -6,6 +6,8 @@
 MongoDB-Based Applications
 ==========================
 
+.. default-domain:: mongodb
+
 Please list applications that leverage MongoDB here. If you're using
 MongoDB for your application, we'd love to list you here! Email
 meghan@10gen.com. Also, check out our `Contributor Hub Project
