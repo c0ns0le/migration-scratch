@@ -26,6 +26,8 @@ You may also be interested in the :ref:`C# Driver Serialization
 Tutorial <csharp-driver-serialization-tutorial>`. It is a separate
 tutorial because it covers quite a lot of material.
 
+.. _csharp-driver-tutorial-downloading:
+
 Downloading
 -----------
 
