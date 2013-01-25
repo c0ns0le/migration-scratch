@@ -47,7 +47,7 @@ on this sort of thing that are worth checking out:
 
 - `Futon 4 Mongo`_
 
-- :ref:`HTTP Interface <http-interface>`_
+- :ref:`HTTP Interface <http-interface>`
 
 .. TODO replace with real reference link when wiki page is ported
 

@@ -109,6 +109,6 @@ invoked. Most tests are not of this sort.
 
 .. seealso::
 
-   - :ref:`Smoke Tests`
+   - :ref:`Smoke Tests <smoke-tests>`
    
    - `<http://buildbot.mongodb.org/>`_

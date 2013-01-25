@@ -147,7 +147,7 @@ the parent class ``DBClientInterface``.
 to a single MongoDB database server (or shard manager). Other classes
 exist for connecting to a replica set.
 
-See `http://api.mongodb.org/cplusplus/`_ for details on each of the
+See `<http://api.mongodb.org/cplusplus>`_ for details on each of the
 above classes.
 
 .. _cpp-getLastError:

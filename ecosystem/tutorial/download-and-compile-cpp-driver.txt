@@ -102,13 +102,13 @@ For Windows, see also:
 
    - :file:`client/examples/simple_client_demo.vcxproj`
 
-   - `Prebuilt Boost Libraries`_
+   - :ref:`Prebuilt Boost Libraries <boost-and-windows>`
 
      - Prebuilt Boost Libraries only necessary for versions < 2.1.1
 
      - Boost 1.49 source is now included directly in version 2.1.1+
 
-   - `Building with Visual Studio 2010`_
+   - :ref:`Building with Visual Studio 2010 <build-with-visual-studio-2010>`
    
 Other notes for Windows:
 
@@ -136,6 +136,5 @@ this is a release build, try using ``/MT`` instead of ``/MD`` for compilation
 
 .. _`MongoDB Downloads`: http://www.mongodb.org/downloads
 
-.. _`Prebuilt Boost Libraries`: http://www.mongodb.org/pages/viewpageattachments.action?pageId=12157032
-
-.. _`Building with Visual Studio 2010`: http://www.mongodb.org/display/DOCS/Building+with+Visual+Studio+2010
+.. commenting out and using the boost and windows page
+.. `Prebuilt Boost Libraries`: http://www.mongodb.org/pages/viewpageattachments.action?pageId=12157032

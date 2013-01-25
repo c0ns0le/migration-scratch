@@ -50,15 +50,15 @@ duplicates, but if you want the next available code you can run:
 A failed operation-fatal assertion throws an ``AssertionException`` or
 a child of that. The inheritance hierarchy is something like:
 
-- :class:`std::exception`
+- ``std::exception``
  
-  - :class:`mongo::DBException`
+  - ``mongo::DBException``
 
-    - :class:`mongo::AssertionException`
+    - ``mongo::AssertionException``
 
-      - :class:`mongo::UserException`
+      - ``mongo::UserException``
 
-      - :class:`mongo::MsgAssertionException`
+      - ``mongo::MsgAssertionException``
 
 See :file:`util/assert_util.h`.
 
