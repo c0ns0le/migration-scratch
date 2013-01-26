@@ -1,0 +1,232 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+  - 8: [ content.c8_img, content.c8_txt ]
+  - 9: [ content.c9_img, content.c9_txt ]
+  - 10: [ content.c10_img, content.c10_txt ]
+  - 11: [ content.c11_img, content.c11_txt ]
+  - 12: [ content.c12_img, content.c12_txt ]
+  - 13: [ content.c13_img, content.c13_txt ]
+  - 14: [ content.c14_img, content.c14_txt ]
+  - 15: [ content.c15_img, content.c15_txt ]
+  - 16: [ content.c16_img, content.c16_txt ]
+  - 17: [ content.c17_img, content.c17_txt ]
+  - 18: [ content.c18_img, content.c18_txt ]
+  - 19: [ content.c19_img, content.c19_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Scientific
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          CERN
+c1_txt: |
+          MongoDB_at_the_Energy_Frontier_1:
+
+          - CERN uses MongoDB for Large Hadron Collider data.
+
+          - `MongoDB at the Energy Frontier
+            <http://www.10gen.com/presentations/MongoNYC-2012/MongoDB-
+            at-the-Energy-Frontier>`_ - MongoNYC presentation (May 2012)
+
+          - `Holy Large Hadron Collider, Batman!
+            <http://blog.mongodb.org/post/660037122/holy-large-hadron-
+            collider-batman>`_ - MongoDB Blog (June 2010)
+c2_img: |
+          Mount Sinai Institute
+c2_txt: |
+          The Mount Sinai Institute for Genomics and Multiscale
+          Biology uses MongoDB to help with various computational
+          genomics tasks
+c3_img: |
+          Springer
+c3_txt: |
+          Realtime_springer_com_1:
+
+          - `Realtime.springer.com <http://realtime.springer.com/>`_
+            is a service that aggregates together downloads of Springer
+            journal articles and book chapters in real time and displays
+            them in a variety of visualizations. The goal of this
+            service is to provide the scientific community with valuable
+            information about how the literature is being used 'right
+            now'. MongoDB is used to store the details of one million
+            downloads per day from across Springer's sites. Map reduce
+            jobs generate collections for the last 7, 30, and 90 days
+            for around 2,000 journal and 40,000 book titles.
+c4_img: |
+          Social Networks
+c4_txt: |
+          entry153_1:
+c5_img: |
+          .. image:: pd-images/foursquare.png
+c5_txt: |
+          `Foursquare <http://www.10gen.com/customers/foursquare>`_ is
+          a location based social network that incorporates gaming
+          elements. Foursquare uses MongoDB to store venues and user
+          'check-ins' into venues, sharding the data over more than 25
+          machines on Amazon EC2.
+
+          - `Experiences Deploying MongoDB on AWS
+            <http://www.10gen.com/presentations/mongosv-2011
+            /experiences-deploying-mongodb-on-aws>`_ - Cooper Bethea's
+            Presentation at MongoSV (December 2011)
+
+          - `Practical Data Storage: MongoDB at foursquare <https://ww
+            w.10gen.com/presentation/mongonyc-2011/foursquare>`_ -
+            MongoNYC (June 2011)
+
+          - `MongoDB @ foursquare
+            <http://www.10gen.com/video/mongosf2011/foursquare>`_ -
+            MongoSF (May 2011)
+
+          - `Scaling foursquare with MongoDB
+            <http://www.10gen.com/video/misc/foursquare>`_ - New York
+            MongoDB User Group (December 2010)
+
+          - `MongoDB Q&amp;A
+            <http://www.10gen.com/presentations/misc/foursquareqa>`_ -
+            New York MongoDB User Group (December 2010)
+
+          - MongoDB at foursquare presentation: `Slides <http://docs.g
+            oogle.com/present/view?id=dhkkqm6q_13gm6jq5fv>`_ and `Video
+            <http://blip.tv/file/3704098>`_ (May 2010)
+c6_img: |
+          .. image:: pd-images/musweet.png
+c6_txt: |
+          `musweet <http://musweet.com/>`_ keeps track of what artists
+          and bands publish on the social web.
+
+          - `Handling Humongous Data Sets from Social Net <http://www.
+            10gen.com/presentations/mongoberlin2010/musweet>`_ - Nader
+            Cserny and Grischa Andreew's Presentation at MongoBerlin
+            (October 2010)
+c7_img: |
+          .. image:: pd-images/Behance_Logo.jpeg
+c7_txt: |
+          `Behance <http://www.behance.net/>`_ uses MongoDB to power
+          its Behance's Activity Feed, which displays what's new and
+          what's buzzing in the Behance community from the people you
+          follow. The Activity Feed provides a way of exploring the
+          creative world through everyone you know as a curator in
+          real time.
+c8_img: |
+          .. image:: pd-images/guildwork.png
+c8_txt: |
+          `Guildwork <http://www.guildwork.com/>`_ is a guild host and
+          social network for massively online multiplayer games such
+          as World of Warcraft. Guildwork stores nearly all data in
+          MongoDB with the exception of sessions and chat history.
+c9_img: |
+          .. image:: pd-images/logo-silentale.png
+c9_txt: |
+          `Silentale <https://silentale.com/>`_ keeps track of your
+          contacts and conversations from multiple platforms and
+          allows you to search and access them from anywhere.
+          Silentale is using MongoDB as the back-end for indexing and
+          searching on millions of stored messages of different types.
+          More details on Silentale can be found in this `TechCrunch
+          <http://uk.techcrunch.com/2009/09/08/silentale-lets-you-
+          archive-and-search-your-every-conversation/>`_ article.
+
+          - One Year with MongoDB presentation from MongoUK (June
+            2010): `Slides <http://www.slideshare.net/silentale/one-
+            year-with-mongodb-at-silentale-mongofr-mongouk>`_ and `Video
+            <http://skillsmatter.com/podcast/cloud-grid/one-year-with-
+            mongodb-at-silentale>`_
+c10_img: |
+          .. image:: pd-images/squarespace.jpg
+c10_txt: |
+          `Squarespace <http://www.squarespace.com/>`_ is an
+          innovative web publishing platform that consists of a fully
+          hosted and managed GUI environment for creating and
+          maintaining websites. Squarespace's new social modules
+          utilize Mongo to store large amounts of social data that is
+          pulled in from around the Internet and displayed in native
+          widgets that are fully integrated with the platform.
+c11_img: |
+          .. image:: pd-images/Shelby.tv.png
+c11_txt: |
+          `Shelby.tv <http://shelby.tv/>`_ Shelby uses a few
+          physically distinct MongoDB replica sets as the primary data
+          stores in development and production. That data is accessed
+          by web and iOS through our internal Ruby API.
+c12_img: |
+          .. image:: pd-images/jorjun_logo.png
+c12_txt: |
+          `Jorjun Technical Services <http://www.jorjun.com/>`_ uses
+          MongoDB for caching json-based REST API calls, and
+          increasingly for production data. The company offers solid,
+          reliable software applications by offering focus,
+          experience, lateral thinking and experienced evaluation of
+          technical options.
+c13_img: |
+          .. image:: pd-images/tripl_logo.png
+c13_txt: |
+          `Tripl <http://www.tripl.com/>`_ stores all checkin data,
+          trips and notifications as well as queues in MongoDB. It is
+          built from social geo-data on Facebook, Foursquare and
+          Instagram to highlight trips and present travel stories from
+          your friends.
+c14_img: |
+          .. image:: pd-images/mylist-copy.jpg
+c14_txt: |
+          `myList's <http://www.mylist.com/>`_ Dev, Sandbox, and
+          Production all use MongoDB for their backend. myList is a
+          Facebook application that allows people to discover and
+          organize the things in their lives. All back end data is in
+          MongoDB with Solr for indexing and Hadoop for Map/Reduce
+          jobs against logs.
+c15_img: |
+          .. image:: pd-images/dM4QAXRd2py7Q0r.png
+c15_txt: |
+          `Bawaal Labs <http://www.Bawaal.com/>`_ uses MongoDB for
+          user management and storing all data related to user posts.
+          Bawaal contains views on technology, social networking and
+          current happenings.
+c16_img: |
+          .. image:: pd-images/home.png
+c16_txt: |
+          `eZuce <https://www.ezuce.com/>`_ openUC features an
+          advanced SIP Services Oriented Architecture (SSOA) which
+          uses MongoDB to persistently store all user profile and
+          transaction data in a distributed way. While MongoDB's
+          stellar performance is critical to SSOA, its main benefit
+          for SSOA is the horizontal sharding that's part of its
+          architecture, which allows horizontal scaling across several
+          nodes. MongoDB also holds all client registration data and
+          makes it available to all session manager nodes. The effect
+          to the user is completely seamless failover at a regional or
+          global level. Many session manager nodes can participate in
+          such a globally redundant cluster, which allows enterprises
+          to easily build a robust communications backbone that spans
+          the entire enterprise.
+c17_img: |
+          .. image:: pd-images/logo-signout.png
+c17_txt: |
+          `BranchOut <http://branchout.com/>`_ uses MongoDB to store
+          profile statistics, back their feed data, endorsements and
+          other key features of the application. BranchOut is a
+          Facebook application designed for finding jobs, networking
+          professionally, and recruiting employees.
+c18_img: |
+          .. image:: pd-images/logo-parkuik.png
+c18_txt: |
+          `Parkuik <http://www.parkuik.com/>`_ uses MongoDB to store
+          parking locations and perform geolocated queries.
+c19_img: |
+          .. image:: pd-images/logo-meshfire.png
+c19_txt: |
+          `Meshfire <http://www.meshfire.com/>`_ uses MongoDB as the
+          database tier for the Meshfire SaaS application.
+...

@@ -1,0 +1,26 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Intranet
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/sparclogo.png
+c1_txt: |
+          `SPARC <http://sparcet.com/>`_ uses MongoDB as its primary
+          store for our employee engagement platform. SPARC has been
+          very happy with how simple data migrations has been since
+          leaving SQL behind.
+c2_img: |
+c2_txt: |
+          A Fortune 10 company uses MongoDB for their internal
+          intranet app for their 100,000+ employees.
+...

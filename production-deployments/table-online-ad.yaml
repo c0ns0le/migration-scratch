@@ -1,0 +1,123 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+  - 8: [ content.c8_img, content.c8_txt ]
+  - 9: [ content.c9_img, content.c9_txt ]
+  - 10: [ content.c10_img, content.c10_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Online Advertising and Marketing
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/magnetic.png
+c1_txt: |
+          MongoDB will be the central data store in Magnetic's system,
+          providing low-latency, high-volume reads in a distributed
+          cluster behind its pixel servers, and near-real-time
+          aggregate counts to its clients for forecasting. Magnetic is
+          excited by the speed, replication features, flexible data
+          model, and map-reduce style query access, which will let it
+          dramatically simplify its system relative to the current
+          architecture using a key-value store.
+
+          - `Tracking &amp; Analytics with MongoDB at Signpost;
+            MongoDB for Online Advertising
+            <http://www.10gen.com/presentations/ny-mug/tracking-
+            analytics-with-mongodb-at-signpost-mongodb-for-online-
+            advertising>`_ - Matt Insler's Presentation for NYC Meetup
+            Group
+
+          - `MongoDB Analytics for Online Advertising at Magnetic
+            <http://www.10gen.com/presentations/webinar/mongodb-
+            analytics-for-online-advertising-at-magnetic>`_ - Webinar
+            hosted by Mark Weiss
+c2_img: |
+          .. image:: pd-images/logo-aggregate-knowledge.png
+c2_txt: |
+          `Aggregate Knowledge <http://www.aggregateknowledge.com/>`_
+          is an IaaS company that combines data management and multi-
+          touch attribution to make media accountable helping
+          advertisers, agencies, ad networks, DSPs, SSPs, and
+          publishers manage and exploit all of their data around a
+          single view of the user. With more data to process, and less
+          time at hand, Aggregate Knowledge pairs MongoDB with Fusion-
+          io flash memory solutions for a winning combination.
+c3_img: |
+          .. image:: pd-images/mediamath.gif
+c3_txt: |
+          `MediaMath <http://www.mediamath.com/>`_ is the leader in
+          the new and rapidly growing world of digital media trading.
+c4_img: |
+          .. image:: pd-images/logo_bb.png
+c4_txt: |
+          `Konverta.ru <http://konverta.ru/>`_ is the first Real Time
+          Bidding (RTB) ad exchange on the Russian and CIS online
+          advertising market. MongoDB is used to store all ads, ad
+          impressions, clicks, and other data, as well as for real-
+          time reporting and optimization.
+c5_img: |
+          .. image:: pd-images/g5.jpg
+c5_txt: |
+          `G5 <http://www.g5platform.com/>`_ is the largest and
+          fastest growing provider of vertical-specific local
+          marketing solutions that help mid-market companies get found
+          online, generate more qualified leads, convert more leads
+          into new customers, track marketing performance - including
+          offline, and optimize to the marketing sources with the best
+          return on investment. G5 migrated its analytics platform
+          from MySQL to MongoDB due to the heavy demands of storing
+          &amp; processing analytical data. MongoDB has proven to be
+          fast, scalable, flexible, &amp; maintainable. Best of all,
+          MongoDB is supported by a fantastic community!
+c6_img: |
+          .. image:: pd-images/yodle-logo.png
+c6_txt: |
+          `Yodle <http://www.yodle.com/>`_ uses MongoDB to persist
+          queues of items to be synchronized with several partner
+          APIs. Mongo is ideally suited for this update-heavy
+          performance sensitive workload.
+c7_img: |
+          .. image:: pd-images/localstars.png
+c7_txt: |
+          `The Localstars <http://www.localstars.com/>`_ platform
+          makes it easy for local advertisers to build and manage
+          locally targeted advertising campaigns. The new Localstars
+          advert server cluster uses sharded MongoDB to provide super
+          high performance real time ad serving decision making and
+          campaign statistics.
+c8_img: |
+          .. image:: pd-images/everyscreen-logo.png
+c8_txt: |
+          `EveryScreen <http://www.everyscreenmedia.com/>`_ is built
+          on a scalable, high-performance, real-time mobile
+          advertising bidding platform in Amazon EC2.
+c9_img: |
+          .. image:: pd-images/72ppi.png
+c9_txt: |
+          `Rafflecopter <http://www.rafflecopter.com/>`_ is a web app
+          that helps online publishers run sweepstakes on their own
+          blogs &amp; other sites. Rafflecopter logs and stores every
+          entry to every contest that's ever been run, all contest
+          details, user profiles, various logs/metrics, etc.
+c10_img: |
+          .. image:: pd-images/localever.png
+c10_txt: |
+          `LocalEver <http://www.LocalEver.com/>`_ is a location based
+          online market place to buy, sell &amp; rent
+          residential/commercial properties, automobiles, and a host
+          of other products. MongoDB is the backbone of the system,
+          which powers the whole range of features from geo spatial
+          search to caching.
+...

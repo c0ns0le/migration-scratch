@@ -1,0 +1,72 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Email
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/logo-sailthru.png
+c1_txt: |
+          `Sailthru <http://www.sailthru.com/>`_ is an innovative
+          email service provider that focuses on improving the quality
+          of emails over quantity. Moving to MongoDB from MySQL
+          allowed us extreme flexibility in providing an API to our
+          clients. Passing in arbitrary JSON data is easy our
+          customers can use objects and arrays inside of their emails.
+          And we've launched Sailthru Alerts, which allows our
+          customers basically whitelabeled Google Alerts: realtime and
+          summary alerts (price, tag match, etc) that are completely
+          up to the customer due to our schema-free data storage.
+          Also, we can gather realtime behavioral data on a client's
+          signed-up users (tag-based interests, geolocale, time of
+          day, etc), and use all that information to power dynamically
+          assembled mass emails that get higher click-through rates
+          than static emails. Plus we just launched an onsite
+          recommendation widget (check it out at refinery29.com), and
+          we're using MongoDB's analytic capabilities to rapidly A/B
+          test different behavioral algorithms.
+
+          - `From Cloud to Colo <http://www.10gen.com/presentations
+            /mongodb-seattle-2012-sailthru-moving-cloud-colo>`_ -
+            Presentation at MongoDB Seattle 2012
+
+          - `Two Years of MongoDB at Sailthru
+            <http://www.10gen.com/presentations/mongonyc-2012-two-years-
+            mongodb-sailthru>`_ - Presentation at MongoNYC 2012
+
+          - `Scaling and Schema Design
+            <http://www.10gen.com/presentations/mongonyc-2011-mongodb-
+            sailthru-scaling-schema-design>`_ - Presentation at MongoNYC
+            2011
+
+          - `MongoDB in Production at Sailthru
+            <http://www.slideshare.net/ibwhite/mongodb-in-production-at-
+            sailthru>`_ - Presentation to NY MongoDB User Group (January
+            2011)
+c2_img: |
+          .. image:: pd-images/fiesta.png
+c2_txt: |
+          `fiesta.cc <https://fiesta.cc/>`_ makes creating mailing
+          lists dead-simple, and fun. The goal is to bring groups
+          together around a tool that everybody already uses and
+          understands: email. We use MongoDB to store all of the data
+          powering the website and the mail serving infrastructure.
+          We're running a three node replica set.
+
+          - `MongoDB at fiesta.cc <http://www.10gen.com/presentations
+            /nyc-meetup-group/mongodb-at-fiesta.cc>`_ - Mike Dirolf's
+            Presentation for NYC Meetup Group (November 2011)
+
+          - `Behind the Scenes at fiesta.cc
+            <http://www.10gen.com/presentations/pygotham2011/behind-the-
+            scenes-at-fiesta>`_ - Mike Dirolf's Presentation at PyGotham
+            (September 2011)
+...

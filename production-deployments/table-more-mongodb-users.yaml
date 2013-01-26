@@ -1,0 +1,3298 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+  - 8: [ content.c8_img, content.c8_txt ]
+  - 9: [ content.c9_img, content.c9_txt ]
+  - 10: [ content.c10_img, content.c10_txt ]
+  - 11: [ content.c11_img, content.c11_txt ]
+  - 12: [ content.c12_img, content.c12_txt ]
+  - 13: [ content.c13_img, content.c13_txt ]
+  - 14: [ content.c14_img, content.c14_txt ]
+  - 15: [ content.c15_img, content.c15_txt ]
+  - 16: [ content.c16_img, content.c16_txt ]
+  - 17: [ content.c17_img, content.c17_txt ]
+  - 18: [ content.c18_img, content.c18_txt ]
+  - 19: [ content.c19_img, content.c19_txt ]
+  - 20: [ content.c20_img, content.c20_txt ]
+  - 21: [ content.c21_img, content.c21_txt ]
+  - 22: [ content.c22_img, content.c22_txt ]
+  - 23: [ content.c23_img, content.c23_txt ]
+  - 24: [ content.c24_img, content.c24_txt ]
+  - 25: [ content.c25_img, content.c25_txt ]
+  - 26: [ content.c26_img, content.c26_txt ]
+  - 27: [ content.c27_img, content.c27_txt ]
+  - 28: [ content.c28_img, content.c28_txt ]
+  - 29: [ content.c29_img, content.c29_txt ]
+  - 30: [ content.c30_img, content.c30_txt ]
+  - 31: [ content.c31_img, content.c31_txt ]
+  - 32: [ content.c32_img, content.c32_txt ]
+  - 33: [ content.c33_img, content.c33_txt ]
+  - 34: [ content.c34_img, content.c34_txt ]
+  - 35: [ content.c35_img, content.c35_txt ]
+  - 36: [ content.c36_img, content.c36_txt ]
+  - 37: [ content.c37_img, content.c37_txt ]
+  - 38: [ content.c38_img, content.c38_txt ]
+  - 39: [ content.c39_img, content.c39_txt ]
+  - 40: [ content.c40_img, content.c40_txt ]
+  - 41: [ content.c41_img, content.c41_txt ]
+  - 42: [ content.c42_img, content.c42_txt ]
+  - 43: [ content.c43_img, content.c43_txt ]
+  - 44: [ content.c44_img, content.c44_txt ]
+  - 45: [ content.c45_img, content.c45_txt ]
+  - 46: [ content.c46_img, content.c46_txt ]
+  - 47: [ content.c47_img, content.c47_txt ]
+  - 48: [ content.c48_img, content.c48_txt ]
+  - 49: [ content.c49_img, content.c49_txt ]
+  - 50: [ content.c50_img, content.c50_txt ]
+  - 51: [ content.c51_img, content.c51_txt ]
+  - 52: [ content.c52_img, content.c52_txt ]
+  - 53: [ content.c53_img, content.c53_txt ]
+  - 54: [ content.c54_img, content.c54_txt ]
+  - 55: [ content.c55_img, content.c55_txt ]
+  - 56: [ content.c56_img, content.c56_txt ]
+  - 57: [ content.c57_img, content.c57_txt ]
+  - 58: [ content.c58_img, content.c58_txt ]
+  - 59: [ content.c59_img, content.c59_txt ]
+  - 60: [ content.c60_img, content.c60_txt ]
+  - 61: [ content.c61_img, content.c61_txt ]
+  - 62: [ content.c62_img, content.c62_txt ]
+  - 63: [ content.c63_img, content.c63_txt ]
+  - 64: [ content.c64_img, content.c64_txt ]
+  - 65: [ content.c65_img, content.c65_txt ]
+  - 66: [ content.c66_img, content.c66_txt ]
+  - 67: [ content.c67_img, content.c67_txt ]
+  - 68: [ content.c68_img, content.c68_txt ]
+  - 69: [ content.c69_img, content.c69_txt ]
+  - 70: [ content.c70_img, content.c70_txt ]
+  - 71: [ content.c71_img, content.c71_txt ]
+  - 72: [ content.c72_img, content.c72_txt ]
+  - 73: [ content.c73_img, content.c73_txt ]
+  - 74: [ content.c74_img, content.c74_txt ]
+  - 75: [ content.c75_img, content.c75_txt ]
+  - 76: [ content.c76_img, content.c76_txt ]
+  - 77: [ content.c77_img, content.c77_txt ]
+  - 78: [ content.c78_img, content.c78_txt ]
+  - 79: [ content.c79_img, content.c79_txt ]
+  - 80: [ content.c80_img, content.c80_txt ]
+  - 81: [ content.c81_img, content.c81_txt ]
+  - 82: [ content.c82_img, content.c82_txt ]
+  - 83: [ content.c83_img, content.c83_txt ]
+  - 84: [ content.c84_img, content.c84_txt ]
+  - 85: [ content.c85_img, content.c85_txt ]
+  - 86: [ content.c86_img, content.c86_txt ]
+  - 87: [ content.c87_img, content.c87_txt ]
+  - 88: [ content.c88_img, content.c88_txt ]
+  - 89: [ content.c89_img, content.c89_txt ]
+  - 90: [ content.c90_img, content.c90_txt ]
+  - 91: [ content.c91_img, content.c91_txt ]
+  - 92: [ content.c92_img, content.c92_txt ]
+  - 93: [ content.c93_img, content.c93_txt ]
+  - 94: [ content.c94_img, content.c94_txt ]
+  - 95: [ content.c95_img, content.c95_txt ]
+  - 96: [ content.c96_img, content.c96_txt ]
+  - 97: [ content.c97_img, content.c97_txt ]
+  - 98: [ content.c98_img, content.c98_txt ]
+  - 99: [ content.c99_img, content.c99_txt ]
+  - 100: [ content.c100_img, content.c100_txt ]
+  - 101: [ content.c101_img, content.c101_txt ]
+  - 102: [ content.c102_img, content.c102_txt ]
+  - 103: [ content.c103_img, content.c103_txt ]
+  - 104: [ content.c104_img, content.c104_txt ]
+  - 105: [ content.c105_img, content.c105_txt ]
+  - 106: [ content.c106_img, content.c106_txt ]
+  - 107: [ content.c107_img, content.c107_txt ]
+  - 108: [ content.c108_img, content.c108_txt ]
+  - 109: [ content.c109_img, content.c109_txt ]
+  - 110: [ content.c110_img, content.c110_txt ]
+  - 111: [ content.c111_img, content.c111_txt ]
+  - 112: [ content.c112_img, content.c112_txt ]
+  - 113: [ content.c113_img, content.c113_txt ]
+  - 114: [ content.c114_img, content.c114_txt ]
+  - 115: [ content.c115_img, content.c115_txt ]
+  - 116: [ content.c116_img, content.c116_txt ]
+  - 117: [ content.c117_img, content.c117_txt ]
+  - 118: [ content.c118_img, content.c118_txt ]
+  - 119: [ content.c119_img, content.c119_txt ]
+  - 120: [ content.c120_img, content.c120_txt ]
+  - 121: [ content.c121_img, content.c121_txt ]
+  - 122: [ content.c122_img, content.c122_txt ]
+  - 123: [ content.c123_img, content.c123_txt ]
+  - 124: [ content.c124_img, content.c124_txt ]
+  - 125: [ content.c125_img, content.c125_txt ]
+  - 126: [ content.c126_img, content.c126_txt ]
+  - 127: [ content.c127_img, content.c127_txt ]
+  - 128: [ content.c128_img, content.c128_txt ]
+  - 129: [ content.c129_img, content.c129_txt ]
+  - 130: [ content.c130_img, content.c130_txt ]
+  - 131: [ content.c131_img, content.c131_txt ]
+  - 132: [ content.c132_img, content.c132_txt ]
+  - 133: [ content.c133_img, content.c133_txt ]
+  - 134: [ content.c134_img, content.c134_txt ]
+  - 135: [ content.c135_img, content.c135_txt ]
+  - 136: [ content.c136_img, content.c136_txt ]
+  - 137: [ content.c137_img, content.c137_txt ]
+  - 138: [ content.c138_img, content.c138_txt ]
+  - 139: [ content.c139_img, content.c139_txt ]
+  - 140: [ content.c140_img, content.c140_txt ]
+  - 141: [ content.c141_img, content.c141_txt ]
+  - 142: [ content.c142_img, content.c142_txt ]
+  - 143: [ content.c143_img, content.c143_txt ]
+  - 144: [ content.c144_img, content.c144_txt ]
+  - 145: [ content.c145_img, content.c145_txt ]
+  - 146: [ content.c146_img, content.c146_txt ]
+  - 147: [ content.c147_img, content.c147_txt ]
+  - 148: [ content.c148_img, content.c148_txt ]
+  - 149: [ content.c149_img, content.c149_txt ]
+  - 150: [ content.c150_img, content.c150_txt ]
+  - 151: [ content.c151_img, content.c151_txt ]
+  - 152: [ content.c152_img, content.c152_txt ]
+  - 153: [ content.c153_img, content.c153_txt ]
+  - 154: [ content.c154_img, content.c154_txt ]
+  - 155: [ content.c155_img, content.c155_txt ]
+  - 156: [ content.c156_img, content.c156_txt ]
+  - 157: [ content.c157_img, content.c157_txt ]
+  - 158: [ content.c158_img, content.c158_txt ]
+  - 159: [ content.c159_img, content.c159_txt ]
+  - 160: [ content.c160_img, content.c160_txt ]
+  - 161: [ content.c161_img, content.c161_txt ]
+  - 162: [ content.c162_img, content.c162_txt ]
+  - 163: [ content.c163_img, content.c163_txt ]
+  - 164: [ content.c164_img, content.c164_txt ]
+  - 165: [ content.c165_img, content.c165_txt ]
+  - 166: [ content.c166_img, content.c166_txt ]
+  - 167: [ content.c167_img, content.c167_txt ]
+  - 168: [ content.c168_img, content.c168_txt ]
+  - 169: [ content.c169_img, content.c169_txt ]
+  - 170: [ content.c170_img, content.c170_txt ]
+  - 171: [ content.c171_img, content.c171_txt ]
+  - 172: [ content.c172_img, content.c172_txt ]
+  - 173: [ content.c173_img, content.c173_txt ]
+  - 174: [ content.c174_img, content.c174_txt ]
+  - 175: [ content.c175_img, content.c175_txt ]
+  - 176: [ content.c176_img, content.c176_txt ]
+  - 177: [ content.c177_img, content.c177_txt ]
+  - 178: [ content.c178_img, content.c178_txt ]
+  - 179: [ content.c179_img, content.c179_txt ]
+  - 180: [ content.c180_img, content.c180_txt ]
+  - 181: [ content.c181_img, content.c181_txt ]
+  - 182: [ content.c182_img, content.c182_txt ]
+  - 183: [ content.c183_img, content.c183_txt ]
+  - 184: [ content.c184_img, content.c184_txt ]
+  - 185: [ content.c185_img, content.c185_txt ]
+  - 186: [ content.c186_img, content.c186_txt ]
+  - 187: [ content.c187_img, content.c187_txt ]
+  - 188: [ content.c188_img, content.c188_txt ]
+  - 189: [ content.c189_img, content.c189_txt ]
+  - 190: [ content.c190_img, content.c190_txt ]
+  - 191: [ content.c191_img, content.c191_txt ]
+  - 192: [ content.c192_img, content.c192_txt ]
+  - 193: [ content.c193_img, content.c193_txt ]
+  - 194: [ content.c194_img, content.c194_txt ]
+  - 195: [ content.c195_img, content.c195_txt ]
+  - 196: [ content.c196_img, content.c196_txt ]
+  - 197: [ content.c197_img, content.c197_txt ]
+  - 198: [ content.c198_img, content.c198_txt ]
+  - 199: [ content.c199_img, content.c199_txt ]
+  - 200: [ content.c200_img, content.c200_txt ]
+  - 201: [ content.c201_img, content.c201_txt ]
+  - 202: [ content.c202_img, content.c202_txt ]
+  - 203: [ content.c203_img, content.c203_txt ]
+  - 204: [ content.c204_img, content.c204_txt ]
+  - 205: [ content.c205_img, content.c205_txt ]
+  - 206: [ content.c206_img, content.c206_txt ]
+  - 207: [ content.c207_img, content.c207_txt ]
+  - 208: [ content.c208_img, content.c208_txt ]
+  - 209: [ content.c209_img, content.c209_txt ]
+  - 210: [ content.c210_img, content.c210_txt ]
+  - 211: [ content.c211_img, content.c211_txt ]
+  - 212: [ content.c212_img, content.c212_txt ]
+  - 213: [ content.c213_img, content.c213_txt ]
+  - 214: [ content.c214_img, content.c214_txt ]
+  - 215: [ content.c215_img, content.c215_txt ]
+  - 216: [ content.c216_img, content.c216_txt ]
+  - 217: [ content.c217_img, content.c217_txt ]
+  - 218: [ content.c218_img, content.c218_txt ]
+  - 219: [ content.c219_img, content.c219_txt ]
+  - 220: [ content.c220_img, content.c220_txt ]
+  - 221: [ content.c221_img, content.c221_txt ]
+  - 222: [ content.c222_img, content.c222_txt ]
+  - 223: [ content.c223_img, content.c223_txt ]
+  - 224: [ content.c224_img, content.c224_txt ]
+  - 225: [ content.c225_img, content.c225_txt ]
+  - 226: [ content.c226_img, content.c226_txt ]
+  - 227: [ content.c227_img, content.c227_txt ]
+  - 228: [ content.c228_img, content.c228_txt ]
+  - 229: [ content.c229_img, content.c229_txt ]
+  - 230: [ content.c230_img, content.c230_txt ]
+  - 231: [ content.c231_img, content.c231_txt ]
+  - 232: [ content.c232_img, content.c232_txt ]
+  - 233: [ content.c233_img, content.c233_txt ]
+  - 234: [ content.c234_img, content.c234_txt ]
+  - 235: [ content.c235_img, content.c235_txt ]
+  - 236: [ content.c236_img, content.c236_txt ]
+  - 237: [ content.c237_img, content.c237_txt ]
+  - 238: [ content.c238_img, content.c238_txt ]
+  - 239: [ content.c239_img, content.c239_txt ]
+  - 240: [ content.c240_img, content.c240_txt ]
+  - 241: [ content.c241_img, content.c241_txt ]
+  - 242: [ content.c242_img, content.c242_txt ]
+  - 243: [ content.c243_img, content.c243_txt ]
+  - 244: [ content.c244_img, content.c244_txt ]
+  - 245: [ content.c245_img, content.c245_txt ]
+  - 246: [ content.c246_img, content.c246_txt ]
+  - 247: [ content.c247_img, content.c247_txt ]
+  - 248: [ content.c248_img, content.c248_txt ]
+  - 249: [ content.c249_img, content.c249_txt ]
+  - 250: [ content.c250_img, content.c250_txt ]
+  - 251: [ content.c251_img, content.c251_txt ]
+  - 252: [ content.c252_img, content.c252_txt ]
+  - 253: [ content.c253_img, content.c253_txt ]
+  - 254: [ content.c254_img, content.c254_txt ]
+  - 255: [ content.c255_img, content.c255_txt ]
+  - 256: [ content.c256_img, content.c256_txt ]
+  - 257: [ content.c257_img, content.c257_txt ]
+  - 258: [ content.c258_img, content.c258_txt ]
+  - 259: [ content.c259_img, content.c259_txt ]
+  - 260: [ content.c260_img, content.c260_txt ]
+  - 261: [ content.c261_img, content.c261_txt ]
+  - 262: [ content.c262_img, content.c262_txt ]
+  - 263: [ content.c263_img, content.c263_txt ]
+  - 264: [ content.c264_img, content.c264_txt ]
+  - 265: [ content.c265_img, content.c265_txt ]
+  - 266: [ content.c266_img, content.c266_txt ]
+  - 267: [ content.c267_img, content.c267_txt ]
+  - 268: [ content.c268_img, content.c268_txt ]
+  - 269: [ content.c269_img, content.c269_txt ]
+  - 270: [ content.c270_img, content.c270_txt ]
+  - 271: [ content.c271_img, content.c271_txt ]
+  - 272: [ content.c272_img, content.c272_txt ]
+  - 273: [ content.c273_img, content.c273_txt ]
+  - 274: [ content.c274_img, content.c274_txt ]
+  - 275: [ content.c275_img, content.c275_txt ]
+  - 276: [ content.c276_img, content.c276_txt ]
+  - 277: [ content.c277_img, content.c277_txt ]
+  - 278: [ content.c278_img, content.c278_txt ]
+  - 279: [ content.c279_img, content.c279_txt ]
+  - 280: [ content.c280_img, content.c280_txt ]
+  - 281: [ content.c281_img, content.c281_txt ]
+  - 282: [ content.c282_img, content.c282_txt ]
+  - 283: [ content.c283_img, content.c283_txt ]
+  - 284: [ content.c284_img, content.c284_txt ]
+  - 285: [ content.c285_img, content.c285_txt ]
+  - 286: [ content.c286_img, content.c286_txt ]
+  - 287: [ content.c287_img, content.c287_txt ]
+  - 288: [ content.c288_img, content.c288_txt ]
+  - 289: [ content.c289_img, content.c289_txt ]
+  - 290: [ content.c290_img, content.c290_txt ]
+  - 291: [ content.c291_img, content.c291_txt ]
+  - 292: [ content.c292_img, content.c292_txt ]
+  - 293: [ content.c293_img, content.c293_txt ]
+  - 294: [ content.c294_img, content.c294_txt ]
+  - 295: [ content.c295_img, content.c295_txt ]
+  - 296: [ content.c296_img, content.c296_txt ]
+  - 297: [ content.c297_img, content.c297_txt ]
+  - 298: [ content.c298_img, content.c298_txt ]
+  - 299: [ content.c299_img, content.c299_txt ]
+  - 300: [ content.c300_img, content.c300_txt ]
+  - 301: [ content.c301_img, content.c301_txt ]
+  - 302: [ content.c302_img, content.c302_txt ]
+  - 303: [ content.c303_img, content.c303_txt ]
+  - 304: [ content.c304_img, content.c304_txt ]
+  - 305: [ content.c305_img, content.c305_txt ]
+  - 306: [ content.c306_img, content.c306_txt ]
+  - 307: [ content.c307_img, content.c307_txt ]
+  - 308: [ content.c308_img, content.c308_txt ]
+  - 309: [ content.c309_img, content.c309_txt ]
+  - 310: [ content.c310_img, content.c310_txt ]
+  - 311: [ content.c311_img, content.c311_txt ]
+  - 312: [ content.c312_img, content.c312_txt ]
+  - 313: [ content.c313_img, content.c313_txt ]
+  - 314: [ content.c314_img, content.c314_txt ]
+  - 315: [ content.c315_img, content.c315_txt ]
+  - 316: [ content.c316_img, content.c316_txt ]
+  - 317: [ content.c317_img, content.c317_txt ]
+  - 318: [ content.c318_img, content.c318_txt ]
+  - 319: [ content.c319_img, content.c319_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: More MongoDB Users
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/sugar.gif
+c1_txt: |
+          `Sugar CRM <http://www.sugarcrm.com/crm/>`_ uses MongoDB to
+          power the backend of its preview feedback mechanism. It
+          captures users' comments and whether they like or dislike
+          portions of the application all from within beta versions of
+          Sugar.
+c2_img: |
+          .. image:: pd-images/mr-wuhu.png
+c2_txt: |
+          `WuuhuuOnline.com <http://www.wuuhuuonline.com/>`_ is an
+          E-Magazine Portal in Malaysia. It uses MongoDB to store data
+          and leverage SPHINX as full text search in MongoDB data.
+c3_img: |
+          .. image:: pd-images/catchlogo.png
+c3_txt: |
+          `catch.com <https://catch.com/>`_ is the easiest way to
+          capture what matters. Catch helps you create one place to
+          privately capture &amp; find your notable thoughts, ideas,
+          images, places, lists &amp; anything else you'd rather not
+          forget.
+
+          - `MongoDB with Python, Pylons and Pyramid
+            <http://www.10gen.com/presentations/mongosf-2011/mongodb-
+            with-python-pylons-pyramid/>`_ - Niall O'Higgin's
+            presentation at MongoSF (May 2011)
+
+          - `MongoDB and Pylons at Catch.com
+            <https://catch.com/blog/2011/03/pycon-2011-mongodb-pylons-
+            at-catch-com-scalable-web-apps-with-python-and-nosql/>`_ -
+            PyCon Presentation (March 2011)
+c4_img: |
+          .. image:: pd-images/collegehumor.png
+c4_txt: |
+          `CollegeHumor <http://www.collegehumor.com/>`_ is a comedy
+          website. MongoDB is used in CollegeHumor for internal
+          analytics and link exchange application.
+c5_img: |
+          .. image:: pd-images/thrillist.png
+c5_txt: |
+          `Thrillist
+          <http://www.thrillist.com/NATION/browse?sort=browse>`_ is
+          using Mongo to accelerate its user-specific search, content
+          browsing, and geolocated search. Right now it's employed
+          mostly as a cache and not as Thrillist's primary store with
+          the notable exception of our click-track data. It's also
+          moving to push its log info into Mongo to give it better
+          analytics as part of our continuous integration initiative.
+c6_img: |
+          .. image:: pd-images/taobao.gif
+c6_txt: |
+          Founded by Alibaba Group in May 2003, Taobao facilitates
+          business-to-consumer and consumer-to-consumer retail by
+          providing a platform for businesses and individual
+          entrepreneurs to open online retail stores that cater to
+          consumers in mainland China, Hong Kong, Macau, Taiwan and
+          overseas. Sellers are able to post new and used goods for
+          sale on the Taobao marketplace either through a fixed price
+          or by auction. The overwhelming majority of the products on
+          Taobao are brand new merchandise sold at a fixed price;
+          auctions make up a very small percentage of transactions.
+          MongoDB is used to store the monitoring data.
+c7_img: |
+          .. image:: pd-images/evite.png
+c7_txt: |
+          `Evite <http://www.evite.com/>`_ uses MongoDB for analytics
+          and quick reporting.
+
+          - `Tracking and visualizing mail logs with MongoDB and
+            gviz_api <http://agiletesting.blogspot.com/2010/07/tracking-
+            and-visualizing-mail-logs-with.html>`_ - Grig Gheorghiu's
+            blog (July 2010)
+c8_img: |
+          .. image:: pd-images/logo-justin_tv.png
+c8_txt: |
+          `Justin.tv <http://justin.tv>`_ is the easy, fun, and fast
+          way to share live video online. MongoDB powers Justin.tv's
+          internal analytics tools for virality, user retention, and
+          general usage stats that out-of-the-box solutions can't
+          provide. Read more about Justin.tv's `broadcasting
+          architecture <http://highscalability.com/blog/2012/11/15
+          /gone-fishin-justintvs-live-video-broadcasting-
+          architecture.html>`_.
+c9_img: |
+          .. image:: pd-images/logo_phonetag.jpg
+c9_txt: |
+          `PhoneTag <http://phonetag.com/>`_ is a service that
+          automatically transcribes voicemail to text and delivers it
+          in real-time via e-mail and SMS. PhoneTag stores the
+          metadata and transcriptions for every voicemail it processes
+          in MongoDB.
+c10_img: |
+          .. image:: pd-images/PICloud-version1.png
+c10_txt: |
+          `PiCloud <http://picloud.com/>`_ enables scientists,
+          developers, and engineers to leverage thousands of cores of
+          computational power in public and private clouds for batch
+          processing, high performance computing, and scientific
+          computing applications. PiCloud uses MongoDB to store
+          computational tasks and their associated result sets in a
+          highly distributed and scalable environment.
+c11_img: |
+          .. image:: pd-images/hashrocket.png
+c11_txt: |
+          `Hashrocket <http://hashrocket.com/>`_ is an expert web
+          design and development group. Hashrocket built `PharmMD
+          <http://hashrocket.com/work/view/pharmmd/>`_, a fully-
+          featured Medication Management application in Ruby on Rails.
+          The system contains functionality for identifying and
+          resolving drug-related problems for millions of patients.
+c12_img: |
+          .. image:: pd-images/logo-ubiquity.png
+c12_txt: |
+          The Mozilla open-source `Ubiquity Herd
+          <https://ubiquity.mozilla.com/herd/>`_ project uses MongoDB
+          for back-end storage. Source code is available on `bitbucket
+          <http://bitbucket.org/fernandotakai/herd/src/>`_.
+c13_img: |
+          .. image:: pd-images/preferred.png
+c13_txt: |
+          Sedue is the enterprise search/recommendation engine,
+          provided by `Preferred Infrastructure, Inc
+          <http://preferred.jp/index.html>`_. Sedue currently uses
+          MongoDB to store the document in a flexible and highly-
+          available way.
+
+          - `MongoDB as search engine repository
+            <http://www.slideshare.net/pfi/mongodb-as-search-engine-
+            repository-mongotokyo2011>`_ - Presentation from Mongo Tokyo
+            (March 2011)
+c14_img: |
+          .. image:: pd-images/codaset.png
+c14_txt: |
+          Codaset is an open system where you can browse and search
+          through open source projects, and check out what your
+          friends are coding.
+
+          - `The awesomeness that is MongoDB and NoSQL, is taking over
+            Codaset <http://codaset.com/codaset/codaset/blog/the-
+            awesomeness-that-is-mongodb-and-nosql-is-taking-over-
+            codaset>`_ - Codaset Blog (May 2010)
+
+          - `Handling Dates in MongoDB
+            <http://developingwithstyle.com/articles/2010/07/09
+            /handling-dates-in-mongodb.html>`_ - Codaset Blog (July
+            2010)
+c15_img: |
+          .. image:: pd-images/mypunchbowl_logo.png
+c15_txt: |
+          `Punchbowl.com <http://www.punchbowl.com/>`_ is a start to
+          finish party planning site that uses MongoDB for tracking
+          user behavior and datamining.
+
+          - `Introducing MongoDB into your organization: Punchbowl
+            Case Study
+            <http://www.10gen.com/video/mongoboston2010/punchbowl>`_ -
+            Ryan Angilly's presentation at Mongo Boston (September 2010)
+
+          - <em>Ryan Angilly on Replacing MySQL with MongoDB (Zero to
+            Mongo)</em> on `The Bitsource <http://www.thebitsource.com
+            /featured-posts/mongosf-zero-to-mongodb/>`_
+
+          - `MongoDB for Dummies: How MyPunchbowl went from 0 to
+            production in under 3 days <http://blip.tv/file/3704046>`_ -
+            Presentation at MongoNYC (May 2010)
+c16_img: |
+          .. image:: pd-images/photostre.am.png
+c16_txt: |
+          `photostre.am <http://photostre.am>`_ streams image data
+          from flickr and uses MongoDB as it's only database.
+
+          - `MongoDB in Production at photostre.am
+            <http://ananasblau.com/2010/6/11/mongodb-in-my-photostre-
+            am>`_ - photostre.am blog (June 2010)
+c17_img: |
+          .. image:: pd-images/footpedia.png
+c17_txt: |
+          `Fotopedia <http://www.fotopedia.com>`_ uses MongoDB as
+          storage backend for its copy of wikipedia data, storage for
+          users and albums timelines, a feature that is currently
+          under heavy refactoring, and as the 'metacache,' an index of
+          every tiny html fragment in its varnish cache for proactive
+          invalidation of stale content.
+
+          - MongoDB: Our Swiss Army Datastore - Presentation at
+            MongoFR in June 2010: `Slides
+            <http://www.scribd.com/doc/33558074/MongoDB-our-Swiss-Army-
+            Knife-database>`_ and `Video <http://lacantine.ubicast.eu/vi
+            deos/21-06-2010-104603-partie-1/>`_
+c18_img: |
+          .. image:: pd-images/grooveshark-logo.png
+c18_txt: |
+          `Grooveshark <http://listen.grooveshark.com/>`_ currently
+          uses Mongo to manage over one million unique user sessions
+          per day.
+c19_img: |
+          .. image:: pd-images/struq.png
+c19_txt: |
+          `Struq <http://www.struq.com/>`_ develops technology that
+          personalizes the contents and design of online display
+          advertising in real time.
+c20_img: |
+          .. image:: pd-images/logo-pitchfork.png
+c20_txt: |
+          `Pitchfork <http://www.pitchfork.com>`_ is using MongoDB for
+          its year-end readers survey and internal analytics.
+c21_img: |
+          .. image:: pd-images/logo-floxee.png 
+c21_txt: |
+          `Floxee <http://floxee.com/>`_, a web toolkit for creating
+          `Twitter <http://twitter.com>`_ directories, leverages
+          MongoDB for back-end storage. The award-winning
+          `TweetCongress <http://tweetcongress.org/>`_ is powered by
+          Floxee.
+c22_img: |
+          .. image:: pd-images/teachstreet.png
+c22_txt: |
+          `TeachStreet <http://www.teachstreet.com/>`_ helps people
+          find local and online classes by empowering teachers with
+          robust tools to manage their teaching businesses. MongoDB
+          powers TeachStreet's real-time analytics system which
+          provide teachers with insight into the performance and
+          effectiveness of their listings on TeachStreet.
+
+          - `Slides from Mongo Seattle
+            <http://blog.teachstreet.com/uncategorized/slides-mongo-seat
+            tle/?utm_source=twitterfeed&amp;utm_medium=twitter&amp;utm_c
+            ampaign=Feed:+teachstreet+(TeachStreet+-+Find+Great+Classes.
+            ++Learn+Something+New.)>`_ - TeachStreet blog (July 2010)
+c23_img: |
+          .. image:: pd-images/visibiz.png
+c23_txt: |
+          `Visibiz <http://www.visibiz.com/>`_ is a socially and email
+          infused relationship management solution designed to improve
+          the productivity of business professionals. Within minutes
+          of users' joining, Visibiz automatically creates fully
+          tagged and organized profiles for everything in the user's
+          network and allows intelligent searching of the information
+          needed to stay productive. Professionals can also track all
+          their business development activities through simplified and
+          streamlined CRM process that is supported by configurable
+          workflows. Visibiz uses MongoDB for all of its data storage
+          needs.
+
+          - `How MongoDB Helps Visibiz Tackle Social CRM
+            <http://www.10gen.com/webinars/visibiz>`_ - Webinar March
+            2011
+c24_img: |
+          .. image:: pd-images/logo-defensio.png
+c24_txt: |
+          `Defensio <http://defensio.com/>`_ is a comment-spam blocker
+          that uses MongoDB for back-end storage.
+c25_img: |
+          .. image:: pd-images/logo-tweetsaver.png
+c25_txt: |
+          `TweetSaver <http://tweetsaver.com>`_ is a web service for
+          backing up, searching, and tagging your tweets. TweetSaver
+          uses MongoDB for back-end storage.
+c26_img: |
+          .. image:: pd-images/logo-bloom.png
+c26_txt: |
+          `Bloom Digital <http://www.bloomdigital.com/>`_'s AdGear
+          platform is a next-generation ad platform. MongoDB is used
+          for back-end reporting storage for AdGear.
+c27_img: |
+          .. image:: pd-images/logo-klatu.png
+c27_txt: |
+          `KLATU Networks <http://www.klatunetworks.com/>`_ designs,
+          develops and markets asset monitoring solutions which help
+          companies manage risk, reduce operating costs and streamline
+          operations through proactive management of the status,
+          condition, and location of cold storage assets and other
+          mission critical equipment. KLATU uses MongoDB to store
+          temperature, location, and other measurement data for large
+          wireless sensor networks. KLATU chose MongoDB over
+          competitors for scalability and query capabilities.
+          This_or_That!_0: .. image:: pd-images/thisorthat.jpg
+          This_or_That!_1: `This or That!
+          <http://www.thisorthat.com/>`_ is a user-driven comparison
+          site that encourages people to create, share, vote and
+          comment on comparisons. Whether you're voting on the latest
+          news stories, pop culture tournaments, or user-generated
+          comparisons, make your choice count at This or That! This or
+          That! uses MongoDB to drive its leaderboards.
+c28_img: |
+          .. image:: pd-images/songkick.gif
+c28_txt: |
+          `songkick <http://www.songkick.com/>`_ lets you track your
+          favorite artists so you never miss a gig again.
+
+          - `Speeding up your Rails app with MongoDB
+            <http://skillsmatter.com/podcast/cloud-grid/speeding-up-
+            your-rails-application-with-mongodb>`_ - Presentation at
+            MongoUK (June 2010)
+c29_img: |
+          .. image:: pd-images/crowdtap.png
+c29_txt: |
+          `Crowdtap <http://crowdtap.com/>`_ uses MongoDB extensively
+          as its primary datastore for its primary application and
+          targeting engine. The targeting engine heavily uses Mongo's
+          atomic operator to implement a queuing system which is core
+          to its service.
+c30_img: |
+          .. image:: pd-images/logo-detexify.png
+c30_txt: |
+          `Detexify <http://detexify.kirelabs.org/>`_ is a cool
+          application to find LaTeX symbols easily. It uses MongoDB
+          for back-end storage. Check out the `blog post <http://detex
+          ifyblog.kirelabs.org/past/2009/8/12/new_backend_new_server_a
+          ndroid_app/>`_ for more on why Detexfy is using MongoDB.
+c31_img: |
+          .. image:: pd-images/logo-sluggy.png
+c31_txt: |
+          `http://sluggy.com/ <http://sluggy.com/>`_ is built on
+          MongoDB, mongodb_beaker, and `MongoKit
+          <http://bitbucket.org/namlook/mongokit/wiki/Home>`_.
+
+          - `From MySQL to MongoDB at Sluggy.com
+            <http://blip.tv/file/3704023>`_ - Brendan McAdams'
+            presentation at MongoNYC (May 2010)
+c32_img: |
+          .. image:: pd-images/editd.png
+c32_txt: |
+          `EDITD <http://editd.com/>`_ is using MongoDB to store
+          opinions from social media, blogs, forums and other sources
+          to use in its sentiment analysis system, Zeitgeist.
+c33_img: |
+          entry208_0:
+c33_txt: |
+          @trackmeet helps you take notes with twitter and is built on
+          MongoDB
+c34_img: |
+          .. image:: pd-images/logo-eflyover.png
+c34_txt: |
+          `eFlyover <http://eflyover.com>`_leverages the Google Earth
+          Browser Plugin and MongoDB to provide interactive flyover
+          tours of over two thousand golf courses worldwide.
+c35_img: |
+          .. image:: pd-images/logo-shapado.png
+c35_txt: |
+          `Shapado <http://shapado.com/>`_ is a multi-topic question
+          and answer site in the style of Stack Overflow. Shapado is
+          written in Rails and uses MongoDB for back-end storage.
+c36_img: |
+          .. image:: pd-images/logo-sifino.png
+c36_txt: |
+          `Sifino <http://sifino.se/>`_ enables students to help each
+          other with their studies. Students can share notes, course
+          summaries, and old exams. Also it can ask and respond to
+          questions about particular courses.
+c37_img: |
+          .. image:: pd-images/logo-gamechanger.png
+c37_txt: |
+          `GameChanger <http://www.gamechanger.io/>`_ provides mobile
+          apps that replace pencil-and-paper scorekeeping and online
+          tools that distribute real-time game updates for amateur
+          sports.
+
+          - `Document Schema Design and Data Consistency
+            <http://www.10gen.com/presentations/MongoNYC-2012/document-
+            schema-design>`_ - Presentation from MongoNYC 2012
+
+          - `Tornado, MongoDB, and the Realtime Web
+            <http://prezi.com/owkppjicpers/mongonyc/>`_ - Kiril Savino's
+            presentation at MongoNYC (May 2010)
+
+          - `GameChanger and MongoDB: a case study in MySQL conversion
+            <http://aurum.tumblr.com/post/1045864983/gamechanger-and-
+            mongodb-a-case-study-in-mysql>`_ - Kiril Savino's blog
+            (September 2010)
+c38_img: |
+          .. image:: pd-images/solimap.jpg
+c38_txt: |
+          `soliMAP <http://solimap.com/>`_ is a map-based ad listings
+          site that uses MongoDB for storage.
+c39_img: |
+          .. image:: pd-images/logo-mybanktracker.gif
+c39_txt: |
+          `MyBankTracker iPhone App
+          <http://http://www.mybanktracker.com/iphone/>`_ uses MongoDB
+          for the iPhone app's back-end server.
+c40_img: |
+          .. image:: pd-images/bill-monitor-logo.png
+c40_txt: |
+          `BillMonitor <http://www.billmonitor.com/>`_ uses MongoDB to
+          store all user data, including large amounts of billing
+          information. This is used by the live site and also by
+          BillMonitor's internal data analysis tools.
+c41_img: |
+          .. image:: pd-images/logo-tubricator.png
+c41_txt: |
+          `Tubricator <http://www.tubricator.com/>`_ allows you to
+          create easy to remember links to YouTube videos. It's built
+          on MongoDB and Django.
+c42_img: |
+          .. image:: pd-images/mu.ly.png
+c42_txt: |
+          `Mu.ly <http://mu.ly/>`_ uses MongoDB for user registration
+          and as a backend server for its iPhone Push notification
+          service. MongoDB is mu.ly's Main backend database and
+          absolute mission critical for mu.ly.
+c43_img: |
+          .. image:: pd-images/avinu.png
+c43_txt: |
+          `Avinu <http://www.avinu.org/>`_ is a Content Management
+          System (CMS) built on the Vork enterprise framework and
+          powered by MongoDB.
+c44_img: |
+          .. image:: pd-images/topsy.png
+c44_txt: |
+          `Topsy <http://topsy.com/>`_ is a search engine powered by
+          Tweets that uses Mongo for realtime log processing and
+          analysis.
+c45_img: |
+          .. image:: pd-images/chc.png
+c45_txt: |
+          `Cold Hard Code <http://www.coldhardcode.com/>`_ makes
+          featureful, beautiful web applications, including:
+
+          - `Codepeek <http://codepeek.com/paste>`_ is using MongoDB
+            and GridFS for storing pastes.
+
+          - `Jarvis <http://www.coldhardcode.com/blog/2011/01/jarvis-
+            technical-notes.html>`_ uses MongoDB to store asset
+            information.
+c46_img: |
+          .. image:: pd-images/similaria.jpg
+c46_txt: |
+          `Similaria.pl <http://www.similaria.pl/index.php>`_ is an
+          online platform, created to connect users with people and
+          products that match them.
+
+          - `One Year with MongoDB <http://prezi.com/nojhakjnp9gf
+            /mongo-one-year-later/>`_ - Presentation from PyCon Ukraine
+            (October 2010)
+c47_img: |
+          .. image:: pd-images/totutam.png
+c47_txt: |
+          `ToTuTam <http://totutam.pl/>`_ uses Mongo to store
+          information about events in its portal and also to store and
+          organise information about users preferences.
+
+          - `One Year with MongoDB <http://prezi.com/nojhakjnp9gf
+            /mongo-one-year-later/>`_ - Presentation from PyCon Ukraine
+            (October 2010)
+c48_img: |
+          .. image:: pd-images/tmdb.png
+c48_txt: |
+          `themoviedb.org <http://www.themoviedb.org/>`_ is a free,
+          user driven movie database that uses MongoDB as its primary
+          database.
+c49_img: |
+          .. image:: pd-images/ocw.jpg
+c49_txt: |
+          `OCW Search <http://www.ocwsearch.com/>`_ is a search engine
+          for OpenCourseWare. It stores all the course materials in
+          MongoDB and uses Sphinx to index these courses.
+
+          - `Full Text Search with Sphinx
+            <http://skillsmatter.com/podcast/cloud-grid/mongodb-full-
+            text-search-with-sphinx>`_ - Presentation from MongoUK (June
+            2010)
+c50_img: |
+          .. image:: pd-images/mixero.gif
+c50_txt: |
+          `Mixero <http://www.mixero.com/>`_ is the new generation
+          Twitter client for people who value their time and are tired
+          of information noise. Mixero uses Mongo to store users'
+          preferences and data.
+c51_img: |
+          .. image:: pd-images/biggo.jpg
+c51_txt: |
+          `Biggo <http://cms.biggo.ru/>`_ is an advanced site
+          constructor with e-commerce modules. Biggo uses MongoDB for
+          stats collection.
+c52_img: |
+          .. image:: pd-images/kabisa-logo.png
+c52_txt: |
+          `Kabisa <http://www.kabisa.nl/>`_ is a web development firm
+          specializing in Ruby on Rails and Java / J2EE. Kabisa uses
+          MongoDB for many of its client projects, including a mobile
+          news application for iPhone and Android.
+c53_img: |
+          .. image:: pd-images/dokdok.png
+c53_txt: |
+          `DokDok <http://dokdok.com/>`_ makes it easy and automatic
+          for users to find, work on and share the latest version of
+          any document - right from their inbox. DokDok migrated to a
+          Mongo backend in August 2009. See Bruno Morency's
+          presentation `Migrating to MongoDB
+          <http://www.slideshare.net/dokdok/confoo-migrating-to-mongo-
+          db>`_ for more information.
+c54_img: |
+          .. image:: pd-images/enbil.png
+c54_txt: |
+          `Enbil <http://enbil.nu/>`_ is a swedish website for
+          finding, and comparing, rental cars. MongoDB is used for
+          storing and querying data about geographical locations and
+          car rental stations.
+c55_img: |
+          .. image:: pd-images/markitfor.me.jpg
+c55_txt: |
+          `markitfor.me <http://markitfor.me/>`_ is a bookmarking
+          service that makes your bookmarks available via full-text
+          search so you don't have to remember tags or folders. You
+          can just search for what you're looking for and the complete
+          text of all of your bookmarked pages will be searched.
+          MongoDB is used as the datastore for the marked pages.
+c56_img: |
+          .. image:: pd-images/backpage.png
+c56_txt: |
+          `Backpage Pics <http://www.backpagepics.com/>`_ is a website
+          that displays backpage.com adult classified listings as an
+          image gallery. MongoDB is used to store listing
+          data.<em>Please note that this website is NSFW.</em>
+c57_img: |
+          .. image:: pd-images/joomlaads.png
+c57_txt: |
+          `Joomla Ads <http://www.joomlaads.com/>`_ uses MongoDB for
+          its back-end reporting services.
+c58_img: |
+          .. image:: pd-images/eiwa.png
+c58_txt: |
+          `Eiwa System Management, Inc. <http://www.esm.co.jp/>`_ is a
+          software development firm that has been using MongoDB for
+          various projects since January 2010.
+c59_img: |
+          .. image:: pd-images/morango.png
+c59_txt: |
+          `Morango <http://morango.co.uk/>`_ is an internet strategy
+          consultancy based in London, which uses MongoDB in
+          production on several client projects.
+
+          - `Building a Content Management System with MongoDB
+            <http://skillsmatter.com/podcast/cloud-grid/building-a
+            -content-management-system-with-mongodb>`_ - Presentation
+            from MongoUK (June 2010)
+c60_img: |
+          .. image:: pd-images/peerpong.png
+c60_txt: |
+          `PeerPong <http://peerpong.com/>`_ discovers everyone's
+          expertise and connects you to the best person to answer any
+          question. We index users across the entire web, looking at
+          public profiles, real-time streams, and other publicly
+          available information to discover expertise and to find the
+          best person to answer any question.
+c61_img: |
+          .. image:: pd-images/logo-ibibo.png
+c61_txt: |
+          `ibibo <http://www.ibibo.com/>`_ ('I build, I bond') is a
+          social network using MongoDB for its dashboard feeds. Each
+          feed is represented as a single document containing an
+          average of 1000 entries; the site currently stores over two
+          million of these documents in MongoDB.
+c62_img: |
+          .. image:: pd-images/zoofs.png
+c62_txt: |
+          `Zoofs <http://zoofs.com/>`_ is a new way to discover
+          YouTube videos that people are talking about on Twitter.
+          Zoofs camps in Twitter searching for tweets with YouTube
+          video links, and then ranks them based on popularity.
+c63_img: |
+          .. image:: pd-images/oodle.gif
+c63_txt: |
+          `Oodle <http://www.oodle.com/>`_ is an online classifieds
+          marketplace that serves up more than 15 million visits a
+          month and is the company behind the popular `Facebook
+          Marketplace <http://apps.facebook.com/marketplace>`_. Oodle
+          is using Mongo for storing user profile data for our
+          millions of users and has also open sourced its `Mongo ORM
+          layer <http://github.com/lunaru/MongoRecord>`_.
+c64_img: |
+          .. image:: pd-images/funadvice.png
+c64_txt: |
+          `Funadvice <http://www.funadvice.com>`_ relaunched using the
+          MongoDB and MongoMapper. Read the Funadvice CTO's `post to
+          MongoDB User Forum <http://groups.google.com/group/mongodb-u
+          ser/browse_thread/thread/e2b4a5d198b398cf/547e3f3206c5dd37?l
+          nk=gst&amp;q=funadvice#547e3f3206c5dd37>`_ from May 2010 for
+          more details.
+c65_img: |
+          .. image:: pd-images/Yasabe.gif
+c65_txt: |
+          `Ya Sabe <http://www.yasabe.com/>`_ is using MongoDB for the
+          backend storage of business listings. Yasabe.com is the
+          first local search engine built for Hispanics in the US with
+          advanced search functionality. You can find and discover
+          more than 14 million businesses via the web or your mobile
+          phone. All the information is in both Spanish and in
+          English.
+c66_img: |
+          .. image:: pd-images/loteriafutbol.jpg
+c66_txt: |
+          `LoteriaFutbol.com <http://en.loteriafutbol.com/>`_ is a
+          Fantasy Soccer Portal recently launched for the World Soccer
+          Cup: South Africa 2010. Mongo has been used entirely to
+          store data about users, groups, news, tournaments and picks.
+          It uses the PHP driver with a Mongo module for Kohana v3
+          (Mango).
+c67_img: |
+          .. image:: pd-images/kehalim.png
+c67_txt: |
+          `Kehalim <http://www.kehalim.com/>`_ switched over to
+          MongoDB 1 year ago after exhausting other cloud and
+          relational options. As a contextual affiliate network,
+          Kehalim stores all of its advertisers, ads and even
+          impressions on top of MongoDB. MongoDB has outed both MySQL
+          and memcached completely and also provides great hadoop-like
+          alternative with its own map-reduce.
+c68_img: |
+          .. image:: pd-images/givemebeats.png
+c68_txt: |
+          `Givemebeats.net <http://www.givemebeats.net>`_ is an
+          e-commerce music site that allows people to buy beats (music
+          instrumentals) produced by some of the best producers in the
+          world. Now we entirely use MongoDB to store users profile,
+          beats information, and transaction statistics.
+c69_img: |
+          .. image:: pd-images/planetaki.png
+c69_txt: |
+          `Planetaki <http://www.planetaki.com/>`_ is place were you
+          can read all your favourite websites in one place. MongoDB
+          has replaced MySQL for the storage backend that does all the
+          heavy lifting and caching of each website's news feed.
+
+          - `Planetaki Powered by MongoDB
+            <http://www.samlown.com/en/planetaki_powered_by_mongodb>`_ -
+            SamLown.com (June 2010)
+c70_img: |
+          .. image:: pd-images/chinavisual.gif
+c70_txt: |
+          [ChinaVisual.com] is the leading and largest vertical portal
+          and community for creative people in China. ChinaVisual.com
+          moved from mysql to mongoDB in early 2009. Currently MongoDB
+          powers its most major production and service, like file
+          storage, session server, and user tracking.
+c71_img: |
+          .. image:: pd-images/rowfeeder.png
+c71_txt: |
+          `RowFeeder <https://rowfeeder.com>`_ is an easy social media
+          monitoring solution that allows people to track tweets and
+          Facebook posts in a spreadsheet. RowFeeder uses MongoDB to
+          keep up with the high volume of status updates across
+          multiple social networks as well as generate basic stats.
+
+          - `MongoDB for Real Time Data Collection and Stats
+            Generation <http://www.slideshare.net/dacort/mongodb-
+            realtime-data-colleciton-and-stats-generation>`_ -
+            Presentation at Mongo Seattle (July 2010)
+c72_img: |
+          .. image:: pd-images/opendiningnetwork.png
+c72_txt: |
+          `Open Dining Network <http://www.opendining.net/>`_ is a
+          restaurant data and food ordering platform that provides a
+          RESTful API to take web and mobile orders. MongoDB is used
+          to manage all restaurant, customer, and order information.
+c73_img: |
+          .. image:: pd-images/urlist.png
+c73_txt: |
+          `URLi.st <http://urli.st/>`_ is a small web application to
+          create and share list of links. The web application is coded
+          in Python (using the pylons framework) and uses MongoDB
+          (with pymongo 1.6) in production to power its data layer.
+c74_img: |
+          .. image:: pd-images/kidiso.gif
+c74_txt: |
+          `Kidiso <http://www.kidiso.com/>`_ is a safe online
+          playground for children up to 13, with advanced parental
+          controls. In the current setup, we are using MongoDB for
+          logging, analysis tasks, and background jobs that aggregate
+          data for performance (ie search results and allowed
+          content).
+c75_img: |
+          Carbon_Calculated_0:
+c75_txt: |
+          `Carbon Calculated <http://www.carboncalculated.com/>`_
+          provides an open platform that aggregates carbon and green
+          house gas emissions for everything in the world, from
+          passenger transport, raw materials, through to consumer
+          goods. Built on top of this platform, Carbon Calculated
+          offers a suite of products that make carbon calculation
+          accessible and intuitive.
+c76_img: |
+          .. image:: pd-images/vowch.png
+c76_txt: |
+          `Vowch <http://vow.ch/>`_ is a simple platform for telling
+          the world about all the people, places and things that
+          matter most to you. It is a platform for making positive,
+          public endorsements for anyone or anything from a Twitter
+          account.
+
+          - View a vowch for MongoDB: `http://vow.ch/2ij
+            <http://vow.ch/2ij>`_
+c77_img: |
+          .. image:: pd-images/poctoc.png
+c77_txt: |
+          `Ros Spending <http://www.rosspending.ru>`_ is the first
+          Russian public spending monitoring project. It includes
+          information about 1,400,000 federal government and 210,000
+          regional government contracts, as well as information about
+          more than 260,000 suppliers and 26,000 customers. MongoDB
+          stores all reports, customer and supplier information, stats
+          and pre-cached queries. The project was initiated by the
+          `Institute of Contemporary Development <http://www.insor-
+          russia.ru/en/_about_us>`_ andlaunched publicly in July 2010
+          during the Tver economic forum.
+c78_img: |
+          .. image:: pd-images/bluespark.gif
+c78_txt: |
+          `BlueSpark <http://bluespark.co.nz/>`_ designs and develops
+          iPhone and iPad applications and specializes in Adobe Flash
+          development, we have a passion for creating great user
+          experiences and products that feel simple to use.
+c79_img: |
+          .. image:: pd-images/ahgora_logo.jpg
+c79_txt: |
+          [Aghora] is a time attendance application specially designed
+          for the requirements of the Brasilian governmental
+          requirements. Our whole application is based on PHP and
+          MongoDB. `Click here <http://bit.ly/cajdYS>`_ for more
+          information.
+c80_img: |
+          .. image:: pd-images/manofthehouse.png
+c80_txt: |
+          `Man of the House <http://manofthehouse.com/>`_ is the real
+          man's magazine, a guide for the jack of all trades trying to
+          be better at work and at home, as a father and as a husband.
+          The entire backend of the site depends on MongoDB.
+c81_img: |
+          .. image:: pd-images/PeerIndex.jpg
+c81_txt: |
+          `PeerIndex <http://www.peerindex.net/>`_ is an algorithmic
+          authority ranking web service that uses MongoDB to scale
+          processing of the firehose of social media, as a distributed
+          data store and middle cache for fast site performance.
+c82_img: |
+          .. image:: pd-images/sahibinden-arial_eng.jpg
+c82_txt: |
+          `sahibinden.com <http://www.sahibinden.com/>`_ is an online
+          classifieds marketplace that serves more than 14.5 million
+          unique visitors and over 1.5 billion pageviews a month.
+          sahibinden.com is using MongoDB for storing classifieds data
+          and caching.
+c83_img: |
+          .. image:: pd-images/ylastic.png
+c83_txt: |
+          `Ylastic <http://ylastic.com/>`_ is using MongoDB
+          extensively in production. For example, MongoDB powers
+          Ylastic's monitors capability.
+c84_img: |
+          .. image:: pd-images/brainrepublic.png
+c84_txt: |
+          `BRAINREPUBLIC <http://www.brainrepublic.com/>`_ is a social
+          network for anyone to wants to talk face-to-face - or just
+          audio or chat - with like-minded people from anywhere at
+          anytime.
+c85_img: |
+          .. image:: pd-images/friendmaps.png
+c85_txt: |
+          `Friendmaps <http://www.friendmaps.com/>`_ is a tool that
+          allows users to view all of their social networks on a
+          single map.
+c86_img: |
+          .. image:: pd-images/jounce.png
+c86_txt: |
+          The affiliate marketing platform `Jounce
+          <http://www.jounce.com/>`_ has gone live using MongoDB as
+          the main storage solution for its search data. As of August
+          2010, ~10 million offers are stored in the database.
+c87_img: |
+          .. image:: pd-images/virb_logo.gif
+c87_txt: |
+          `Virb <http://virb.com/>`_ Looking for a place to park your
+          portfolio, your band, your website? Build an elegantly
+          simple website with Virb. You provide the content, we'll
+          help with the rest for only $10/month.
+c88_img: |
+          .. image:: pd-images/dealmachine.png
+c88_txt: |
+          `Deal Machine <http://dealmachine.net/>`_ is a streamlined
+          CRM that makes sales fun and effective. We use MongoDB as
+          our main storage. It has helped us a lot to make the web app
+          better and more scalable.
+c89_img: |
+          .. image:: pd-images/arrivalguides.jpg
+c89_txt: |
+          `arrivalguides.com <http://beta.arrivalguides.com/en>`_ is
+          the largest network of free online (and pdf) travel guides.
+          arrivalguides.com recently launched a new site where they
+          rewrote the whole application switching from SQL server to
+          MongoDB using the NoRM Driver for C#. The website is purely
+          driven by MongoDB as the database backend.
+c90_img: |
+          .. image:: pd-images/hypemachine.png
+c90_txt: |
+          `The Hype Machine <http://hypem.com/>`_ keeps track of
+          emerging music on the web. We use MongoDB to accelerate
+          storage and retrieval of user preferences, and other core
+          site data. MongoDB's web-native design and high performance
+          in our workloads was what got our attention. It's from the
+          future!
+c91_img: |
+          .. image:: pd-images/ChatPast.png
+c91_txt: |
+          `ChatPast <http://chatpast.com/>`_ synchronizes your chat
+          history from multiple chat clients (Live, Skype, etc.),
+          across multiple computers. Search them, slice them, and get
+          just the data you want. Find everything you've ever talked
+          about. Business users can push important IM conversations
+          into SalesForce and 37 Signals products (Highrise, BaseCamp,
+          etc) seamlessly.
+c92_img: |
+          .. image:: pd-images/stockopedia.jpg
+c92_txt: |
+          `Stockopedia <http://www.stockopedia.co.uk/>`_ initially
+          began using MongoDB for its internal analytics system -
+          tracking all activity around 20000+ stocks, sectors and
+          investment topics. Stockopedia is now confidently using the
+          same foundation for building real time analytics,
+          recommendation, categorization and discovery features for
+          both publishers and investors conducting and publishing
+          investment research on the Stockopedia platform.
+c93_img: |
+          .. image:: pd-images/travelpost.png
+c93_txt: |
+          `TravelPost <http://www.travelpost.com>`_ is a community
+          built by travel enthusiasts for travel enthusiasts. Today,
+          the site has millions of reviews, photos and blogs.
+          TravelPost uses MongoDB for backend storage and analytics
+          applications.
+c94_img: |
+          .. image:: pd-images/keptprivate.png
+c94_txt: |
+          `SoulGoal <http://soulgoal.com/>`_ stores or caches all user
+          data and facebook information in MongoDB.
+c95_img: |
+          .. image:: pd-images/toptwittertrends.png
+c95_txt: |
+          `Top Twitter Trends <http://www.toptwittertrends.com/>`_ is
+          an experimental and on-going project built with today's
+          trending and cutting-edge technologies such as node.js,
+          nginx, and MongoDB.
+c96_img: |
+          .. image:: pd-images/bongi-300x50.gif
+c96_txt: |
+          `bongi.mobi <http://bongi.mobi/>`_ is a place for you to
+          build your own mobi free site from your mobile device!
+          Technologies include: fast document orientated database
+          (MongoDB), full handset detection, image/font resizing
+          (based on handset capabilities), mobile ad serving,
+          geolocation, multimedia (images, video, music), analytics
+          and tracking, click-2-call, SMS, email modules, 3rd party
+          API integration.
+c97_img: |
+          .. image:: pd-images/costore.png
+c97_txt: |
+          `CoStore <http://costore.net/>`_ is an online platform for
+          data exchange, collaboration and data entry. CoStore helps
+          you with importing, transforming and collaborating on all
+          sorts of data files. CoStore also provides reporting tools,
+          such as charts, graphs and network visualizations. CoStore
+          runs in the browser, so you can access it wherever you need
+          it. MongoDB is used as the backend; it stores the data and
+          also runs query steps, which are MapReduce operations.
+c98_img: |
+          .. image:: pd-images/snapdish_logo.png
+c98_txt: |
+          `SnapDish <http://snapdi.sh>`_ is a photo and recipe
+          sharing social app for home cooked dishes that makes
+          cooking more enjoyable and delicious. It is a quick and
+          easy way, using your smartphone, of taking beautiful food
+          photos and sharing them with food lovers from around the
+          world. Process your food photo to make it look better
+          and make it social. `SnapDish <http://snapdi.sh>`_ is a
+          free app. Download and enjoy!
+c99_img: |
+          .. image:: pd-images/bakodo_big_logo.png
+c99_txt: |
+          `Bakodo <http://bako.do>`_ is a barcode search engine with a
+          social component that helps users make informed decisions
+          while they are shopping. Users can scan barcodes using the
+          camera in their mobile phone and get information about the
+          products they are looking at: where to buy it, lower prices,
+          local stores, and most importantly, what their friends think
+          about it. Bakodo uses MongoDB to store their massive index
+          of million of products.
+c100_img: |
+          .. image:: pd-images/noclouds.png
+c100_txt: |
+          `noclouds.org <http://noclouds.org/principal/>`_ is a online
+          system, completely open source and still in development,
+          where users can upload and share information about files.
+          MongoDB has been used since the beginning of the project for
+          almost all systems.
+c101_img: |
+          .. image:: pd-images/cafeclimb.png
+c101_txt: |
+          `CafeClimb.com <http://www.cafeclimb.com>`_ is a travel
+          website for rock climbers and mountaineers. It is a
+          community oriented site which lets people share their travel
+          experiences for friends to learn from. MongoDB is used to
+          save all traveling information that comes from the users of
+          CafeClimb.com. It also executes all searches that come from
+          the user.
+c102_img: |
+          .. image:: pd-images/keekme.png
+c102_txt: |
+          `Keekme <http://keekme.com>`_ is free money management web
+          service build on the top of Ruby on Rails and MongoDB. Using
+          Keekme you will easily track all your expenses wherever you
+          are via web, mail and twitter. Keekme uses MongoDB as a
+          primary datastorage for all application data.
+c103_img: |
+          .. image:: pd-images/p2p_financial_logo.png
+c103_txt: |
+          `P2P Financial <http://www.p2pfinancial.ca>`_ is Canada's
+          first internet-based business financing company. P2P
+          Financial uses Mongo DB for storing business and financial
+          documents.
+c104_img: |
+          .. image:: pd-images/qwerly.png
+c104_txt: |
+          `Qwerly <http://qwerly.com/>`_ is people search for the
+          social web. Qwerly uses MongoDB to store millions of user
+          profiles and links to social networking sites. We offer an
+          API that makes much of our data freely available to the web.
+c105_img: |
+          .. image:: pd-images/pmemongo.png
+c105_txt: |
+          `phpMyEngine <http://phpmyengine.net/>`_ is a free, open
+          source CMS licensed under the GPL v.3. For storage, the
+          default database is MongoDB.
+c106_img: |
+          .. image:: pd-images/vschart.png
+c106_txt: |
+          `vsChart <http://vschart.com/>`_ allows you to compare
+          products to make it easier to make decisions.
+c107_img: |
+          .. image:: pd-images/yap.gif
+c107_txt: |
+          `yap.TV <http://www.yap.tv/>`_ is the ultimate companion to
+          the TV watching experience. It is a completely personalized
+          TV show guide fused with a tuned-for-TV Twitter client, and
+          is the best way to interact with your friends and show fans
+          while watching the tube. We store some of the user generated
+          content in MongoDB. We also use MongoDB for analytics.
+c108_img: |
+          .. image:: pd-images/busyconf.png
+c108_txt: |
+          `BusyConf <http://busyconf.com/>`_ makes great conferences
+          even better! BusyConf makes life easier for conference
+          organizers by letting them collect and manage proposals,
+          manage speaker info, build and publish the schedule to
+          multiple web platforms. Conference attendees get a gorgeous,
+          fully cached, offline-enabled schedule with all the details
+          preloaded. MongoDB let's us represent rich conference
+          schedule data in a way that's complementary to it's logical
+          structure and the application's access patterns. Thanks to
+          MongoDB, our code is much simpler, and our application is
+          fast out of the gate.
+
+          - `BusyConf presentation at Washington DC MongoDB User Group
+            <http://ryan.mcgeary.org/talks/2010/12/14/busyconf-
+            mongodc/>`_ - December 2010
+c109_img: |
+          .. image:: pd-images/sentimnt.png
+c109_txt: |
+          `Sentimnt <http://sentimnt.com>`_ is a personal and social
+          search engine. It connects to your daily diet of information
+          and social networks and allows you to search your online
+          world without being distracted by hundreds of 'hits' that
+          are not related to you. Sentimnt uses MongoDb to store tens
+          of millions of documents for users. Our MongoDb instances
+          serve around 2000 queries per second and add 200+ documents
+          every second. We switched from MS SQL to MongoDb and haven't
+          looked back since!
+c110_img: |
+          .. image:: pd-images/workbreeze.png
+c110_txt: |
+          `Workbreeze <http://workbreeze.com/>`_ is fast and
+          minimalistic tool for the freelance offers realtime search.
+          Mongodb is used as a global project storage.
+c111_img: |
+          .. image:: pd-images/komp.gif
+c111_txt: |
+          `Kompasiana <http://www.kompasiana.com/home>`_ is the
+          biggest citizen journalism In Indonesia. Based on alexa
+          rank, Kompasiana is in top 100 biggest site In Indonesia.
+          MongoDB is used to store all posts data.
+c112_img: |
+          .. image:: pd-images/milaap.png
+c112_txt: |
+          `Milaap <http://www.milaap.org/>`_ works with established,
+          grassroots NGOs and Microfinance institutions focused on
+          holistic community development.
+c113_img: |
+          .. image:: pd-images/agentstorm.png
+c113_txt: |
+          `Agent Storm <http://www.agentstorm.com>`_ is a complete
+          Real Estate Contact Manager which empowers you and your
+          agents to build and manage your Real Estate business. Import
+          your Real Estate Listings via RETS and easily display IDX
+          listings on your web site, syndicate out to over 100 Real
+          Estate Portals and build custom eye catching eFlyers all at
+          the click of a button. When a API call is received we send
+          that query to MongoDB which performs the search and returns
+          the primary key id's of the properties matching the query.
+          Those id's are then looked up in MySQL using the primary key
+          returned from MongoDB. Once we have the full result set the
+          results are served up and passed back to the client as
+          either XML or JSON. When a Property is updated either via
+          the Web or external the external python importers (not
+          shown) then the id of the property is stored in a
+          Redis/Resque queue and a worker fired to synchronize the
+          MongoDB with the changes. All this means that on average API
+          query results are returned in ~100 milliseconds.
+
+          - `Now with 50-100 millisecond-search-results
+            <http://www.agentstorm.com/blog/2010/11/19/now-with-50-100
+            -millisecond-search-results/>`_ - Agent Storm Blog (November
+            2010)
+c114_img: |
+          .. image:: pd-images/mashape.png
+c114_txt: |
+          `Mashape <http://www.mashape.com/>`_ is a frustration-free
+          online storefront for developers who want to consume or
+          generate and distribute an API of any kind of service,
+          either an open source project.
+
+          - `How We Switched from Hibernate to MongoDB in a week with
+            Morphia <http://www.10gen.com/presentations/mongosf-2011
+            /how-we-switched-from-hibernate-to-mongodb-in-a-week-with-
+            morphia>`_ - Marco Palladino's Presentation at MongoSF (May
+            2011)
+c115_img: |
+          .. image:: pd-images/ukjobsite.png
+c115_txt: |
+          `The UK Jobsite <http://www.theukjobsite.co.uk/>`_ is an
+          easy to use job board allowing users to quickly search and
+          apply for job vacancies. We use MongoDB for all aspects of
+          the site - in it's entirety it fully runs the awesome
+          MongoDB from job searches to user information everything is
+          kept in documents. For more information we have written a
+          few of the reasons of why we chose Mongo and continue to use
+          it in a full production site - this can be found at
+          `http://www.theukjobsite.co.uk/tech.php
+          <http://www.theukjobsite.co.uk/tech.php>`_.
+c116_img: |
+          .. image:: pd-images/tastebuds.png
+c116_txt: |
+          `Tastebuds <http://tastebuds.fm/>`_ music dating lets you
+          meet like-minded single people who share your love for
+          music. Users can connect with their last.fm username or
+          simply enter a couple of their favourite artists and are
+          immediately shown single people who share their musical
+          preferences. Tastebuds is also integrated with popular
+          events service Songkick.com allowing users to arrange to
+          meet up at concerts they're attending. MongoDB has
+          dramatically increased the speed at which we can search our
+          database of artists. This allows users to rapidly select
+          their preferred artists using our homepage artist
+          autocomplete.
+c117_img: |
+          .. image:: pd-images/skimlinks.png
+c117_txt: |
+          `Skimlinks <http://skimlinks.com>`_ enables publishers to
+          easily monetise online content by converting normal product
+          links into equivalent affiliate links on the fly and via
+          SkimWords will create relevant contextual shopping links to
+          products mentioned in the content. Bringing together more
+          than 25 affiliate networks and over 12,000 retailer programs
+          in one place, Skimlinks makes affiliate marketing a viable
+          mainstream business model and ensures no money is left on
+          the table. We use Mongo to log and report on the almost 2
+          Billion impressions we get every month.
+c118_img: |
+          .. image:: pd-images/vanilladesk.png
+c118_txt: |
+          `www.vanilladesk.com <http://www.vanilladesk.com>`_ is ITIL
+          based servicedesk/helpdesk solution provided as SaaS.
+          MongoDB is used as the main database engine to store all
+          tickets, configuration items, customer and contact details.
+          MongoDB's document oriented approach and high-availability
+          model supported by replica-sets is exactly what enables
+          VanillaDesk to process records fast and keep them safe and
+          available.
+c119_img: |
+          .. image:: pd-images/summify.jpg
+c119_txt: |
+          `Summify <http://summify.com>`_ uses MongoDB as our primary
+          database in which we store all of the news articles we crawl
+          (metadata and HTML content), as well as user timelines. We
+          periodically trim the database, i.e. we keep only the most
+          recent 1000-5000 news stories for each user. Besides this,
+          we also use MongoDB as a cache for URL redirects and Twitter
+          user information (usernames, scores, etc.)
+c120_img: |
+          .. image:: pd-images/dakwak.png
+c120_txt: |
+          `dakwak <http://dakwak.com/>`_ is the easiest and fastest
+          way to translate your website to any language your audience
+          and visitors want. It is a next-generation website
+          localization tool and service. With dakwak, you are minutes
+          away from getting your website localized and translated to
+          more than 60 languages.
+c121_img: |
+          .. image:: pd-images/kapost.png
+c121_txt: |
+          `Kapost <http://kapost.com/>`_'s online newsroom technology
+          enables our users to manage a large group of contributors to
+          produce content. We use MongoDB to store all the data that
+          our users create and provide performance analytics for the
+          newsroom content.
+c122_img: |
+          .. image:: pd-images/contactme.png
+c122_txt: |
+          `ContactMe <http://www.contactme.com/>`_ is a 'light
+          customer relationship management (CRM)' tool designed for
+          small businesses. For many small businesses, enterprise CRM
+          solutions are too cumbersome and technically demanding;
+          ContactMe.com aims to fix this. Besides providing free
+          contact forms and buttons for websites, blogs, and social
+          media sites like Facebook, ContactMe consolidates all of a
+          users' leads and contacts into one place, making for easy
+          and efficient contact management.
+c123_img: |
+          .. image:: pd-images/moontoast.jpg
+c123_txt: |
+          `Moontoast Impulse <http://www.fanimpulse.com/>`_ is a free
+          Facebook application that lets fans play, share, and
+          purchase music right from a Facebook fan page. `Moontoast
+          <http://www.moontoast.com/>`_ is a social commerce company
+          based in Boston and Nashville. Their tools power
+          communities, stores, and private sales clubs that open the
+          doors to a world of new fan-building and revenue-generating
+          opportunities. Moontoast leverages the following
+          technologies in Moontoast Impulse: MongoDB, PHP 5.3, Zend
+          Framework, Doctrine 2, jQuery, Gearman, Ruby, MySQL, and
+          more. Moontoast uses MongoDB to store all product and file
+          system data for Moontoast Impulse.
+c124_img: |
+          .. image:: pd-images/shopperhive.png
+c124_txt: |
+          `Shopperhive <http://www.shopperhive.co.uk/>`_ is a social
+          price comparison shopping site providing comprehensive
+          search, social product reviews, video reviews and the
+          cheapest prices online. Shopperhive uses MongoDB as a highly
+          scalable data back-end storage.
+c125_img: |
+          .. image:: pd-images/tracknose.png
+c125_txt: |
+          `tracknose <http://www.tracknose.com/>`_ develops location-
+          based applications for mobile phones that detect your GPS
+          position and reward you with discount vouchers when you
+          enter a retail outlet that is part of the scheme. MongoDB
+          was chosen for excellent scalability and capacity to manage
+          geospatial indexes, facilitating the generation of
+          georeferenced statistics.
+c126_img: |
+          .. image:: pd-images/wusoup.png
+c126_txt: |
+          `Wusoup <http://www.wusoup.com>`_ is a free online
+          application for meeting interesting people outside of your
+          social circle. MongoDB handles all user and message data,
+          along with all analytics that power the Wusoup algorithm.
+c127_img: |
+          .. image:: pd-images/getfave.png
+c127_txt: |
+          `Fave <http://www.getfave.com/>`_ is a local search
+          application designed to help people find and communicate
+          with their favorite businesses, and to help businesses
+          expand their presence on major search engines. Soon, Fave
+          will be releasing next-generation mobile applications to
+          help its audiences harness the power of geo-aware web
+          services. Infrastructure/architecture containing 14+ million
+          business records; strong emphasis on performance/response
+          time; attempting to leverage flexibility to deliver bulk
+          daily ads/deals and pay per call campaigns
+c128_img: |
+          .. image:: pd-images/doodle.png
+c128_txt: |
+          `Doodle <http://doodle.com/>`_ is the world's leading
+          consensus-scheduling service with millions of users
+          worldwide. We use MongoDB as an addition to MySQL and plan
+          to slowly but steadily persist more data via MongoDB and
+          less data via MySQL.
+
+          - `An introduction to MongoDB
+            <http://blog.doodle.com/english/2011/09/16/an-introduction-
+            to-mongodb/>`_ - Sept 2011 Blog Post
+c129_img: |
+          .. image:: pd-images/findthebest.png
+c129_txt: |
+          `FindTheBest <http://www.findthebest.com/>`_ is an
+          objective, socially curated comparison engine that allows
+          you to find a topic, compare your options and decide what's
+          best for you. Ultimately, FindTheBest allows you to make
+          faster and more informed decisions by allowing you to easily
+          compare all the available options, view expert ratings on
+          products and services and read and write reviews on millions
+          of listings. FindTheBest uses MongoDB for traffic monitoring
+          and analysis as well as storage of user reviews.
+c130_img: |
+          .. image:: pd-images/fuseware.png
+c130_txt: |
+          `Fuseware <http://www.fuseware.net/>`_ provides realtime
+          analysis into social networks, blogs, forums, review sites,
+          multimedia sites and more. This analysis is structured for
+          easy understanding and dissemination by company decision
+          makers. We use Mongo DB clusters to provide scalable data
+          storage for the myriad different web objects that we store.
+          We have hundreds of gigabytes of stored data, and Mongo
+          allows us full horizontal scalability and data access.
+c131_img: |
+          .. image:: pd-images/wherevents.png
+c131_txt: |
+          `Wherevent <http://www.wherevent.com/>`_ is a search engine
+          for geolocated events. It helps people finding local events
+          in their area or in other cities. The entire database is
+          based on a mongoDb sharding. We especially use the
+          geospatial feature.
+c132_img: |
+          .. image:: pd-images/skyline-logo_square.jpg
+c132_txt: |
+          `Skyline Innovations <http://www.skylineinnovations.com/>`_
+          develops and finances distributed renewable energy projects
+          for small businesses. We deploy custom monitoring solutions
+          to maximize the energy production and efficiency gains. We
+          use MongoDB for data warehousing and fast, flexible
+          multidimensional analyses of our real-world data.
+
+          - `Time Series Data Storage in MongoDB
+            <http://www.10gen.com/presentations/mongodc-2011/time-
+            series-data-storage-mongodb>`_ - Andrew Jackson's
+            Presentation at MongoDC (June 2011)
+c133_img: |
+          .. image:: pd-images/memrise.png
+c133_txt: |
+          `Memrise <http://www.memrise.com>`_ combines the art and
+          science of memory to turbocharge learning. We love using
+          MongoDB for all of our learning and web analytics, and any
+          time we want to be able to prototype rapidly without
+          worrying about schema ossification.
+c134_img: |
+          .. image:: pd-images/dather.png
+c134_txt: |
+          `Dather <http://www.dather.com>`_ is a content platform that
+          assembles all of your content by events into an interactive
+          timeline. You can invite friends, family, fans, etc... to
+          join your timeline and contribute their own media and
+          events.
+c135_img: |
+          .. image:: pd-images/fundastic5.png
+c135_txt: |
+          `Fundastic.info <http://www.fundastic.info/>`_ is CrunchBase
+          data + visualization. It offers a graphical way to visualize
+          funding by investors and financial organizations implemented
+          using the Crunchbase API. Fundastic provides dedicated pages
+          for each investor and finanical organization and provides
+          various charts to help understand the investment pattern of
+          an investor or financial organization. Fundastic.info uses
+          MongoDB to store all its investor and financial
+          organizations funding data and performs aggregations on it.
+          Data is stored in MongoDB as JSON documents and integrates
+          seamlessly with Javascript.
+c136_img: |
+          .. image:: pd-images/foofind.png
+c136_txt: |
+          `Foofind Labs <http://foofind.com>`_ is a universal search
+          engine. In Foofind we work creating software that crawls
+          every network and indexes every file. This way, we intend to
+          offer the largest collection of links available. Foofind is
+          a creation by Pablo Soto, P2P technology designer, developed
+          in Madrid, Spain by MP2P Technologies. MongoDB is used to
+          store all the data on the site. This includes several
+          million files, indexed with Sphinx in order to allow text
+          searches.
+c137_img: |
+          .. image:: pd-images/beaconpush.png
+c137_txt: |
+          `Beaconpush <http://beaconpush.com>`_ is a cloud service for
+          push messaging in the browser. Enables any web site to
+          integrate real-time data with a few lines of JavaScript.
+          Supports native Web Sockets with a wide array of fallback
+          methods for older browsers. Beaconpush uses MongoDB to store
+          all message statistics - in real-time. This data is used for
+          presenting reports, charts and statistics for each user.
+          MongoDB handles this with a very low system impact and has
+          proven very efficient for this kind of data storing.
+c138_img: |
+          .. image:: pd-images/easybill.png
+c138_txt: |
+          `Easy Bill <https://www.easybillindia.net.in/>`_, India's
+          first chain of one stop payment collection centres, is yet
+          another initiative in adding value to the life of the common
+          man. Through its vast network of Retail Partners, it offers
+          the consumer never-before convenience in various kinds of
+          transactions. Extensive research revealed that one of the
+          biggest problems faced by the common man is the hassle of
+          dealing with large public and private enterprises for bill
+          payment services. In the last decade, the consumer base of
+          several industries has grown exponentially, though the
+          support services have not been able to keep pace. We use
+          MongoDB for activity logging of our application since our
+          main concern is to write data to db instead of to read.
+c139_img: |
+          .. image:: pd-images/DeskMetrics.png
+c139_txt: |
+          `DeskMetrics <http://deskmetrics.com>`_ is a real-time
+          analytics service for desktop software that enables
+          developers to understand how their users are using their
+          applications. How many are installing, uninstalling,
+          executing their application, where are the users from and
+          help developers to solve bugs by analyzing the exceptions
+          that happened on the user's machine. We use MongoDB to
+          store all data gathered from the users applications and all
+          generated reports. We have chosen MongoDB most because of
+          its simplicity, specially to shard the collections. Shards
+          are very important for us since we collect and analyze a lot
+          of data.
+c140_img: |
+          .. image:: pd-images/interstate.png
+c140_txt: |
+          `Interstate <http://interstateapp.com>`_ provides businesses
+          and developers alike with a solution for keeping on top of
+          development tasks using awesome roadmaps! All of our
+          client's data is stored using MongoDb (roadmaps, roads, user
+          data, etc).
+c141_img: |
+          .. image:: pd-images/proxlet.png
+c141_txt: |
+          `Proxlet <http://proxlet.com/>`_ helps you fight the noise
+          on Twitter, by letting mute users, apps &amp; hash-tags. At
+          it's core, Proxlet is a Twitter API proxy, which allows it
+          to work with a variety of native clients, as well as with
+          Twitter.com by way of browser extensions. Proxlet uses
+          MongoDB to store both code it runs to modify the Twitter
+          stream, per-user setting documents, as well as growing
+          analytics data. Since Proxlet's data set is 100_ JSON &amp;
+          designed to scale horizontally, MongoDB has proven to be the
+          perfect fit.
+
+          - `A Beautiful Marriage: MongoDB and node.js
+            <http://www.10gen.com/presentations/mongonyc-2011/mongodb-
+            and-nodejs>`_ - Chris Ricca's Presentation at MongoNYC (June
+            2011)
+c142_img: |
+          .. image:: pd-images/logo-mini-dayload2.png
+c142_txt: |
+          `Dayload <https://www.dayload.in/>`_ provides a hassle-free
+          Amazon Web Services usage monitoring. We aggregate
+          customer's AWS resource usage and CloudWatch monitoring logs
+          into MongoDB and deliver daily statistics as a HTML mail.
+          Storing AWS resource usage and CloudWatch monitoring logs.
+          Analyzing data with JavaScript MapReduce function.
+c143_img: |
+          .. image:: pd-images/gooby.png
+c143_txt: |
+          `Avivo <http://www.goo.by>`_ is creating modern Identities,
+          Brand design concepts and delivers superb service in a form
+          of touch, mobile, web and custom made solution for LOB (line
+          of business) that enhance user digital experience. Through
+          design and branding processes we help our clients to move
+          from static world into digital world of interaction.
+          Ultimately we are delivering engaging software and custom
+          made applications to our clients that build brand loyalty
+          and helps them to innovate. Our passion for design and
+          commitment to innovation is leading us to dive deeply into
+          research and development with new technologies to brings out
+          the very best for our clients. We are multinational team
+          that lives and works in Ljubljana, Slovenia. MongoDB is the
+          primary database for all of our generated links and tracking
+          statistics.
+c144_img: |
+          .. image:: pd-images/abusixproject.png
+c144_txt: |
+          `Abusix <http://abusix.com>`_ is the network and email abuse
+          handling specialist providing network abuse reporting,
+          customized spamfeeds(www.spamfeed.me), consulting and tools
+          against network abuse for ISPs, ESPs and technology
+          providers. We know about the needs network operators and
+          Internet Service Providers have today, while handling
+          thousands of incoming complaints and millions of incoming
+          datasets about abusive behavior in their network manually,
+          but still not solving blacklistings and reputation problems.
+          There is a major need for a solution that handles all these
+          information in a semi or fully automatic way in order to
+          increase customers security and satisfaction, increase
+          infrastructure security and performance, free resources in
+          abuse departments for real anti-abuse work and
+          minimizecustomer care costs. We use the MongoDB in
+          environments where we need a fast and scalable storage
+          solution which is easy to access. It almost suits all needs
+          and it is fun to work with.
+c145_img: |
+          .. image:: pd-images/idea2.png
+c145_txt: |
+          `Idea2 <http://idea2.com>`_ is a versatile, customizable
+          data management application. Our platform easily allows
+          anyone to create and implement a hosted business management
+          solution that connects customer relationships, projects,
+          customer care and support, business intelligence, and
+          document management in a browser-based, fully managed
+          environment. Idea2 uses MongoDB as its main storage engine
+          for the application and workflow engine. We moved to MongoDB
+          from a traditional SQL database. In making this transition,
+          we also created a better user experience for our clients due
+          to improved application response.
+c146_img: |
+          .. image:: pd-images/family.jpg
+c146_txt: |
+          `FamilyTies <http://www.familyties.com>`_ is family
+          networking - like social networking but designed to make
+          connecting extended families and friends of families easier.
+          Profiles for households and each household member including
+          children under 13, basic family trees, photo sharing, blogs,
+          comments and birthday reminders with much more to come.
+          Mongo is used to store http sessions, photos, the
+          operational data, logs, audit trails and various cache
+          objects that speed up frequently needed expensive to compute
+          data like family trees and relationship maps.
+c147_img: |
+          .. image:: pd-images/pracanowo.png
+c147_txt: |
+          `Pracanowo.pl <http://cv.pracanowo.pl/>`_ is a job portal
+          that helps people create on-line resumes that can be saved
+          into different formats and finds jobs based on experience
+          listed. MongoDB is used to store user account information
+          and in few month to store job postings and board
+          information.
+c148_img: |
+          .. image:: pd-images/rol.png
+c148_txt: |
+          `Republika Online <http://republika.co.id>`_ is the biggest
+          Islamic news portal in Indonesia. It's an online version of
+          'Harian Republika', a national newspaper. We use sharded
+          MongoDB as storage of all news and comments.
+c149_img: |
+          .. image:: pd-images/grepler.jpg
+c149_txt: |
+          `Grepler.com <http://grepler.com/>`_ is a distributed open
+          system that merges several newsgroups, groups, forums and
+          mailing lists to enable single point of access and
+          discussions. Everything is now running from MongoDB except
+          the user accounts which will be mapped in near future.
+c150_img: |
+          .. image:: pd-images/logo-small.gif
+c150_txt: |
+          `Thuisvergelijken.nl <http://www.thuisvergelijken.nl>`_ is
+          one of the biggest Dutch product price comparison and
+          shopping guides. Offering a wide range of products we serve
+          a broad audience of online shoppers. We use MongoDB for
+          pretty much all our data storage: webshops, product data
+          feeds, reviews and our custom written analytics system.
+          MongoDB's flexibility allows us to develop rapidly and still
+          we have the benefits of great performance.
+c151_img: |
+          .. image:: pd-images/salsadb.png
+c151_txt: |
+          `salsadb.com <http://www.salsadb.com>`_ uses MongoDB for
+          importing and merging data sets from spreadsheets. MongoDB's
+          query capabilities are used extensively to allow users to
+          filter and summarize their data.
+c152_img: |
+          .. image:: pd-images/check24.jpg
+c152_txt: |
+          `CHECK24 <http://www.check24.de/>`_ is one of Germany`s
+          leading price comparison websites. On CHECK24.de customers
+          can compare a wide range of products from the fields of
+          insurance, money, energy, telecommunications, and travel and
+          thus save hundreds of Euros per year. In contrast to most
+          other comparison websites which link-out the customer when
+          they want to buy a product, CHECK24 offers integrated ways
+          of effecting a contract. The comparison services for prices
+          and product features are free of charge for the customer.
+          Furthermore, customers get free independent advice by phone
+          from qualified product experts.
+c153_img: |
+          .. image:: pd-images/wheelhouse.png
+c153_txt: |
+          `Wheelhouse CMS <http://www.wheelhousecms.com/>`_ is a Ruby
+          on Rails Content Management System (CMS) designed to be
+          incredibly flexible to develop sites with, and pain-free for
+          you and your clients to use. MongoDB (and MongoModel) is
+          used for all data storage within Wheelhouse CMS.
+c154_img: |
+          .. image:: pd-images/qwikio.png
+c154_txt: |
+          `Qwk.io <http://qwk.io/>`_ is the quickest, easiest way to
+          conduct surveys. It's built on Ruby on Rails and MongoDB for
+          the backend.
+c155_img: |
+          .. image:: pd-images/amebalogo_b1.gif
+c155_txt: |
+          ` <http://www.cyberagent.co.jp/>`_CyberAgent,Inc.
+          hasstrongly expanded its business into a wide range of
+          internet services. Currenty CyberAgent's major business
+          categories are Internet Media, Internet Advertising Agency
+          and the Investment Development. CyberAgent,Inc. is using
+          MongoDBin 'Ameba' services. We
+          also have an American office: `CyberAgent America.
+          <http://www.cyberagentamerica.com>`_ Social Game with
+          node.js + MongoDB `Presentationfrom Mongo Tokyo (March 2011)
+          <http://www.slideshare.net/snamura/mongodb-nodejs>`_
+c156_img: |
+          .. image:: pd-images/hh-logo.png
+c156_txt: |
+          `HeiaHeia.com <http://www.heiaheia.com>`_ provides web and
+          mobile services that motivate people to move more, share
+          activities with friends, and cheer others bringing a fun and
+          social dimension into physical activity and wellbeing. Users
+          can choose from over 350 activities and the workouts can be
+          shared also on Facebook and Twitter. HeiaHeia.com's
+          technology offers a cost-efficient, commercially attractive
+          way for various communities to provide engaging, customized
+          online services for wellbeing.
+c157_img: |
+          .. image:: pd-images/newscurve-logo.png
+c157_txt: |
+          `NewsCurve <http://www.newscurve.com/>`_ is an analytics
+          tool providing effectiveness metrics of online content in
+          real-time. We use MongoDB as primary database storage to
+          store analytics data.
+c158_img: |
+          .. image:: pd-images/logo300.gif
+c158_txt: |
+          `Accounting SaaS Japan <http://www.a-saas.com/>`_ provides
+          Accounting Services via SaaS targeted towards Japanese
+          certified accountants and small and mid-size businesses.By
+          using MongoDB in our tax return service (other services
+          include, but are not limited to, general ledger and
+          payroll), we are able to achieve the flexibility necessary
+          to meet the rapidly changing demands and specifications
+          vital for such a system--something that is difficult to
+          accomplish with the relational or file-based approach.
+c159_img: |
+          .. image:: pd-images/sitename.gif
+c159_txt: |
+          `Fabric Structures Community <http://fstructures.com>`_ is a
+          project to ensure the enlargement of the textile structures
+          market share in the overall construction sector by providing
+          more comprehensive and up-to-date information to potential
+          customers about the textile structures range and
+          opportunities, as well as to companies operating in this
+          field. MongoDB is used for storing and indexing our member
+          profiles and company directory.
+c160_img: |
+          .. image:: pd-images/eg-banner.png
+c160_txt: |
+          `Brenden Digital <http://eastghost.com>`_ uses MongoDB for
+          everything except transactional features, and even those are
+          being migrated. We appreciate MDB for its smaller size, much
+          fast performance and ease of implementation. It repeatedly
+          exhibits an elegance, a sublime aura that is the mark of
+          excellence and thorough comprehension.
+c161_img: |
+          .. image:: pd-images/attachmentsme.png
+c161_txt: |
+          `Attachments.me <http://attachments.me/>`_ is a search
+          engine for your email attachments. MongoDB stores all the
+          meta-information surrounding attachments, messages, and
+          users.
+c162_img: |
+          .. image:: pd-images/thumbtack.png
+c162_txt: |
+          `Thumbtack <http://www.thumbtack.com/>`_ is an online
+          marketplace for local services. We use MongoDB as the
+          datastore for all of our analytics, due to its excellent
+          performance, flexible document format and powerful query
+          language. More details can be found in our recent blog post:
+          `Building our own tracking engine with MongoDB
+          <http://engineering.thumbtack.com/2011/05/03/building-our-
+          own-tracking-engine-with-mongodb/>`_
+c163_img: |
+          .. image:: pd-images/chirpatme.png
+c163_txt: |
+          `ChirpAt.Me <http://chirpat.me/>`_ enables Twitter users to
+          build their own real-time discussion board to share their
+          passions and expertise with their friends and followers.
+          ChirpAt.Me uses MongoDB for all of their data storage from
+          user sessions to messages and preferences.
+c164_img: |
+          .. image:: pd-
+          images/_E5_A4_A7_E4_BC_97_E7_82_B9_E8_AF_84_E7_BD_91.png
+c164_txt: |
+          `DianPing.com <http://www.dianping.com>`_ is a leading city
+          life guide site and local businesses promotion platform in
+          China, it provides objective and rich local information, in
+          the areas of restaurants, entertainment, shopping, beauty,
+          weddings and various other categories. MongoDB is used for:
+          user-behavior analysis system the counter on businesses,
+          users, groups simple message queue service.
+c165_img: |
+          .. image:: pd-images/venmo.png
+c165_txt: |
+          `Venmo <https://venmo.com/>`_ is a free and easy to use
+          mobile app friends can use to pay each other back for lunch,
+          dinner, drinks, rent, groceries, tickets, and trips. Venmo
+          uses MongoDB for internal reporting and for storing
+          activities published by users for their friends to browse.
+c166_img: |
+          .. image:: pd-images/logo-intelie.png
+c166_txt: |
+          `Intelie <http://www.intelie.com/>`_ is a software that
+          receives data from several sources and, using Complex Event
+          Processing (CEP) and machine learning techniques, makes it
+          possible to detect anomalies and known problems on data
+          centers in real time. We use MongoDB to store all the data
+          that IEM analyses over time, about 5000 documents per minute
+          for one company. Storing these events allow us to 'replay'
+          past scenarios to test new rules, in addition to providing
+          dashboards and charts of historical data.
+c167_img: |
+          .. image:: pd-images/signal.png
+c167_txt: |
+          First, we are using MongoDB's geospatial queries to power
+          location based marketing campaigns. Our users can create a
+          SMS marketing campaign to ask users for their zip code in
+          reply to an SMS message, perform a lookup of known locations
+          (stores) based on that zip code, and return the nearest
+          location to the user. Second, we are using MongoDB to hold a
+          set of summary documents to help us calculate a series of
+          statistics for our Email and SMS subscription lists. Instead
+          of gathering these statistics by running SQL queries in
+          tables with excess of 10 million rows, we're able to get the
+          same numbers by looking at anywhere from 30 - 365 summary
+          documents. As you can imagine, this dramatically speeds up
+          these queries. This use case is documented at
+          `http://johnpwood.net/2011/05/31/fast-queries-on-large-
+          datasets-using-mongodb-and-summary-documents/
+          <http://johnpwood.net/2011/05/31/fast-queries-on-large-
+          datasets-using-mongodb-and-summary-documents/>`_
+c168_img: |
+          .. image:: pd-images/directdialogs.png
+c168_txt: |
+          `Directdialogs.com <http://www.directdialogs.com/>`_ is a
+          cloud-based direct marketing application with email/mobile
+          campaign management capability and a flexible no-card
+          loyalty program. MongoDB works along with Sql Azure and
+          serves as a powerful cache with analytical capabilities.
+          Segmentation of customer/transaction data for marketing
+          purposes, OLAP reporting/analytics based on customer
+          purchase data and data mining models run on MongoDB.
+c169_img: |
+          .. image:: pd-images/dcstorm.png
+c169_txt: |
+          `DC Storm <http://www.dc-storm.com/>`_ helps marketers
+          increase sales, deliver higher ROI and target their digital
+          marketing spend better. The intuitive technology platform
+          and first class service provide actionable insight and
+          control across all digital channels; ensuring clients have
+          the competitive edge to succeed online. MongoDB powers the
+          Storm Platform's dashboard and template storage technology,
+          allowing for easy scalability and redundancy.
+c170_img: |
+          .. image:: pd-images/Logo1.png
+c170_txt: |
+          `Bouncely <http://bouncely.com/>`_ uses MongoDB to save
+          details of every bounced message from Amazon SES. We parse
+          everything and store thousands of records per day on
+          MongoDB. It is also used to retrieve all the information and
+          run MapReduce in order to present statistics to users.
+c171_img: |
+          .. image:: pd-images/www.pclicks.png
+c171_txt: |
+          `PClicks <https://www.pclicks.com/>`_ uses MongoDB for
+          simple real-time analytics to gain up-to-the-minute insight
+          into audiences and then adapt to meet their needs and watch
+          their traffic grow.
+c172_img: |
+          .. image:: pd-images/magnetic2.png
+c172_txt: |
+          `Magnetic <http://www.magnetic.is/>`_ is the leader in
+          search retargeting, enabling advertisers and publishers to
+          use search to reach their most relevant audience online.
+          Magnetic uses MongoDB on servers processing billions of
+          events a month. Beyond performance and scalability, Mongo is
+          a key enabling technology for Magnetic. We leverage the rich
+          data model and storage and analytics features to deliver
+          real-time analytics and simplify and unify a mix of high-
+          performance, web application and data processing servers.
+          MongoDB gives Magnetic a competitive advantage.
+c173_img: |
+          .. image:: pd-images/okezone.png
+c173_txt: |
+          `Okezone.com <http://okezone.com/>`_ is using MongoDB for
+          inline content voting system. We also use MongoDB for
+          rating, polling and commenting system in our video portal.
+          (www.okezone.tv).
+c174_img: |
+          .. image:: pd-images/OpenChimeLogo.png
+c174_txt: |
+          `OpenChime <http://www.openchime.com/>`_ uses MongoDB to
+          help customers easily connect with local service providers
+          of any kind. Thousands of people have found and booked
+          everything from plumbers, maids, and gardeners, to scuba
+          instructors in Mexico and hot air balloon rides in
+          California.
+c175_img: |
+          .. image:: pd-images/logo_monoloop.gif
+c175_txt: |
+          `Monoloop <http://www.monoloop.com/>`_ is a behavioral
+          targeting platform that delivers real time personalization
+          to existing websites. MongoDB is the core datastore that
+          delivers the speed needed to build visitor profiles, compute
+          scores and deliver personalized content to the visitor. The
+          service is currently in open Beta.
+c176_img: |
+          .. image:: pd-images/logo-200x100.png
+c176_txt: |
+          `Yeay.me <http://yeay.me/>`_ is a small startup that uses
+          Grails and MongoDB for building a product recommendation
+          service. MongoDB is used for all it's stored data.
+c177_img: |
+          .. image:: pd-images/activesphere.png
+c177_txt: |
+          `Activesphere <http://www.activesphere.com/>`_ provides
+          services using rails and MongoDB. We use mongoDB for our
+          internal applications as well.
+c178_img: |
+          .. image:: pd-images/scd_logo_main.png
+c178_txt: |
+          `SocialCityDeals <http://socialcitydeals.com/>`_ uses
+          MongoDB to store rapidly changing daily deals related data.
+          Every deal has it's own set of fields and new fields keep
+          showing up frequently making it hard to come up with a
+          correct DB architecture to store the data. With MongoDB's
+          capabilities, we were able to reduce our development effort
+          in half for the site development.
+          Thin_PHP_Framework_(TPF)_0: .. image:: pd-
+          images/thinphp_logo.jpg
+          Thin_PHP_Framework_(TPF)_1: `Thin PHP Framework (TPF)
+          <http://thinkphp.cn/>`_ is a lightweight, flexible open
+          source PHP5 MVC framework. It aims to be a fast, simple,
+          scalable and highly extensible framework. MongoDB is used as
+          a module in TPF to help users scale their database easily.
+c179_img: |
+          .. image:: pd-images/logo-1.png
+c179_txt: |
+          `Newsman App <http://www.newsman.ro/>`_ is an email service
+          provider which focuses on speed and high deliverability. We
+          use Mongo DB for now to build our powerfull subscribers
+          segmentation tool. We allow multiple variables to be stored
+          for each subscriber thus Mongo DB schema free was the
+          perfect choice. We plan to switch to Mongo DB all our other
+          database operations in the future.
+c180_img: |
+          .. image:: pd-images/_szus_masthead.png
+c180_txt: |
+          `Sizzix <http://www.sizzix.com/>`_ uses mongodb to power its
+          e-commerce website that sells thousands of products online.
+c181_img: |
+          .. image:: pd-images/gazaro.png
+c181_txt: |
+          `Gazaro <http://www.gazaro.com/>`_ uses MongoDB as the
+          backend for our business-to-business side, storing tens of
+          millions of raw products across a range of companies.
+c182_img: |
+          .. image:: pd-images/logo.gif
+c182_txt: |
+          `Dropzone.by <http://dropzone.by/>`_ uses mongodb for
+          storing content, banners, taglines and other information. We
+          have also introduced OAuth 2.0 and implemented it using
+          Python/Twisted/MongoDB tandem.
+c183_img: |
+          Cairenhui_0:
+c183_txt: |
+          `Cairenhui <http://www.cairenhui.com/>`_is a Financial
+          Community. The web application is coded in Java(using
+          morphia orm framework) and use Mongodb_1.8.1(base on
+          auto_sharding) to store all UGC data.
+c184_img: |
+          .. image:: pd-images/ez-texting.png
+c184_txt: |
+          `Ez Texting <http://www.eztexting.com/>`_ uses MongoDB to
+          queue incoming text messages before our application
+          processes them - and outgoing text messages after our
+          application processes them for delivery.
+c185_img: |
+          .. image:: pd-images/ikeepm-small.jpg
+c185_txt: |
+          `iKeepm <http://www.ikeepm.com/>`_ is a cloud-based home
+          inventory application. iKeepm uses MongoDB to store photos
+          and file uploads in GridFS.
+c186_img: |
+          .. image:: pd-images/logo.jpg
+c186_txt: |
+          `Maansu.com <http://www.maansu.com/>`_ is an retail book
+          store. Maansu uses MongoDB to store the details of the 16
+          Million books it sells.
+c187_img: |
+          .. image:: pd-images/m24h.jpg
+c187_txt: |
+          `www.motores24h.pt <http://www.motores24h.pt/>`_ is one of
+          the leading classified ads sites in Portugal. We rely solely
+          on MongoDB for our data storage needs. The schemaless nature
+          of MongoDB allowed us to develop a modular platform that we
+          can easily extend to cater for any type of adverts.
+c188_img: |
+          .. image:: pd-images/Techunits_Logo.png
+c188_txt: |
+          `Techunits <http://www.techunits.com/>`_ seeks to work in
+          technologies like large scale Web Development platforms,
+          Deep Crawl technology, Information extraction,
+          Image/Audio/Video analysis, RDF to name a few. Mongo with
+          TechMVC is the best choice for us to be used in such large
+          scale deployments due to Object based architecture.
+          Techunits has already used the MongoDB for several large
+          scale live developments e.g. Buzzers.co.za, Trivian(Game at
+          Nokia Ovi Store), CelebRise.
+c189_img: |
+          .. image:: pd-images/buzzers.png
+c189_txt: |
+          `Buzzers.co.za <http://www.buzzers.co.za>`_
+          `http://buzzers.co.za/ <http://buzzers.co.za/>`_ has chosen
+          MongoDB for the superior performance, in an ever changing
+          environment scalability is the number one priority which
+          others struggle to fulfill, handling millions of products
+          and still offering the best performance is why
+          `Buzzers.co.za <http://buzzers.co.za/>`_ chose MongoDB.
+          Buzzers using MongoLantern for mongodb fulltext search for
+          products and related entities, which makes the search system
+          more intelligent and helpful to customers.
+c190_img: |
+          .. image:: pd-images/paraimpu-logo-60.png
+c190_txt: |
+          `Paraimpu <http://paraimpu.crs4.it/>`_ is a social tool for
+          the Web of Things. It provides a (simple) way to connect,
+          use, inter-connect and socially share things, smart objects,
+          digital equipments, API and services on the Web. MongoDB is
+          used for all the persistent data storage requirements of our
+          platform: performance, horizontal scalability, sharding,
+          heterogeneous data and NoSQL in primis.
+c191_img: |
+          .. image:: pd-images/logo-2.png
+c191_txt: |
+          `Trivian <http://trivian.com/>`_ is a location based social
+          network that incorporates quiz gaming elements. Trivian uses
+          MongoDB to store quiz questions and places.
+c192_img: |
+          .. image:: pd-images/bdc-logo.png
+c192_txt: |
+          `Business.com <http://www.business.com/>`_ is the premier
+          online destination for businesses of all sizes to research,
+          find, and compare the products and services they need to run
+          their businesses. We use MongoDB to power our CMS and
+          taxonomy systems. We also use Mongo's GridFS to store
+          advertiser logos and other static assets.
+c193_img: |
+          .. image:: pd-images/avatar_185111e80f46_64.png
+c193_txt: |
+          `General Flows <http://www.generalflows.com/>`_ is building
+          an app where people can create databases of their stuff,
+          then plug their stuff into some pre-baked 'flows' to let
+          them do useful things with their stuff. So for example you
+          could quickly build a booking system for presentation
+          equipment by building a database of laptop and projectors
+          and plugging them into the 'booking' flow. So we're trying
+          to build an app that deals with totally unknown data
+          structures, because the data structure is created by the end
+          user as they go. We messed around with code-generation
+          techniques (define a conventional model layer from user
+          input) and SQL techniques (EAV) but found the all
+          frustrating to swapped to no-sql style DBs. We evaluated
+          CouchDB, Mongo and Google App Engine and Mongo made it
+          possible to do exactly what we needed. The database is now
+          up and running; we're just rolling out sets and soon we
+          should have some flows up and running, too.
+c194_img: |
+          Art_sy_0:
+c194_txt: |
+          `Art.sy <http://www.art.sy>`_ is a new way to discover art
+          you'll love, featuring work from leading galleries, museums,
+          and private collections around the world. Art.sy is powered
+          by RoR with MongoDB.
+
+          - `Using MongoDB to Build Art.sy
+            <http://www.10gen.com/presentations/mongonyc-2012-using-
+            mongodb-build-artsy>`_ - Presentation from MongoNYC 2012
+c195_img: |
+          .. image:: pd-images/newlogo.png
+c195_txt: |
+          `Spoondate <https://spoondate.com/>`_ is a social community
+          that connects people through shared
+          'cravings' and unique dining
+          experiences. The site enables members to post what they're
+          'craving' and other Spoondaters
+          can engage in a conversation, or suggest meeting for a meal
+          in real time. MongoDB powers our geolocation services, data
+          and member search, analytics, and logging. Thanks to
+          MongoDB, we have been able to add features rapidly and
+          consistently improve our products over time.
+c196_img: |
+          .. image:: pd-images/home_header_logo.png
+c196_txt: |
+          `uQuery Inc. <http://www.uquery.com/>`_ uses a sharded
+          MongoDB infrastructure in which we process about 30GB of
+          data per day that we receive from Apple with all the
+          AppStore content, apps, prices, etc. We have migrated our
+          entire software stack from MySQL to MongoDB.
+c197_img: |
+          .. image:: pd-images/46elks_logotype.png
+c197_txt: |
+          `46elks <http://www.46elks.com/>`_ uses MongoDB to for the
+          backend of it's cloud communication platform. By using
+          MongoDB we can make sure the data of our SMS and phone
+          calling customers is kept safe and always accessible.
+c198_img: |
+          .. image:: pd-images/chalkboard.png
+c198_txt: |
+          `Chalkboard <http://www.yourchalkboard.com/>`_ is a daily
+          marketing solution for small businesses to communicate
+          instantly, locally and socially over mobile and web.
+          Chalkboard works with thousands of local businesses and
+          reaches millions of consumers across third party mobile
+          applications, websites and navigation systems. We utilize
+          MongoDB to archive the 100 millions of analytics data
+          records where we can easily analyze the data internally.
+          With the growing usage of Chalkboard, MongoDB allows to
+          scale our infrastructure in the near future.
+c199_img: |
+          .. image:: pd-images/slogan.png
+c199_txt: |
+          `tisProperty <http://www.tisproperty.com/>`_ is a Realestate
+          Vertical Search Engine that allows users to search for ALL
+          for sale and for rent realestates listed on the Internet. We
+          crawl the Internet daily and MongoDB is being used as a huge
+          cache to store our crawling and indexing results.
+c200_img: |
+          .. image:: pd-images/mobius_logo.png
+c200_txt: |
+          `Digital Media Exchange <http://www.mobiusonline.net/>`_
+          uses MongoDB for several things actually, and we've been
+          using it more and more instead of our main postgres db. The
+          following are some of our use cases: 1. Search engine index
+          storage 2. We run a lot of promo's for our products so we
+          store promo data in mongo. Love the schema-less design. 3.
+          We use it as replacement for our table views to store
+          denormalized data These are just some of the use cases, and
+          i'm very confident that we will find more uses for MongoDB.
+c201_img: |
+          .. image:: pd-images/dailygourmet_logo.png
+c201_txt: |
+          `Daily Gourmet <http://www.dailygourmet.com/>`_ provides
+          regular offers on artisanal and gourmet food products.
+          'We're using MongoDB for our extensive logging/analytics.
+          MongoDB's performance has enabled us to capture information
+          that just wasn't possible with MySQL.'
+c202_img: |
+          .. image:: pd-images/tlp_web_logo.png
+c202_txt: |
+          <span id='lockerproject'><p> Sponsored by `Singly
+          <http://singly.com/>`_, `The Locker Project
+          <http://www.lockerproject.org/>`_ is an open-source P2P
+          network that 'gives people ownership over their personal
+          data and clear control over how it's protected and shared.'
+          The project uses MongoDB as a personal data store; you can
+          `browse this Node.js project on Github
+          <https://github.com/LockerProject>`_.</p></span>
+c203_img: |
+          .. image:: pd-images/loccit.png
+c203_txt: |
+          `Loc. cit. <http://loc-cit.com/>`_ is a small new idea in
+          publishing. Translate-as-you-go, a paragraph at a time. A
+          sentence alone can be explosive. Translate polemically:
+          every passage can be retranslated. MongoDB is our backend
+          database for everything. It allows us to carry thousands of
+          paragraphs from public domain books. We use Mongoengine for
+          Django authentication functionality.
+c204_img: |
+          .. image:: pd-images/naver-logo.jpg
+c204_txt: |
+          `Naver Japan <http://www.naver.jp/>`_ utilizes MongoDB's
+          document-oriented storage and powerful search features for
+          their recently released photo sharing iPhone app,
+          'NAVER Photo Album((
+          `http://itunes.apple.com/jp/app/id449576650 <http://itunes.a
+          pple.com/jp/app/id449576650>`_)', to generate
+          activity feeds. * Use Case: A Photo Sharing App with MongoDB
+          (Japanese) - Presentation at Tokyo's MongoDB study group
+          (September 2011)
+          `http://www.slideshare.net/naverjapan/mongodb-9422893
+          <http://www.slideshare.net/naverjapan/mongodb-9422893>`_
+c205_img: |
+          .. image:: pd-images/myestoreapp.png
+c205_txt: |
+          `My eStore App <http://myestoreapp.com/>`_ uses MongoDB for
+          our entire production systems. We store all users / stores,
+          images and content via Mongo.
+c206_img: |
+          .. image:: pd-images/fslogo_pt.gif
+c206_txt: |
+          `Fotosearch Stock Photography <http://www.fotosearch.com/>`_
+          uses MongoDB to track impressions on which of our stock
+          photo imagesare served when a customer does a search query.
+          It is helping us better understand what a customer is
+          looking for when they do a particular search and will allow
+          us to serve up a better set of results.
+c207_img: |
+          .. image:: pd-images/CloudAmp_Horizontal_300x58.jpg
+c207_txt: |
+          `CloudAmp <http://www.CloudAmp.com>`_ is a data platform for
+          developers. We give you an instant backend for your apps,
+          combining as many data sources as you want. CloudAmp uses
+          MongoDB as storage for data that are aggregated across
+          different private and public data sources and APIs to solve
+          the problem of cloud-scale, real-time data integration for
+          app developers. We also provide a Node.js library
+          'connector' to push data up to our platform from private
+          data sources like MongoDB, MySQL, Redis and public sources
+          like Facebook and Twitter, where we organize it along with
+          other data streams.
+c208_img: |
+          .. image:: pd-images/PoweredBySiteMongo.png
+c208_txt: |
+          `Piyavate International Hospital
+          <http://www.piyavate.com/web/>`_ is a leader in
+          international hospital in Thailand and South East Asia.
+          Their new website need some major enhancement that fit with
+          our ColdFusion and MongoDB, also full text search with Solr.
+          Multi-languages, complex structure and relationship,
+          document management, WYSIWYG form creation, tag system,
+          intranet built-in, full text search, digital asset
+          management. All of these features are totally depend on
+          MongoDB. Almost impossible or very difficult to approach via
+          RDBMS way. That's why MongoDB rules!
+c209_img: |
+          .. image:: pd-images/mindvalleylogo.png
+c209_txt: |
+          `Mindvalley <http://www.mindvalley.com/>`_ is using MongoDB
+          for our in-house analytics, using Sinatra, async_sinatra,
+          Rails, and Mongoid. The ability to 'fire-and-forget' helps
+          us capture and collect site data without compromising page
+          speed, while its document-centric features allows us to
+          quickly retrieve all information about a particular lead.
+          Due to our successful pilot, we're planning to use MongoDB
+          for storing affiliate data, an in-house developed CMS, as
+          well as the social graph in a community application.
+c210_img: |
+          .. image:: pd-images/logo-with-bg.png
+c210_txt: |
+          `Cookfollower <http://cookfollower.com/>`_ is a Twitter like
+          micro blogging, social cooking website where you can find
+          great recipes and meet new people. MongoDB is used to store
+          all recipe data and user's social graph.
+c211_img: |
+          .. image:: pd-images/logo_weconext.png
+c211_txt: |
+          `Weconext <http://www.weconext.eu/>`_ develops and sales
+          a secured web platform to allow professionals to work
+          closer with their partners. This innovative platform allows
+          simple collaborations, concrete work on the same data and
+          quick exchanges of information. MongoDB stores for Weconext
+          all the dynamic part of its backend.
+c212_img: |
+          .. image:: pd-images/visually.png
+c212_txt: |
+          `Visual.ly <http://visual.ly/>`_ is building the Data
+          Visualization platform for Big Data. Visual.ly is using
+          MongoDB for the main data store for their core product.
+c213_img: |
+          .. image:: pd-images/header_nav_logo.png
+c213_txt: |
+          `Trendrr <http://trendrr.com/>`_ provides the key to
+          managing, understanding, engaging, and activating real-time
+          user experiences for media and brands. We use MongoDB to
+          store terabytes of statistical data and content that feed
+          our curation, charting and analytics products.
+c214_img: |
+          .. image:: pd-images/wireclub.png
+c214_txt: |
+          `Wireclub <http://www.wireclub.com/>`_ is an online
+          community with over 3 million users world-wide. Everyday
+          over 1.5 million messages are exchanged by our users and we
+          rely exclusively on MongoDB for all our database needs.
+c215_img: |
+          .. image:: pd-images/kano_apps_logo.png
+c215_txt: |
+          `KANO/APPS <http://www.kanoapps.com/>`_ creates addictive
+          social games. Our games have a loyal fan base encompassing
+          millions of worldwide players across multiple social
+          networks like Facebook, Myspace and Hi5. MongoDB is used as
+          the primary data store for game data as well as our
+          analytics platform.
+c216_img: |
+          .. image:: pd-images/onepage_logo.png
+c216_txt: |
+          `OnePageCRM <http://www.onepagecrm.com/>`_ uses MongoDB as a
+          primary (and for now as the only one) database engine. We
+          have been using MySQL some time ago, but we have fully
+          migrated to MongoDB.
+c217_img: |
+          .. image:: pd-images/blabber_logo.jpg
+c217_txt: |
+          `Blabbermouth Social <http://www.blabbermouthsocial.com/>`_
+          use MongoDB to collect and store large amounts of data for
+          social media campaigns for sweepstakes and other purposes.
+          We also use MongoDB for campaign traffic analytics..
+c218_img: |
+          .. image:: pd-images/perrsik.jpg
+c218_txt: |
+          `Persik.me <http://persik.me/>`_ uses MongoDB to power CMS.
+          Please note that this website is NSFW.
+c219_img: |
+          .. image:: pd-images/awkwardturtle.png
+c219_txt: |
+          `Kungfuters LLC <http://awkwardturtle.com/>`_ is using
+          MongoDB as a backend for our socially driven contest site,
+          awkwardturtle.com. Users must sign in using an existing
+          social network, such as Google+, Facebook, or Twitter and
+          users can submit stories of awkward moments in their lives.
+          Visitors can read the stories and vote on their favorites.
+          Each week, the story with the most votes wins a sponsored
+          prize. MongoDB drives the entire backend. This site was
+          formerly connecting to a MySQL database via JPA, but it was
+          just too slow. All Contests, Stories, Users, Votes, etc. are
+          stored in Mongo. The end result is a site reborn and blazing
+          fast.
+c220_img: |
+          .. image:: pd-images/logo-1.png
+c220_txt: |
+          `PunchTab <http://www.punchtab.com/>`_ store all loyalty
+          activities
+c221_img: |
+          .. image:: pd-images/ci1_img1.gif
+c221_txt: |
+          `Nexon Corp. <http://www.nexon.net/>`_ is a massively
+          multiplay online Game server uses MongoDB to archive game
+          records.
+c222_img: |
+          .. image:: pd-images/heyzap.png
+c222_txt: |
+          `Heyzap <http://www.heyzap.com/>`_ uses mongoDB to power our
+          real-time activity streams for millions of users on our
+          Android and iOS gaming apps, additionally Heyzap uses mongo
+          for analytics and insights into game play behavior for tens
+          of millions of our Heyzap SDK enabled games.
+c223_img: |
+          .. image:: pd-images/avatar_18d108235b0c_128.png
+c223_txt: |
+          `Fishidy.com
+          <http://www.fishidy.com/Landing/?ReturnUrl=_2f>`_ uses
+          MongoDB for storing and retrieval of our social data entered
+          by our end users.
+c224_img: |
+          .. image:: pd-images/wokeey.com.png
+c224_txt: |
+          `Wokeey.com <http://wokeey.com/>`_ uses MongoDB for Storing
+          data with big record, approximately in one day can store
+          hundreds records.
+c225_img: |
+          .. image:: pd-images/smFusionLogoBlack.png
+c225_txt: |
+          `ThinktankSocial <http://smfuse.com/>`_ uses MongoDB as one
+          of the core technologies behind our platform that enables
+          large brands such as Priceline Australia, Fitnfast Gyms to
+          engage its users, Mongo enables real time reporting and mass
+          storage with a smaller overhead than Mysql or other SQL
+          based databases.
+c226_img: |
+          .. image:: pd-images/data-publica-logo.png
+c226_txt: |
+          `Data Publica <http://www.data-publica.com/>`_ uses MongoDB
+          for storage of data delivery through API.
+c227_img: |
+          .. image::
+c227_txt: |
+          `Hipster <http://www.hipster.com/>`_ uses MongoDB as the
+          primary data store for users and all user-created content,
+          as well as logging and analytics.
+c228_img: |
+          .. image:: pd-images/izlesene-logo.png
+c228_txt: |
+          `Noktacom Medya <http://www.izlesene.com/>`_ uses MongoDB in
+          www.izlesene.com (Turkey's #1 video site) to log very
+          detailed analytics. We track everything from video
+          impressions to page clicks, videos watched etc. We also
+          built a custom video scoring system using MongoDB depending
+          on video popularity which is used on video suggestion
+          system. We have 3 machines running MongoDB and we have
+          around 20 to 50 insert calls / second. We will expend using
+          MongoDB and soon to switch from MySQL to MongoDB fully
+          because of no usage of caching systems required with mongo.
+          Best,
+c229_img: |
+          .. image:: pd-images/searce.png
+c229_txt: |
+          `Searce <http://searce.com/>`_ we used mongoDB as our
+          database for a very large set of data.Almost 5-10
+          collections having millions of documents.
+c230_img: |
+          .. image:: pd-images/deegr_fat.png
+c230_txt: |
+          `deegr <http://www.deegr.com/>`_ is using MongoDB to store
+          millions of ratings and to provide an ultra-quick and
+          innovative recommendation engine. As our community is
+          growing pretty quickly, we're aiming to build a cloud-based
+          architecture and shard MongoDB in the cloud in a near-
+          future.
+c231_img: |
+          .. image:: pd-images/appharbor-logo.png
+c231_txt: |
+          `AppHarbor <https://appharbor.com/>`_ is a .NET platform as
+          a service. `AppHarbor <https://appharbor.com/>`_ uses
+          MongoDB to log, track and retain error messages generated by
+          thousands of platform applications. Applications hosted on
+          AppHarbor can provision MongoDB databases as on `add
+          <https://appharbor.com/addons>`_-on from `MongoHQ
+          <https://appharbor.com/addons/mongohq.>`_
+c232_img: |
+          .. image:: pd-images/pictomist.png
+c232_txt: |
+          `Pictomist <http://pictomist.com/>`_ is a simple and
+          attractive way to browse &amp; share photos that we spun up
+          in under two weeks. Its written in two basic parts: the
+          first being a service layer that parses twitter pushes
+          results into a queue style mongo collection (not sharded
+          yet, but will be as we grow it) where a separate thread will
+          then pops off the top elements and parse these
+          results/resize images/and pushes into our media collection.
+          The second part is web layer which grabs media from a Mongo
+          collection indexed by hashtag, re-aggregates them in memory,
+          and sends them to the view. The speed and flexibility of
+          Mongo was great in helping us spin out the bulk of this idea
+          over a single weekend coding binge while still allowing us
+          to grow our data layer without mucking around tedious
+          database code and/or bulky ORMs.
+c233_img: |
+          .. image:: pd-images/xperantumlogo.png
+c233_txt: |
+          `Xperantum Xemantics <http://www.xperantum.com/>`_ uses
+          MongoDB to enable users and organizations to define their
+          own data structures, capture the right content from files
+          and analyze those seamlessly.
+c234_img: |
+          .. image:: pd-images/listsbrowserlogo.png
+c234_txt: |
+          `4Apps <http://listsbrowser.com/>`_ uses MongoDB as the main
+          database to save lists and we also use it as user session
+          store after memcached.
+c235_img: |
+          .. image:: pd-images/glologo.jpg
+c235_txt: |
+          `GLO AB <http://www.glo.se/>`_ uses MongoDB Mongodb in
+          'Home-grown' inventory control and manufacturing execution
+          system (MES) software product for Nanowire LED production as
+          the main database for storing unit/wafer/chip data gathered
+          during manufacturing process. We are generating in average
+          10000 documents per day, but expecting to grow to several
+          millions per day. Currently we have cluster consisting of 3
+          servers running within company network.
+c236_img: |
+          .. image:: pd-images/cmisoft.jpg
+c236_txt: |
+          `CMI Soft <http://www.cmisoft.in>`_ uses MongoDB to run the
+          backend of all our custom (Ruby on Rails based) CMS driven
+          websites &amp; e-commerce stores including our company
+          website www.cmisoft.in. We have also developed intranets,
+          social networking apps and have 2 community oriented
+          e-commerce concepts under development which use Rails with
+          MongoDB.
+c237_img: |
+          .. image:: pd-images/fyndlr-logo.png
+c237_txt: |
+          `Fyndlr <http://fyndlr.com/>`_ implements MongoDB from the
+          backend service that powers fyndlr. All data about lost
+          &amp; found posts and users are organized in MongoDB
+          collections. We rely heavily on MongoDB for our geolocation
+          functionality. Since our service was written in Python, we
+          implemented PyMongo to interface with our MongoDB instance.
+c238_img: |
+          .. image:: pd-images/exceptiontai.png
+c238_txt: |
+          `Exceptiontail <https://www.exceptiontail.com/>`_ uses
+          MongoDB in order to store user and exception information
+          Exceptiontail is a .Net exception management service that
+          allows developers to know when their applications crashed
+          and lets them see the entire system/process/exception
+          information for that crash.
+c239_img: |
+          .. image:: pd-images/adhui.gif
+c239_txt: |
+          `AdHui.com <http://www.adhui.com/>`_ uses mongoDB for real-
+          time cookie analytics. Leading provided for DSP and SEM
+          optimization.
+c240_img: |
+          .. image:: pd-images/travelmap_mongodb.org.png
+c240_txt: |
+          `Travelmap <http://www.travelmap.nl/>`_ uses MongoDB to
+          store hotels, tickets and holiday-packages aggregated live
+          from a bunch of sources. Travelmap is one of the biggest
+          travel websites in the Netherlands. MongoDB proved to be up
+          to 5 times faster and much more scalable then our previous
+          mysql installation, on the same hardware! On average our
+          database contains ~20 million objects.
+c241_img: |
+          Global_Advertisers_0:
+c241_txt: |
+          `Global Advertisers
+          <http://globaladvertisers.in/company.aspx>`_ uses MongoDB to
+          help with blogging. Global Advertisers is India's most
+          progressive outdoor advertising agency. Armed with Mumbai's
+          largest hoarding @ Bandra to widest hoarding @ Airport.
+          Global is one stop for anything and everything under OOH.
+c242_img: |
+          .. image:: pd-images/meltlogo.png
+c242_txt: |
+          `Melt DSP <http://www.meltdsp.com/>`_ is using MongoDB to
+          answer millions of bid requests per hour in a time shorter
+          than 5ms EACH!
+c243_img: |
+          .. image:: pd-images/stm_logo.png
+c243_txt: |
+          `Startup Threads Monthly
+          <https://www.startupthreadsmonthly.com/>`_ uses MongoDB as
+          its backend database for customer info.
+c244_img: |
+          .. image:: pd-images/songza-logo-092011.png
+c244_txt: |
+          `Songza <http://songza.com/>`_ uses MongoDB to hold all the
+          data that drives the web site. Songza is a Music Concierge -
+          a free streaming service that finds you the right playlist
+          at the right time. Users, playlists, interaction history,
+          etc. The schema-free design is a big win for us. When we
+          used MySQL, schema migrations were a major pain, and
+          occasionally a cause of extended downtime.
+c245_img: |
+          .. image:: pd-images/contact506-pequeno.png
+c245_txt: |
+          `Ciris <http://www.contact506.com/>`_ is a new application
+          where you can find contact information about the people in
+          Costa Rica. We use MongoDB to store the documents for every
+          person and registered business in the country.
+c246_img: |
+          .. image:: pd-images/socialbakers.png
+c246_txt: |
+          `Socialbakers Inc. <http://www.socialbakers.com/>`_ For
+          storing great amount of statistical data from social
+          networks.
+c247_img: |
+          .. image:: pd-images/neongrid.png
+c247_txt: |
+          `Neon Grid <http://www.neongrid.com/>`_ uses mongodb to
+          store profiles, and associate creative skills with our
+          users.
+c248_img: |
+          .. image:: pd-images/exmachina.png
+c248_txt: |
+          `Ex Machina <http://www.exmachinagames.com/>`_ develops
+          second screen applications for large TV shows around the
+          world. This typically involves tens or hundreds of thousands
+          of people interacting with our clusters at exactly the same
+          time and as a result we have to be able to deal with many
+          thousands of database operations per second. We needed a
+          storage solution that offers very good performance, is easy
+          to scale up fast and remains cost-efficient regardless of
+          scale. MongoDB offers all of the above along with a helpful,
+          active community. We never looked back.
+c249_img: |
+          .. image:: pd-images/bellyballot.jpg
+c249_txt: |
+          `BellyBallot <http://babynames.net/>`_ is a new site for
+          expecting parents that mixes social media with baby names.
+          BellyBallot uses MongoDB for it's primary content serving
+          which includes the thousands of names around the world, and
+          their associated meanings, pronunciations, etc.
+          BellyBallot's custom content management system (built on
+          Rails) is also on MongoDB and allows the community and site
+          admins to keep the content relevant.
+c250_img: |
+          .. image:: pd-images/admaster.png
+c250_txt: |
+          `AdMaster <http://www.admaster.com.cn/>`_ uses MongoDB for
+          its social networking analytics product, WeiboMaster, to
+          store the infomation of over 40,000,000 followers and
+          700,000 tweets with 35,000,000 relevant comments and
+          retweets.
+c251_img: |
+          .. image:: pd-images/getvega_logo.jpg
+c251_txt: |
+          `GetVega <http://www.getvega.com/>`_ is a second memory
+          for your projects and passions. GetVega helps you collect in
+          a really smart way the relevant data from the webpage you
+          visit: pictures, videos, prices... Everything goes then in a
+          collaborative list on GetVega where each will be able to
+          comment, rate and compare everything you collected.
+          GetVega.com uses MongoDB for the whole back-end (except
+          search with Solr), after a first prototype with MySQL.
+          MongoDB allow us to store versatile data in a blazing fast
+          scalable way!
+c252_img: |
+          .. image:: pd-images/5searches.png
+c252_txt: |
+          `5Searches <http://www.5searches.com/>`_ uses MongoDB it to
+          manage all of my social media users and profiles!
+c253_img: |
+          .. image:: pd-images/barbull.png
+c253_txt: |
+          `barbull.co.uk <http://www.barbull.co.uk/>`_ uses MongoDB to
+          store a list of searchable attributes for personal trainers,
+          which is fast and reliable and the ability to add custom
+          functions and map reduce means that our complex distance
+          calculations are a breeze.
+c254_img: |
+          .. image:: pd-images/power-lan.png
+c254_txt: |
+          `Power-lan <http://www.power-lan.com/en/home.html>`_ uses
+          MongoDB to store real time data from IP sensors connected to
+          internet (over 3G). Main applications are : - Nondestructive
+          testing (Highway, Aeolian, ...) - Automation and Smart Grid
+          applications
+c255_img: |
+          .. image:: pd-images/sidebuy_logo.png
+c255_txt: |
+          `Sidebuy <http://sidebuy.com/>`_ is a product/deal
+          aggregator that crawls the web and uses an intelligent
+          system to automatically find products and deals. The
+          challenge with traditional DBMS was to store entities with
+          different properties. With MongoDB, entities are stored as
+          documents. Also, with MongoDB expansion problems across our
+          servers have been solved. Sidebuy crawls thousands of
+          webpages per day and store everything in BSON documents now.
+          Geospatial querying is also a big plus for Sidebuy.com.
+c256_img: |
+          .. image:: pd-images/ovipets.png
+c256_txt: |
+          `OviPets <http://ovipets.com/>`_ uses MongoDB for everything
+          in our new facebook game OviPets ( `http://ovipets.com
+          <http://ovipets.com>`_), and are very happy with the
+          performance and simplicity of MongoDB. We're growing rapidly
+          and MongoDB is scaling beautifully with us. Apart from
+          various game related collections we also use MongoDB for
+          sessions storage and image caches.
+c257_img: |
+          .. image:: pd-images/tip-or-skip.jpeg
+c257_txt: |
+          `Tip or Skip <http://tips.by/>`_ uses MongoDB for all of our
+          database needs; user and product storage, interaction,
+          analytics, and job queues.
+c258_img: |
+          .. image:: pd-images/nodegrid.png
+c258_txt: |
+          `Nodegrid <http://nodegrid.com/>`_ provides a hosting
+          platform for MongoDB and also uses MongoDB as the back-end
+          for its service.
+c259_img: |
+          Courseoff_0:
+c259_txt: |
+          `Courseoff <https://courseoff.com>`_ uses MongoDB stores
+          student created schedules as well as the schedule listings
+          themselves.
+c260_img: |
+          .. image:: pd-images/claimable-logo.png
+c260_txt: |
+          `ClaimAble <http://www.claim-able.com/>`_ operates a web app
+          for insurance claims manage net. MongoDB is our primary
+          datastore. We use it exclusively to power our platform and
+          API.
+c261_img: |
+          .. image:: pd-images/ponderdesigns.png
+c261_txt: |
+          `Ponder Design <http://www.ponderdesign.nl/>`_ uses MongoDB
+          to power all custom webapps we write for our customers. From
+          a ticket portal for a large student event to CMS systems to
+          custom surveys. Mongo lets us be very flexible in
+          implementing new features or adjusting existing ones as we
+          discover our customers real requirements and wishes.
+c262_img: |
+          .. image:: pd-images/stamped-logo.png
+c262_txt: |
+          `Stamped <http://stamped.com/>`_ is a recommendation-based
+          social network application that allows users to advocate for
+          their favorite places and things. MongoDB is used to store
+          and receive user data and are responsible for coordinating
+          the creation and enrichment of data about stampable
+          entities.  `The Engineering Behind the Stamped Backed
+          <http://blog.stamped.com/post/22204024267/the-engineering-
+          behind-the-stamped-backend>`_
+c263_img: |
+          .. image:: pd-images/hopperlogo.png
+c263_txt: |
+          `Hopper <http://gethopper.com/you>`_ uses MongoDB for
+          storage of all of our user data and content.
+c264_img: |
+          .. image:: pd-images/recommendly-beta-logo.png
+c264_txt: |
+          `Recommendly INC <http://recommend.ly/>`_ uses MongoDB for 5
+          cluster servers with 3 shards.
+c265_img: |
+          .. image:: pd-images/alisverisrobotu.png
+c265_txt: |
+          `AlisverisRobotu.com <http://www.alisverisrobotu.com/>`_ is
+          a shopping and price comparison engine. We use MongoDB for
+          many things, including inventory management and transaction
+          logging.
+c266_img: |
+          .. image:: pd-images/iternova.jpeg
+c266_txt: |
+          `ITERNOVA SL <http://www.iternova.net/>`_ proudly uses
+          MongoDB in our Intelligent Transport Systems (ITS)
+          management system, to store real-time data obtained from
+          devices installed in roads (weather stations, mesh and
+          sensorial networks...), and vehicles (GPS, ITS data...).
+c267_img: |
+          .. image:: pd-images/mytv_logo.jpeg
+c267_txt: |
+          `tvb.com <http://tvb.com/>`_ uses MongoDB to store storage
+          meta-data of programme in mytv with different data-type.
+          Since MongoDB is schema free it fits our needs. We also use
+          MongoDB in real-time analytics with map-reduce processing.
+          We create statistics for site traffic and a real-time
+          programme chart.
+c268_img: |
+          .. image:: pd-images/ob1b-logo.jpeg
+c268_txt: |
+          `Ob1b.com <http://www.ob1b.com/>`_ is one of China's price
+          compare websites of 3C procuts. On ob1b.com customers can
+          compare price and find products informantion from E-Business
+          websites in China, and Customer can find the right products
+          which they want to buy. We use Mongdb as Data store engine.
+          We have chosen MongoDB most because of its simplicity , easy
+          to study and faster than traditional database.
+c269_img: |
+          .. image:: pd-images/talisaspire.png
+c269_txt: |
+          `Talis <http://www.talisaspire.com/>`_ uses MongoDB to store
+          and serve the graph-based data model in it's Community
+          Edition product ( `http://community.talisaspire.com
+          <http://community.talisaspire.com>`_). By using MongoDB as a
+          replacement for the existing database, we achieved an order
+          of magnitude better performance. At the same time converting
+          to MongoDB allowed us to simplify our stack by removing
+          complex caching infrastructure external to our old database.
+c270_img: |
+          .. image:: pd-images/digital_flow_logo.png
+c270_txt: |
+          `Digital Flow <http://www.digitalflow.co.za/>`_ uses MongoDB
+          as the database of choice for our clients' deployments - the
+          sheer scalability, ease of use and deployment are a no
+          brainer for us.
+c271_img: |
+          .. image:: pd-images/transmachina_360.png
+c271_txt: |
+          `Transmachin <http://www.transmachina.com/en>`_ uses a
+          single-node MongoDB with huge amounts of linguistic data
+          (such as aligned sentences with loads of custom indexing)
+          which is used for automated language learning and also for
+          delivering our website translation service Sprawk.
+c272_img: |
+          .. image:: pd-images/logo-about.me.png
+c272_txt: |
+          `About.me <https://about.me/>`_ is currently processing
+          millions of messages per day. After outgrowing an existing
+          MQ solution, About.me turned to MongoDB. An old MQ cluster
+          was replaced with a sharded Mongo deployment. In addition to
+          the sharding ability, Mongo provided options that allows
+          About.me to tailor durability to the level required.
+c273_img: |
+          .. image:: pd-images/dealer.com-logo.jpg
+c273_txt: |
+          `Dealer.com <http://www.dealer.com/index.htm>`_ deployed a
+          site configuration management system based on MongoDB. The
+          current system supports configuration files for over 15,000
+          customer sites with thousands of revisions per site and an
+          on-disk size of almost 200GB.
+c274_img: |
+          .. image:: pd-images/famigo-logo.png
+c274_txt: |
+          `Famigo <http://www.famigo.com/>`_ stores all valuable data
+          in MongoDB and serves all requests via Amazon EC2 instances.
+c275_img: |
+          .. image:: pd-images/materialsproject-logo.png
+c275_txt: |
+          By scaling materials computations over supercomputing
+          clusters, `The Materials Project
+          <http://materialsproject.org/>`_ has computed the properties
+          of over 80,000 materials and screened 25,000 of these for
+          Li-ion batteries. The Materials Project is making these
+          materials and their properties available to scientists
+          around the world through a sophisticated web interface.
+          MongoDB is at the core of the Materials Project
+          architecture. It is used to schedule and track quantum
+          mechanical calculations of materials properties on
+          supercomputers, to store and search the results of these
+          computations, and to perform advanced analytics on the
+          computed materials properties.
+c276_img: |
+          .. image:: pd-images/mapmyfitness-logo.jpg
+c276_txt: |
+          The `MapMyFitness <http://www.mapmyfitness.com/>`_ user base
+          more than doubled in 2011, beginning an era of rapid data
+          growth, and the traditional MySQL solution for the
+          MapMyFitness web applications hit its ceiling. MongoDB was
+          chosen as the candidate for exploration into NoSQL
+          implementations, and now serves as their data store for
+          rapid application deployment. MongoDB has assisted in
+          serving 2TB+ of geolocation data, to time-series data for
+          live tracking, to user sessions, app logging, and more.
+c277_img: |
+          .. image:: pd-images/simplereach-logo.png
+c277_txt: |
+          `SimpleReach <http://simplereach.com/>`_ powers the Slide, a
+          recommendation powered content discovery technology for
+          websites. SimpleReach builds schemas in MongoDB and Node.js
+          for powerful, real-time data delivery.
+
+          - `Schemas for Real Time Analytics with Node.js
+            <http://www.10gen.com/presentations/nyc-meetup-group
+            /schemas-for-real-time-analytics-with-node.js>`_ - NYC MUG
+            (January 2012)
+
+          - `Polyglottany is Not a Sin
+            <http://www.10gen.com/presentations/mongodb-boston-2012
+            /polyglottany-not-sin>`_ - MongoDB Boston 2012
+c278_img: |
+          .. image:: pd-images/stripe-logo.png
+c278_txt: |
+          MongoDB is used for Monster,  `Stripe's
+          <https://stripe.com/>`_ in-house framework for producing and
+          consuming events. Whenever a user logs in, a payment is
+          received, or a cron job runs, an event is logged into our
+          MongoDB event store. These events update aggregate totals,
+          feed into fraud algorithms, and can be analyzed as a change
+          log of the system.
+c279_img: |
+          .. image:: pd-images/tuttur.com.jpg
+c279_txt: |
+          `Tuttur.com <https://tuttur.com/>`_ is a social betting
+          platform built and maintained by Tart New Media[3]. Users
+          are encouraged to share their betting experience and win
+          together. MongoDB holds all the Social experience data over
+          6 Linux machines.
+c280_img: |
+          .. image:: pd-images/wireload.png
+c280_txt: |
+          `WireLoad <http://wireload.net/>`_ uses MongoDB as a
+          redundant storage back-end. WireLoad designs software apps
+          that are narrowly focused so that we can polish each part to
+          a shine so you can enjoy the quality, ease of use and
+          pleasant user experience that results.
+c281_img: |
+          .. image:: pd-images/illimongo.png
+c281_txt: |
+          `Illicotravel <http://www.illicotravel.com/>`_ compares
+          hundreds of travel sites. We use MongoDB to store tickets,
+          holiday-packages, hotels and more. We love MongoDB.
+c282_img: |
+          .. image:: pd-images/drawabble.png
+c282_txt: |
+          MKN's (MKN Web Solutions) Facebook game `'Drawabble'
+          <https://drawabble.com/>`_ utilizes MongoDB 100_ for all
+          database operations. The database stores user interaction,
+          games, game drawings, and everything else.
+c283_img: |
+          .. image:: pd-images/logo_spideo.jpeg
+c283_txt: |
+          `Spideo <http://spideo.tv/>`_ using MongoDB to store
+          customers information, in order to recommand them movies
+          related to their own tastes.
+c284_img: |
+          .. image:: pd-images/radi8_300x300.jpeg
+c284_txt: |
+          `radi8.co.uk <http://radi8.co.uk/>`_ using MongoDB within
+          Ruby on Rails Development Projects.
+c285_img: |
+          .. image:: pd-images/PRIJSZOEKEN.nl.png
+c285_txt: |
+          `PRIJSZOEKEN.nl <http://www.prijszoeken.nl/>`_ is a Dutch
+          price and product comparison website. We are offering more
+          than 1.5 million products from 500 connected shops. We use
+          MongoDB to handle pretty much everything: all our data-
+          feeds, our custom made analytics system and product
+          specifications. MongoDB is perfect for us, it allows us to
+          develop rapidly and the performance is great.
+c286_img: |
+          .. image:: pd-images/justrecologo.png
+c286_txt: |
+          `JustReco <http://www.justreco.com/landing>`_ uses MongoDB
+          as its primary database for their social networking site.
+c287_img: |
+          .. image:: pd-images/gimme_bar-215.png
+c287_txt: |
+          `Gimme Bar <http://seancoates.com/blogs/>`_ use MongoDB for
+          the entire backend datastore (everything except media
+          assets, which are stored directly in S3). We currently have
+          a multi-node replica set. Not (yet) sharded. Current VSIZE
+          is around 70g.
+c288_img: |
+          .. image:: pd-images/nodex.png
+c288_txt: |
+          `Nodex <http://www.nodex.co.uk/>`_ use MongoDB as our
+          primary data store for our CMS which is soon to be open
+          sourced. We have many websites running on MongoDB and are
+          expanding at a rate of around 1 per week (avg). Using
+          MongoDB enables rapid development of fast and secure
+          websites. If you would like some more information I am happy
+          to write a blog post more outlining how we use it.
+c289_img: |
+          .. image:: pd-images/heyfuture.png
+c289_txt: |
+          `FramtidsPost AB <http://dev.heyfuture.com/>`_ uses MongoDB
+          for all our storage need in the HeyFuture, FuturePing and
+          BackFuture services. The FuturePing messages are very small
+          and counts to millions. The HeyFuture and BackFuture
+          messages are big and can carry significant payload. For very
+          different storage characteristics we have been able to use
+          MongoDB in a multi region setup with replication and
+          sharding.
+c290_img: |
+          .. image:: pd-images/beanstakdata.gif
+c290_txt: |
+          `Beanstalk Data <http://beanstalkdata.com/>`_ uses MongoDB
+          for its aggregation abilities and its amazing insert
+          capacity.
+c291_img: |
+          .. image:: pd-images/wline.gif
+c291_txt: |
+          `wline <http://wline.hu/>`_ uses MongoDB to store level
+          system data, experience points, and levels.
+c292_img: |
+          .. image:: pd-images/talkover.png
+c292_txt: |
+          `TalkOver <http://talkover.com/>`_ uses MongoDB as its
+          primary database for online communication service. MongoDB
+          is very good for our 'feeds' functionality. it's easy to
+          create channels and subscribers to show interesting and
+          friendly content to users. Sharding is solving our problem
+          with hightload problem.
+c293_img: |
+          .. image:: pd-images/storehr.png
+c293_txt: |
+          `StoreHR <http://www.storehr.com/>`_ uses MongoDB as a super
+          fast and scalable platform for our Proactive Web Based HR
+          software which keeps employee data and documents compliant,
+          secure and always available - Perfect when it comes to due
+          diligence at exit time! Mongo on AWS let us get up and
+          running quickly during development and lets us scale
+          horizontally as needed to meet customer demand.
+c294_img: |
+          .. image:: pd-images/trillsy_large.png
+c294_txt: |
+          `Trillsy <http://www.trillsy.com/>`_ uses MongoDB for
+          everything, user data, multi site data, stats and content.
+c295_img: |
+          .. image:: pd-images/Bottomless_complete_01_Endless.jpg
+c295_txt: |
+          `Bottomless Endless <http://bottomlessinc.com/>`_ uses
+          MongoDB as a complete solution for its scalable distributed
+          Massive Multiplayer Online Gaming Engine Engine 64, born
+          from Zynga's original Mafia Wars game in 2008.
+c296_img: |
+          .. image:: pd-images/Review19.png
+c296_txt: |
+          `Review19 <http://review19.com/>`_ uses MongoDB as a
+          complete solution for its scalable distributed Massive
+          Multiplayer Online Gaming Engine Engine 64, born from
+          Zynga's original Mafia Wars game in 2008.
+c297_img: |
+          .. image:: pd-images/XQ_Interactive-Retail-medium.png
+c297_txt: |
+          `iQmetrix <http://www.iqmetrix.com/>`_ uses MongoDB for our
+          product catalog and for our configuration tool for XQ, our
+          interactive, customer facing, solution for the wireless
+          retail industry. We are running a MongoDB replica set in
+          Microsoft's cloud platform Windows Azure.
+c298_img: |
+          .. image:: pd-images/doocumentslogo.png
+c298_txt: |
+          `Doocuments Software S.L.
+          <http://www.doocuments.com/site/>`_ uses MongoDB to hold all
+          tracking information in a highly available and scalable
+          sharded replicasets cluster. MongoDB provides us with the
+          speed and scalability that we need to store and process all
+          the document reading information we gather from document
+          recipients, producing insight on readers behavior and real-
+          time notifications to our users.
+c299_img: |
+          .. image:: pd-images/jackthreads.jpeg
+c299_txt: |
+          `JackThreads <https://www.jackthreads.com/>`_, an ecommerce
+          company, uses MongoDB for inventory tracking and reporting,
+          allowing us to track products down to the individual unit.
+c300_img: |
+          .. image:: pd-images/shelf9.png
+c300_txt: |
+          `Shelf9 <http://www.shelf9.com/us/>`_ combines the power of
+          a shopping search engine with social shopping features. We
+          uses MongoDB as storage backend for our real-time data-
+          mining code.
+c301_img: |
+          .. image:: pd-images/lumminis.png
+c301_txt: |
+          `Luminis Technologies <http://luminis-technologies.com/>`_
+          is using MongoDB to build the Leren-op-Maat system which is
+          an e-learning platform focussed on personalized learning for
+          high schools. We are currently working with several high
+          schools in the Netherlands where the system is used in the
+          classroom. Most of our data is stored in a replica set
+          running on Amazon AWS. It fits our RESTful architecture very
+          well (our domain model is designed to work well as JSON
+          structures) and the flexible scaling is very important to
+          easily handle the extra load of new schools.
+c302_img: |
+          .. image:: pd-images/betterez.png
+c302_txt: |
+          `Betterez <http://www.betterez.com/>`_ is a SaaS
+          reservations, marketing and planning platform for the
+          transportation industry designed to improve both passenger
+          and operator experiences. MongoDB is used extensively in a
+          replica set configuration spanning multiple data centers.
+          MongoDB drives the Node.js web application and houses both
+          the main data store and analytics data store. The
+          flexibility and resiliency of the platform, combined with
+          it's natural interface with JavaScript, enables the team to
+          build technology with confidence.
+c303_img: |
+          .. image:: pd-images/duvri8108.png
+c303_txt: |
+          `DUVRI 81.08 <https://app.duvri8108.it/>`_ is a governative
+          web application to help Italian corporates so that can
+          manage workspace safety risks to prevent accidents and
+          protect workers' life. DUVRI 81.08 is compliant to safety
+          workspace's law (d.lgs 81/2008). The application is built in
+          PHP with Zend Framework and use MongoDB, configured in
+          replica sets, as documental database wrapped by Doctrine
+          ODM.
+c304_img: |
+          .. image:: pd-images/ZombyLogo.png
+c304_txt: |
+          `Zomby <http://zombyapp.com/>`_ is a massively multiplayer,
+          location-based zombie apocalypse game. It was developed by
+          Kudzu Creative Group. We chose MongoDB for our server
+          primarily because of the ease of scalability. As our user-
+          base expands globally, we will need to have multiple servers
+          around the world, and MongoDB (and Erlang) will allow us to
+          do that with minimal headache. Furthermore, due to the
+          location-based nature of our game, we make extensive use of
+          MongoDBs geospatial queries, which are both convenient and
+          efficient.
+c305_img: |
+          .. image:: pd-images/gusanitodotcom.png
+c305_txt: |
+          `Gusanito.com <http://www.gusanito.com/esp/index#>`_ uses
+          MongoDB for its Facebook Apps.
+c306_img: |
+          .. image:: pd-images/aionphotos.jpeg
+c306_txt: |
+          `Aion Innovations <http://www.aionphotos.com/>`_ uses
+          MongoDB as the database for the whole application.
+c307_img: |
+          .. image:: pd-images/support.com.jpeg
+c307_txt: |
+          `Support.com, Inc <http://www.support.com/>`_ provides
+          technology services and software for consumers and small
+          business. We use MongoDB to store massive data sets related
+          to automated snapshots of state and error information for
+          computers, devices and networks. We analyze this data in
+          real-time to identify potential root causes and outcomes of
+          home technology issues, make relevant product
+          recommendations and predict patterns that may lead to
+          subscriber churn.
+c308_img: |
+          .. image:: pd-images/footballrrating-logo.png
+c308_txt: |
+          `Footballrrating <http://chimusolutions.com/tools/>`_ uses
+          MongoDB to store all user data, such as login information,
+          connecting to social network, match votes, and player
+          tracking configurations. Schema-less design means great
+          flexibility in pushing new features without having to
+          migrate clunky SQL tables around multiple servers.
+c309_img: |
+          .. image:: pd-images/factile.png
+c309_txt: |
+          `Factile <http://www.factile.net>`_ is a online free survey
+          platform based on the flexible structure that Mongo DB
+          provides. Each survey is different in structure. Factile
+          uses MongoDB for its fast performance a survey tool need and
+          we run analytics on the survey responses easily.
+c310_img: |
+          .. image:: pd-images/stuff.png
+c310_txt: |
+          `Dir <http://www.dir.io/>`_ uses MongoDB to store all of its
+          data models and finds it very usefull for creating embed
+          documents. Dir is a simple business management tool.
+c311_img: |
+          .. image:: pd-images/Screen-
+          Shot-2012-07-17-at-2.22.53-AM.png
+c311_txt: |
+          `Socialbakers <http://www.socialbakers.com/>`_ uses MongoDB
+          for its API. The company has developed an application that
+          makes it easy for to get sophisticated metrics on
+          performance through Facebook.
+c312_img: |
+          .. image:: pd-images/ymirlink.gif
+c312_txt: |
+          `YMIRLINK <http://www.ymir.co.jp/>`_ is a Tokyo based e-mail
+          service provider specializing in mass e-mail sending service
+          for email marketing. In March 2012 we sent a record 1.6
+          billion e-mail messages per month via our SaaS-based mail
+          system. In July 2012, we further improved the performances
+          of our e-mail sending service by using MongoDB as our new
+          mail transfer agent.
+c313_img: |
+          .. image:: pd-images/jscore_new_logo.png
+c313_txt: |
+          `jScore <http://jscore.pro/>`_ lets recruiters upload a Job
+          Description and resumes they have received/downloaded and
+          lets users score candidates according to the job
+          requirements in seconds. They don't do parsing. jScore reads
+          through the Job Descriptions and Resumes like a human being.
+          They use MongoDB as our primary datastore and also for
+          storing their big data stream which they use for analytics.
+          Blazing fast reads help keep their environment snappy, and
+          no-wait heavy writes help them keep our users working
+          without waiting.
+c314_img: |
+          .. image:: pd-images/mailgun.png
+c314_txt: |
+          `Mailgun <http://mailgun.com/>`_ uses MongoDB as its primary
+          database, which they use for all non-relational data:
+          accounts, stats, logs, DNS cache--everything. Every replica
+          set they have runs with an average daily load of 5,000
+          queries per second using just a couple of servers without
+          breaking a sweat. Mailgun is a set of powerful APIs that
+          allow you to send, receive, track and store email
+          effortlessly.
+c315_img: |
+          .. image:: pd-images/nrohporg-300x67.jpeg
+c315_txt: |
+          The `National Register of Haunted Places
+          <http://www.NRoHP.org>`_ uses MongoDB for everything,
+          including storing and maintaining all data regarding the
+          hundreds of thousands of historic and storied places stored
+          in a fast-growing database. Others can embed and access this
+          data, sharing the joy and speed of MongoDB.
+c316_img: |
+          .. image:: pd-images/camofish.png.png
+c316_txt: |
+          `4thex Solutions
+          <http://4thex.com/products/camofish/camofish.xhtml>`_ offer
+          a security module/realm called Camofish for Glassfish, which
+          uses MongoDB to persist users and password hashes.
+c317_img: |
+          .. image:: pd-images/PrivytvLogo.jpg
+c317_txt: |
+          `PrivyTV <http://www.privytv.com/>`_ uses MongoDB via PHP
+          and Node.js for Content Management, device management and
+          logging for their products.Privytv enables users to create a
+          personal TV channel. Once created, the user's channel name
+          can be shared with friends, family and fans, so that they
+          can tune into the user's channel from their internet-enabled
+          television sets or set-top boxes.
+c318_img: |
+          .. image:: pd-images/Kookoja.png
+c318_txt: |
+          `Kookoja <http://kookoja.com/>`_ is a social networking site
+          that connects Persian speakers from around the world.
+          Kookoja uses MongoDB as its primary data store and uses PHP
+          to serve up pages to users.
+c319_img: |
+          .. image:: pd-images/logo-j-media.jpg
+c319_txt: |
+          `J-Media <http://www.j-media.com/>`_ uses MongoDB to store
+          an audit trail of user activity within their project
+          management system
+...

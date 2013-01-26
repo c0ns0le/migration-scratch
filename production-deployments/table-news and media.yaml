@@ -1,0 +1,139 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: News &amp; Media
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/the-guardian-logo.jpg
+c1_txt: |
+          Guardian.co.uk is a leading UK-based news website. They've
+          spent ten years fighting relational database representations
+          of our domain model, until the implementation of our API
+          made us realize that if only we could store documents
+          everything would be simpler. MongoDB is a key part of the
+          Guardian's infrastructure.
+
+          - `Evolving from relational to document store
+            <http://www.10gen.com/presentations/mongosf-2011/evolving-
+            relational-document-store-guardian>`_ - MongoSF (May 2011)
+
+          - `Why I Chose MongoDB for guardian.co.uk
+            <http://www.infoq.com/presentations/Why-I-Chose-MongoDB-for-
+            Guardian>`_ - QCon London (August 2011)
+
+          - `MongoDB at the Guardian
+            <http://www.10gen.com/presentations/mongouk-2011/mongodb-at-
+            the-guardian>`_ - MongoDB UK (Sept 2011)
+c2_img: |
+          .. image:: pd-images/examiner-logo.png
+c2_txt: |
+          `Examiner.com <http://www.examiner.com>`_ is the fastest-
+          growing local content network in the U.S., powered by the
+          largest pool of knowledgeable and passionate contributors in
+          the world. Launched in April 2008 with 60 cities,
+          Examiner.com now serves hundreds of markets across the U.S.
+          and Canada.   Examiner.com migrated their site from
+          Cold Fusion and SQL Server to Drupal 7 and MongoDB. Details
+          of the deployment are outlined in an `Acquia case study
+          <http://acquia.com/resources/library/case-study-
+          examinercom>`_
+c3_img: |
+          .. image:: pd-images/bi.gif
+c3_txt: |
+          `Business Insider <http://www.businessinsider.com/how-we-
+          use-mongodb-2009-11>`_ has been using MongoDB since the
+          beginning of 2008. All of the site's data, including posts,
+          comments, and even the images, are stored on MongoDB. For
+          more information:
+
+          - `An Inside Look At The Guts Of Our Tech Infrastructure
+            <http://www.businessinsider.com/business-insider-tech-
+            infrastructure-2011-6>`_ (June 2011 Article)
+
+          - `How Business Insider Uses MongoDB
+            <http://www.slideshare.net/ibwhite/how-business-insider-
+            uses-mongodb>`_ (May 2010 Presentation)
+
+          - `How This Web Site Uses MongoDB
+            <http://www.businessinsider.com/how-we-use-
+            mongodb-2009-11>`_ (November 2009 Article)
+c4_img: |
+          .. image:: pd-images/Forbes_LOGO_online.jpg
+c4_txt: |
+          `Forbes <http://www.10gen.com/customers/forbes>`_ has been
+          around for nearly 100 years and on the web for more than a
+          decade; recently, the media space has been a changing
+          landscape. One of the changes that Forbes has undertaken
+          starting in 2010 was the opening up of its digital and print
+          platforms to a global collection of content creators,
+          marketers and audience members. This necessitated the
+          changing of how the site worked, allowing content to flow
+          easily through the site. Forbes began to evaluate how they
+          store and serve their content and decided to use MongoDB.
+          They are currently using MongoDB for storing articles and
+          companies data and are working to move more of their core
+          assets onto it.
+
+          - `Supporting Distributed Global Workforce of Contributors
+            with MongoDB
+            <http://www.10gen.com/presentation/mongonyc-2011/forbes>`_
+            David Dunlop's Presentation at MongoNYC (June 2011)
+c5_img: |
+          .. image:: pd-images/logo-times.gif
+c5_txt: |
+          `The New York Times <http://www.nytimes.com>`_ is using
+          MongoDB in a form-building application for photo
+          submissions. Mongo's `dynamic schema
+          <http://blog.mongodb.org/post/119945109/why-schemaless>`_
+          gives producers the ability to define any combination of
+          custom form fields. For more information:
+
+          - `MongoDB in Production at the New York Times
+            <http://www.10gen.com/presentations/mongonyc-2012-nyt-
+            mongodb-production>`_ - Presentation from MongoNYC 2012
+
+          - `The New York Times R&amp;D Lab and MongoDB
+            <http://www.10gen.com/presentation/mongonyc-2011/nytimes>`_
+            - Presentation from MongoNYC 2011
+
+          - `Building a Better Submission Form
+            <http://open.blogs.nytimes.com/2010/05/25/building-a-better-
+            submission-form/>`_ - NYTimes Open Blog (May 25, 2010)
+
+          - `A Behind the Scenes Look at the New York Times Moment in
+            Time Project <http://hackshackers.com/2010/07/28/a-behind-
+            the-scenes-look-at-the-new-york-times-moment-in-time-
+            project/>`_ - Hacks/Hackers Blog (July 28, 2010)
+c6_img: |
+          .. image:: pd-images/chicagotribune-logo.png
+c6_txt: |
+          The Chicago Tribune uses MongoDB in its `Illinois School
+          Report Cards application
+          <http://schools.chicagotribune.com/>`_, which is generated
+          from a nearly 9,000 column denormalized database dump
+          produced annually by the State Board of Education. The
+          application allows readers to search by school name, city,
+          county, or district and to view demographic, economic, and
+          performance data for both schools and districts.
+c7_img: |
+          .. image:: pd-images/CNNTurk.jpeg
+c7_txt: |
+          `CNN Turk <http://www.cnnturk.com/default.aspx>`_ uses
+          MongoDB for its infrastructure and content management
+          system, including the tv.cnnturk.com, www.cnnturk.com and
+          video.cnnturk.com portals.
+...

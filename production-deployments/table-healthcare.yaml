@@ -1,0 +1,104 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+  - 8: [ content.c8_img, content.c8_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Healthcare
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/Santosoft-Logo.png
+c1_txt: |
+          `Santosoft <http://www.santosoft.com/>`_ uses MongoDB for
+          virtually 100_ of its data related stack. They run a fully
+          blown shard cluster for transactional data, as well as
+          analytics. They are building apps and tools for MongoDB and
+          also hope to build the largest common care database
+          globally.
+c2_img: |
+          .. image:: pd-images/holadoctor.gif
+c2_txt: |
+          `HolaDoctor.com <http://holadoctor.com/es/>`_ is the most
+          comprehensive health and wellness portal available in
+          Spanish for the global online Hispanic community. MongoDB is
+          being used to store all the content for the site, including
+          GridFS to store article images. Session data is also being
+          persisted on our MongoDB cluster using a custom PHP save
+          handler.
+c3_img: |
+          .. image:: pd-images/vitals.gif
+c3_txt: |
+          `Vitals.com <http://vitals.com>`_ consolidates and
+          standardizes doctor and other health provider data from over
+          1,000 sources to help users make informed health care
+          choices. Our technology also powers the websites and
+          backends of insurance companies, hospitals, and other health
+          information brokers. In early October, we switched the
+          datasource for our Find A Doctor location-based search
+          functionality from PostgreSQL to a geo-indexed MongoDB
+          collection. Since then, searches are now five to ten times
+          as fast, and the decreased load on our dataservers permits
+          us to serve more clients. Based on this success, we are
+          transitioning other functionality to MongoDB datasources.
+c4_img: |
+          .. image:: pd-images/talkabouthealth.jpg
+c4_txt: |
+          `TalkAboutHealth <http://talkabouthealth.com>`_ matches
+          people with similar health concerns for answers and live
+          chats. Meet others just like you, learn from experienced
+          peers, and share your experiences.
+c5_img: |
+          .. image:: pd-images/earlydoc.png
+c5_txt: |
+          `Earlydoc <http://www.earlydoc.com/>`_ models medical data,
+          which means things like master-identity management and data
+          normalization occupy a lot of development time: this,
+          specificly, is where the schemaless design of MongoDB is
+          a<b>huge</b> win.
+c6_img: |
+          .. image:: pd-images/Logo-for-alyeska-page.png
+c6_txt: |
+          `D Sharp <http://cdn2.dsharpdiabetes.com/>`_ uses MongoDB to
+          store detailed medical observations and perform complex
+          analysis to help people with diabetes better manage their
+          blood sugars. Built using the Express web framework for
+          Node.js and JQuery Mobile, D Sharp is the only diabetes
+          application that support all types of diabetes on any modern
+          smartphone or browser. This includes iPhone, iPad, Android,
+          Windows Mobile, Blackberry and desktop browsers.
+c7_img: |
+          .. image:: pd-images/vigilant.png
+c7_txt: |
+          `Vigilant Medical <http://vigilantmedical.net>`_ uses
+          MongoDB to manage the large, complex, and often sparse
+          metadata surrounding medical images. MongoDB also provides
+          the entire administrative backbone of Vigilant's enterprise
+          web application, ImageShare.
+c8_img: |
+          .. image:: pd-images/mmr.png
+c8_txt: |
+          `Mini Medical Record <https://minimedrec.com/mmr.php>`_ is
+          designed to improve medical care. While designed to help
+          everyone, it is especially useful for travelers, and others
+          who may receive care through multiple medical systems.
+          Whether paper or electronic, medical records in cutting edge
+          hospitals are often geared more for billing and medicolegal
+          protection. Critical up-to-date information may be very
+          challenging to discover. In addition, even simple
+          information like emergency contact phone numbers and latest
+          medication lists, may be inaccessible for patients who seek
+          care in settings where they do not routinely receive their
+          care. Mini Medical Record alleviates those issues.
+...

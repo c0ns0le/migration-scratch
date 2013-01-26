@@ -1,0 +1,408 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+  - 8: [ content.c8_img, content.c8_txt ]
+  - 9: [ content.c9_img, content.c9_txt ]
+  - 10: [ content.c10_img, content.c10_txt ]
+  - 11: [ content.c11_img, content.c11_txt ]
+  - 12: [ content.c12_img, content.c12_txt ]
+  - 13: [ content.c13_img, content.c13_txt ]
+  - 14: [ content.c14_img, content.c14_txt ]
+  - 15: [ content.c15_img, content.c15_txt ]
+  - 16: [ content.c16_img, content.c16_txt ]
+  - 17: [ content.c17_img, content.c17_txt ]
+  - 18: [ content.c18_img, content.c18_txt ]
+  - 19: [ content.c19_img, content.c19_txt ]
+  - 20: [ content.c20_img, content.c20_txt ]
+  - 21: [ content.c21_img, content.c21_txt ]
+  - 22: [ content.c22_img, content.c22_txt ]
+  - 23: [ content.c23_img, content.c23_txt ]
+  - 24: [ content.c24_img, content.c24_txt ]
+  - 25: [ content.c25_img, content.c25_txt ]
+  - 26: [ content.c26_img, content.c26_txt ]
+  - 27: [ content.c27_img, content.c27_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Real-time stats/analytics
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/intuit.gif
+c1_txt: |
+          `Intuit <http://www.10gen.com/customers/intuit>`_ is one of
+          the world's largest providers of software and services for
+          small businesses and individuals. Intuit uses MongoDB to
+          track user engagement and activity in real-time across its
+          network of websites for small businesses.
+
+          - `Deriving deep customer insights using MongoDB
+            <http://www.10gen.com/video/mongosv2010/intuit>`_ -
+            Presentation at MongoSV (December 2010)
+c2_img: |
+          .. image:: pd-images/buddymedia.png
+c2_txt: |
+          The `Buddy Media
+          <http://www.10gen.com/customers/buddymedia>`_ Platform gives
+          brands the tools to manage their Facebook Pages and engage
+          their Facebook fans. The second iteration of the Publisher
+          tool on the Buddy Media Platform is powered by MongoDB.
+
+          - Social Analytics on MongoDB ( `Video
+            <http://vimeo.com/20489222>`_ and `Slides
+            <http://www.slideshare.net/pstokes2/social-analytics-with-
+            mongodb>`_) - Presentation from February 2011 New York
+            MongoDB User Group
+
+          - `The New Buddy Media Publisher: What You Need To Know
+            <http://www.buddymedia.com/newsroom/2010/11/the-new-buddy-
+            media-publisher-what-you-need-to-know/>`_ - Buddy Media blog
+            (November 2010)
+c3_img: |
+          .. image:: pd-images/bitly.png
+c3_txt: |
+          `bit.ly <http://bit.ly/>`_ allows users to shorten, share,
+          and track links. bit.ly uses MongoDB to store user history.
+          For more information:
+
+          - `bit.ly user history, auto-sharded
+            <http://blip.tv/file/3704043>`_ presentation at MongoNYC
+            (May 2010)
+c4_img: |
+          .. image:: pd-images/mms-thumbnail.png
+c4_txt: |
+          `10gen <http://www.10gen.com/>`_ is the initiator,
+          contributor and continual sponsor of the MongoDB project.
+          10gen built `MongoDB Monitoring Service (MMS)
+          <http://www.10gen.com/mongodb-monitoring-service>`_, a
+          scalable software as a service monitoring tool built using
+          MongoDB. MMS displays data in charts that track performance,
+          resource utilization, availability, and response times.
+          10gen built MMS to provide operational insight into
+          thousands of MongoDB deployments, and uses it to better
+          diagnose and resolve customer issues.
+c5_img: |
+          .. image:: pd-images/chartbeat_media_logo.png
+c5_txt: |
+          `Chartbeat <http://chartbeat.com/>`_ is a revolutionary
+          real-time analytics service that enables people to
+          understand emergent behaviour in real-time and exploit or
+          mitigate it. Chartbeat stores all historical analytics data
+          in MongoDB.
+
+          - `MongoDB &amp; EC2: A love story?
+            <http://www.10gen.com/presentations/nyc-meetup-group
+            /mongodb-and-ec2-a-love-story>`_ - NY MongoDB User Group
+            (Oct 2011)
+
+          - `The Secret Weapons Behind Chartbeat
+            <http://codeshal.tumblr.com/post/499713180/the-secret-
+            weapons-behind-the-chartbeat-beta>`_ - Kushal's coding blog
+            (April 2010)
+
+          - `Kushal Dave's Presentation at MongoNYC
+            <http://blip.tv/file/3701052>`_ (May 2010)
+c6_img: |
+          .. image:: pd-images/logo-boxedice.png
+c6_txt: |
+          Server Density is a `server monitoring
+          <http://www.serverdensity.com>`_ tool from Boxed Ice. They
+          have used MongoDB since June 2009 and are now processing
+          billions of documents every month. Server Density also
+          includes an addon for `MongoDB monitoring
+          <http://www.serverdensity.com/mongodb/>`_ and they have
+          written extensively about MongoDB itself. Blog posts:
+
+          - `Why we migrated from mysql to mongodb
+            <http://blog.boxedice.com/2009/07/25/choosing-a-non-
+            relational-database-why-we-migrated-from-mysql-to-mongodb>`_
+
+          - `Automating partitioning, sharding and failover with
+            MongoDB <http://blog.boxedice.com/2010/08/03/automating-
+            partitioning-sharding-and-failover-with-mongodb/>`_
+
+          - `Notes from a production MongoDB deployment
+            <http://blog.boxedice.com/2010/02/28/notes-from-a
+            -production-mongodb-deployment/>`_
+
+          - `Many more
+            <http://blog.boxedice.com/mongodb/>`_ Presentations:
+
+          - `MongoDB Monitoring and Queueing
+            <http://www.10gen.com/presentations/mongosf-2011/mongodb-
+            monitoring-and-queueing>`_ - David Mytton's Presentation at
+            MongoSF (May 2011)
+
+          - `MongoDB Monitoring and Queueing
+            <http://www.10gen.com/presentations/london-mug/mongodb-
+            monitoring-and-queueing>`_ - London MUG (September 2010)
+
+          - `Humongous Data at Server Density: Approaching 1 Billion
+            Documents in MongoDB
+            <http://www.10gen.com/presentations/webinar/humongous-data-
+            at-server-density-approaching-one-billion-documents-in-
+            mongodb>`_ - Webinar (November 2011)
+
+          - `Ensuring High Availability for Real-time Analytics
+            featuring Boxed Ice / Server Density
+            <http://www.10gen.com/presentations/webinar-ensuring-high-
+            availability-real-time-analytics-featuring-boxed-ice-
+            server>`_ - Webinar (October 2012)
+c7_img: |
+          .. image:: pd-images/zuberance.png
+c7_txt: |
+          Zuberance started using MongoDB as a reporting engine in
+          their enterprise product. In Q3 of 2011, Zuberance decided
+          to build their self serve product to scale it to thousands
+          of brand marketers to have them identify, energize their
+          advocates while giving them real-time analytics.
+
+          - `Why We Like MongoDB at Zuberance
+            <http://engineering.zuberance.com/2012/01/30/why-we-like-
+            mongodb-at-zuberance/>`_ - Zuberance Blog (January 2012)
+c8_img: |
+          .. image:: pd-images/sharethislogosmall.gif
+c8_txt: |
+          `ShareThis <http://sharethis.com>`_ makes it easy to share
+          ideas and get to the good stuff online. ShareThis is the
+          world's largest sharing network reaching over 400 million
+          users across 150,000 sites and 785,000 domains across the
+          web
+
+          - `MongoDB is Powering ShareThis Count System
+            <http://www.10gen.com/presentations/mongosv2010/sharethis>`_
+            - Lenin Gali's Presentation at MongoSV (December 2010)
+c9_img: |
+          .. image:: pd-images/gh.png
+c9_txt: |
+          `GitHub <http://github.com/>`_, the social coding site, is
+          using MongoDB for an internal reporting application.
+
+          - `MongoDB for Analytics <http://www.10gen.com/presentations
+            /mongodb-chicago-2012/mongodb-analytics>`_ - John
+            Nunemaker's presentation at MongoChicago 2012)
+c10_img: |
+          .. image:: pd-images/eventbrite.png
+c10_txt: |
+          `Eventbrite <http://www.eventbrite.com/>`_ gives you all the
+          online tools you need to bring people together for an event
+          and sell tickets.
+
+          - `Building a Social Graph with MongoDB at Eventbrite
+            <http://www.10gen.com/video/mongosv2010/eventbrite>`_ -
+            Brian Zambrano's presentation at MongoSV (December 2010)
+
+          - `Tech Corner: Auto recovery with MongoDB replica sets
+            <http://blog.eventbrite.com/tech-corner-auto-recovery-with-
+            mongodb-replica-sets-2>`_ - Eventbrite Blog (October 2010)
+
+          - `Why you should track page views with MongoDB
+            <http://blog.eventbrite.com/guest-post-why-you-should-track-
+            page-views-with-mongodb>`_ - Eventbrite Blog (June 2010)
+c11_img: |
+          .. image:: pd-images/blinqmedia-logo.png
+c11_txt: |
+          BLiNQ Media, an employee owned social media advertising and
+          technology company, is one of 12 companies globally with
+          access to the Facebook advertising API and the only company
+          that is building its technology, BAM (BLiNQ Ad Manager) in
+          Ruby on Rails. BLiNQ works with some of the world's leading
+          media agencies and brands, helping them place and optimize
+          advertising on Facebook through our proprietary technology.
+          The technology team is headquartered in Midtown Atlanta at
+          the Advanced Technology Development Center (ATDC), one of
+          the world's top 10 incubators. The company's sales and
+          client services headquarters is in TechSpace in New York
+          City's Union Square area. BAM utilizes MongoDb as an
+          operational data store to support millions of Facebook user
+          and advertising campaign data. The data stored in MongoDB is
+          then used for real-time reporting, analysis and optimization
+          against key performance indicators. Since BAM went live in
+          July 2010, it is storing over 7 million records and
+          averaging in excess of 30,000 transactions a day.
+
+          - `MongoDB Delivers Results for Facebook Advertisers
+            <http://www.slideshare.net/blinqmedia/mongodb-delivers-
+            results-for-facebook-advertisers?from=share_email>`_ -
+            Presentation at Mongo Atlanta (February 2011)
+c12_img: |
+          .. image:: pd-images/yottaa.png
+c12_txt: |
+          `Yottaa <http://www.yottaa.com>`_ offers Performance
+          Analytics, a cloud service that monitors, ranks and analyzes
+          the performance of millions of web sites, providing an open
+          database to answer questions such as 'why
+          performance matters' and 'how
+          fast is my site?'. Yottaa is using Ruby on
+          Rails and MongoDB to build its scalable analytics engine.
+
+          - `How Yottaa Uses MongoDB <http://blog.yottaa.com/2010/09
+            /how-yottaa-uses-mongodb/>`_ - Jared Rosoff's presentation
+            at MongoBoston (September 2010)
+
+          - `Scalable Event Analytics with MongoDB and Ruby
+            <http://www.slideshare.net/jrosoff/scalable-event-analytics-
+            with-mongodb-ruby-on-rails>`_ - Jared Rosoff's presentation
+            at RubyConfChina (June 2010)
+c13_img: |
+          .. image:: pd-images/buzzfeed.jpg
+c13_txt: |
+          `BuzzFeed <http://www.buzzfeed.com/>`_ is a trends
+          aggregator that uses a web crawler and human editors to find
+          and link to popular stories around the web. BuzzFeed moved
+          an analytics system tracking over 400 million monthly events
+          from MySQL to MongoDB.
+c14_img: |
+          .. image:: pd-images/ubervu.png
+c14_txt: |
+          `uberVU <http://www.ubervu.com/>`_ is an intuitive social
+          media management and analytics service used by companies of
+          all sizes in 20+ countries. uberVU uses Mongo as its primary
+          data store because of its fast writes, its schemaless
+          approach and reliability.
+
+          - `Intelligent Stream-Filtering using MongoDB
+            <http://www.10gen.com/presentations/mongouk-2011
+            /intelligent-stream-filtering-using-mongodb>`_ - Mihnea
+            Giurgea's Presentation at MongoUK (September 2011)
+c15_img: |
+          .. image:: pd-images/copperegg_logo_250px.png
+c15_txt: |
+          `CopperEgg <http://www.copperegg.com/?utm_source=mongodb&amp
+          ;utm_medium=listing&amp;utm_campaign=partner>`_ RevealCloud
+          `Awesome Cloud Monitoring <http://www.copperegg.com/product
+          /cloud-monitoring/?utm_source=mongodb&amp;utm_medium=listing
+          &amp;utm_campaign=partner>`_ CopperEgg is able to achieve
+          its super real-time updates and alerts of the RevealCloud
+          product with the help of MongoDB. Mongo was the only DB that
+          fit the requirements of extremely rapid storage and
+          retrieval of customer monitoring data to provide on-screen
+          updates every few seconds (NOT minutes). CopperEgg monitors
+          thousands of end points world-wide in real-time. RevealCloud
+          is available to application development organizations to
+          give the instant visibility of system performance in any
+          stage of the development lifecycle, from initial design
+          through production, helping ensure SLAsand giving your
+          customers the response times they expect right now.
+
+          - `Designing Algorithms that Scale Horizontally with MongoDB
+            <http://www.10gen.com/presentations/mongodallas-2011
+            /designing-algorithms-that-scale-horozontally-with-
+            mongodb>`_ - Luke Ehresman's Presentation at MongoDallas
+            (November 2011)
+c16_img: |
+          .. image:: pd-images/loggly-logo.jpg
+c16_txt: |
+          `Loggly <http://loggly.com/>`_ uses MongoDB as a repository
+          of statistics and summary information for time series log
+          data. Loggly collects and stores metrics into MongoDB
+          including the size and count of log events, and the results
+          of saved searches run against our customized fulltext search
+          engine based on SOLR. These metrics are used to drive
+          graphs, reports, dashboards and exciting visualizations for
+          users.
+c17_img: |
+          .. image:: pd-images/pattern-builders-logo.png
+c17_txt: |
+          `Pattern Builders <http://patternbuilders.com/>`_ built a
+          .NET based streaming analytics engine using MongoDB.
+          Relational databases and MSMQ were integrated with MongoDB
+          for high performance and a great user experience.
+c18_img: |
+          .. image:: pd-images/gograph_logo.gif
+c18_txt: |
+          `Go Graph <http://www.gograph.com/>`_ Stock Photography
+          offers over 7 million stock images and graphics. We use
+          MongoDB to track impression data on our search results
+          pages. It helps us to track which results are served when a
+          user does a search query. Using that data we are able to get
+          a better idea of what our customers are looking for, and we
+          are able to serve up better results which will translate
+          into a better overall user experience.
+c19_img: |
+          .. image:: pd-images/VinTank.png
+c19_txt: |
+          `VinTank <http://www.vintank.com/>`_ uses MongoDB to power
+          the analytics and reporting for their social media listening
+          and social CRM features. The company is the only digital
+          think tank for the wine industry.
+c20_img: |
+          .. image:: pd-images/logotype_TC_bg_323235.png
+c20_txt: |
+          `Trunk Club <http://www.trunkclub.com/>`_ uses MongoDB for a
+          variety of applications, including real-time analytics,
+          business intelligence and machine learning.The company
+          allows guys discover awesome clothes that are perfect for
+          them without ever having to go shopping by combining top
+          brands, expert service, and unparalleled convenience to
+          deliver a highly personalized experience that helps guys
+          look their best and saves them time.
+
+          - [Lightweight Business Intelligence with MongoDB
+c21_img: |
+          http://www.10gen.com/presentations/mongodb-chicago-2012
+          /lightweight-business-intelligence-mongodb]
+c21_txt: |
+          <ul type='square'>
+
+          - Cory Ehmke's presentation at MongoChicago 2012)
+c22_img: |
+          .. image:: pd-images/minfil.se-gooood.png
+c22_txt: |
+          `MinFil.se <http://minfil.se/>`_uses MongoDB for distributed
+          &amp; redundant file storage capability. Using MongoDB,
+          GridFS' service basically scales infinitely---they just add
+          more servers as their storage requirement grows, Real-Time
+          Analytics for all our users, all individual files, and for
+          the service in general, tracking pageviews, downloads,
+          unique downlods, referrers, etc
+c23_img: |
+          .. image:: pd-images/jlkjljklmkmmm.egg_0c5d2.png
+c23_txt: |
+          `Appboy <http://www.appboy.com/>`_uses MongoDB for
+          distributed &amp; redundant file storage capability. Appboy
+          is a customer relationship management, marketing, and user
+          analytics platform for mobile applications. They use MongoDB
+          as their primary datastore and analytics backend.
+c24_img: |
+          .. image:: pd-images/ukraine-copy.jpg
+c24_txt: |
+          `Ukrainian Navigation Systems <http://ukrnavi.com/>`_uses
+          MongoDB for its main project database. The company
+          manufactures advanced systems for GPS-monitoring.
+c25_img: |
+          .. image:: pd-images/brand_logo_black.png
+c25_txt: |
+          `ChannelMeter <http://channelmeter.com>`_ harvests hourly
+          and daily analytics from YouTube for millions of videos and
+          tens of thousands of channels and stores them using MongoDB.
+          This information powers ChannelMeter's website, which
+          provides reports, analytics, and recommendations for
+          individual vloggers and corporate giants alike.
+c26_img: |
+          .. image:: pd-images/logo-gopollgo.jpg
+c26_txt: |
+          `GoPollGo <http://www.gopollgo.com/>`_ uses MongoDB as their
+          main data store. They've found it to be great for real-time
+          analytics, which is a big component for them and their
+          users, who include ABC News, ESPN, Netflix and Yahoo.
+c27_img: |
+          .. image:: pd-images/logo-minewhat.png
+c27_txt: |
+          `MineWhat <http://www.minewhat.com/>`_ is an automatic
+          shopping assistance platform for ecommerce. MongoDB powers
+          their data collection, where they need high write speeds in
+          the single digit milliseconds. Aggregation
+          framework/MapReduce provide them with analytics without need
+          of a complex architecture.
+...

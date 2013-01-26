@@ -1,0 +1,53 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Telecommunications
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/viber.jpg
+c1_txt: |
+          `Viber Media <http://www.viber.com/>`_ is using MongoDB as
+          the core cloud infrastructure for its popular iPhone and
+          Android applications that offer free phone calls and text
+          messaging between users over 3G and wireless networks. Viber
+          selected MongoDB for its ability to scale as more users join
+          the Viber community and to manage peak and unpredictable
+          data loads from its 30 million plus registered mobile users.
+
+          - `MongoDB at Viber Media: The Platform Enabling Free Phone
+            Calls and Text Messaging for Over 18 Million Active Users
+            <http://nosql.mypopescu.com/post/16058009985/mongodb-at-
+            viber-media-the-platform-enabling-free>`_ - MyNoSQL (Jan
+            2012)
+
+          - `Viber Media Selects MongoDB as Database in the Cloud for
+            Popular Mobile Apps <http://blog.10gen.com/post/12197182712
+            /viber-media-selects-mongodb-as-database-in-the-cloud>`_ -
+            10gen blog (Nov 2011)
+
+          - `Where NoSQL, cloud computing and free texting converge
+            <http://gigaom.com/cloud/where-nosql-cloud-computing-and-
+            free-texting-converge/>`_ - GigaOm (Nov 2011)
+c2_img: |
+          .. image:: pd-images/o2.png
+c2_txt: |
+          O2 uses MongoDB for several applications, including their
+          Priority Moments location based offer service.
+c3_img: |
+          Ericsson
+c3_txt: |
+c4_img: |
+          Telefonica
+c4_txt: |
+...

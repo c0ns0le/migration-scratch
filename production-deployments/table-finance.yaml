@@ -1,0 +1,240 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+  - 8: [ content.c8_img, content.c8_txt ]
+  - 9: [ content.c9_img, content.c9_txt ]
+  - 10: [ content.c10_img, content.c10_txt ]
+  - 11: [ content.c11_img, content.c11_txt ]
+  - 12: [ content.c12_img, content.c12_txt ]
+  - 13: [ content.c13_img, content.c13_txt ]
+  - 14: [ content.c14_img, content.c14_txt ]
+  - 15: [ content.c15_img, content.c15_txt ]
+  - 16: [ content.c16_img, content.c16_txt ]
+  - 17: [ content.c17_img, content.c17_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Finance
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/secondmarket.jpg
+c1_txt: |
+          `SecondMarket <https://www.secondmarket.com/>`_ is the
+          online marketplace for alternative assets such as private
+          company stock, structured products &amp; bankruptcy claims.
+          SecondMarket uses mongoDB for storing its diverse asset
+          classes in a single collection utilizing the power of the
+          schema free nature of mongoDB. We also store organization
+          news and activity in mongoDB.
+
+          - `Mongo &amp; Mongeez on the SecondMarket Engineering Blog
+            <http://engineering.secondmarket.com/post/17156303982/mongo-
+            mongeez>`_ - Feb 2012
+
+          - `Mongeez <https://github.com/secondmarket/mongeez>`_ the
+            open source, change management tool developed for MongoDB.]
+
+          - `Second Market, MongoDB and Mongeez for Change Management 
+            <http://www.10gen.com/presentations/mongonyc-2011/secondmark
+            et>`_ - Michael Lysaght's Presentation at MongoNYC (June
+            2011)
+
+          - `Mongeez at SecondMarket
+            <http://www.10gen.com/presentations/nyc-meetup-group
+            /mongeez-at-secondmarket>`_ -Michael Lysaght's presentation
+            at the MongoDB User Group (January 2012)
+c2_img: |
+          .. image:: pd-images/acr2.jpg
+c2_txt: |
+          `Athena Capital Research <http://www.athenacr.com/>`_ is a
+          quantitative investment manager, specializing in automated
+          trading strategies.
+
+          - `How a Hedge Fund Uses MongoDB
+            <http://www.10gen.com/presentations/mongonyc-2011/how-a
+            -hedge-fund-uses-mongodb>`_ - Roman Shtylman's Presentation
+            at MongoNYC (June 2011)
+
+          - `Low Latency Event Logging with BSON
+            <http://www.10gen.com/presentations/mongosv2010/acr>`_ -
+            Andrew Morrow's Presentation at MongoSV (December 2010)
+c3_img: |
+          .. image:: pd-images/logo_equilar.gif
+c3_txt: |
+          `Equilar <http://www.equilar.com/>`_ uncovers the direct
+          pathways to the most influential high net worth individuals,
+          and delivers immediate and actionable insight into the
+          equity wealth events that drive business development
+          opportunities. Equilar uses Mongo DB to map and analyze the
+          connections between over 300,000 executives and board
+          members in companies worldwide.
+c4_img: |
+          .. image:: pd-images/aurigausa-logo.png
+c4_txt: |
+          `Auriga USA <http://www.aurigausallc.com/>`_ is a financial
+          services company that operates in the residential mortgage
+          space. Moving to MongoDB solved a host of problems, and
+          assisted Auriga USA in upgrading the functionality of their
+          loan inventory management system to handle many new features
+          and different types of assets, including student loans,
+          credit cards, and asset-back securities.
+c5_img: |
+          Gaming
+c5_txt: |
+          entry55_1:
+c6_img: |
+          .. image:: pd-images/disney.jpg
+c6_txt: |
+          `Disney <http://www.10gen.com/customers/disney>`_ built a
+          common set of tools and APIs for all games within the
+          Interactive Media Group, using MongoDB as a common object
+          repository to persist state information.
+
+          - `A Year with MongoDB: Running Operations to Keep the Game
+            Magic Alive
+            <http://www.10gen.com/presentations/mongosv-2011/a-year-
+            with-mongodb-running-operations-to-keep-the-game-magic-
+            alive>`_ - Curt Steven's Presentation at MongoSV (December
+            2011)
+
+          - `Disney Central Services Storage: Leveraging Knowledge and
+            skillsets
+            <http://www.10gen.com/presentations/mongosf2011/disney>`_ -
+            MongoSF (May 2011)
+c7_img: |
+          .. image:: pd-images/ign.png
+c7_txt: |
+          `IGN Entertainment <http://www.ign.com/>`_, a unit of News
+          Corporation, is a leading Internet media and services
+          provider focused on the videogame and entertainment
+          enthusiast markets. IGN's properties reached more than 37.3
+          million unique users worldwide February 2010, according to
+          Internet audience measurement firm comScore Media Metrix.
+          MongoDB powers IGN's real-time traffic analytics and RESTful
+          Content APIs.
+
+          - `Using MongoDB for IGN's Social Platform
+            <http://www.slideshare.net/lobster1234/mongo-meetup>`_ -
+            Presentation to San Francisco MongoDB User Group (February
+            2011)
+
+          - `Confessions of a recovering relational addict
+            <http://www.10gen.com/presentations/mongosv-2010
+            /confessions-recovering-relational-addict>`_ - Presentation
+            by Chandra Patni at MongoSV (December 2010)
+c8_img: |
+          .. image:: pd-images/wordsquared.jpg
+c8_txt: |
+          `WordSquared <http://wordsquared.com/>`_ (formerly Scrabbly)
+          is a massively multiplayer online<del>scrabble</del>
+          crossword. Uses MongoDB geospatial indexing.
+
+          - `Mapping Flatland: Using MongoDB for an MMO Crossword Game
+            <http://www.10gen.com/presentations/mongoseattle-2011
+            /mapping-flatland-using-mongodb-for-an-mmo-crossword-game>`_
+            - Presentation at Mongo Seattle 2011
+
+          - `Building a Scrabble MMO in 48 Hours
+            <http://www.startupmonkeys.com/2010/09/building-a-scrabble-
+            mmo-in-48-hours/>`_ - Startup Monkeys Blog (September 2010)
+c9_img: |
+          .. image:: pd-images/ea_logo_standard.png
+c9_txt: |
+          MongoDB is being used for the game feeds component. It
+          caches game data from different sources which gets served to
+          `ea.com <http://www.ea.com>`_, `rupture.com
+          <http://www.rupture.com>`_ and the EA download manager.
+c10_img: |
+          .. image:: pd-images/kanogames_mongodb.png
+c10_txt: |
+          `Kano Games <http://www.kanogames.com/>`_ uses MongoDB to
+          build an online gaming web app that integrates social
+          elements. It is a gaming web app that offers a large
+          collection of html5 and flash games with new ones added
+          daily. MongoDB is used to store all persistent data at Kano
+          Games. Reliability, scalability, performance, redundancy and
+          flexibility were all considered when selecting a persistent
+          storage solution and MongoDB beat out the competition as it
+          best fit Kano Games needs.
+c11_img: |
+          .. image:: pd-images/shadelight.png
+c11_txt: |
+          `Shadelight <http://playshadelight.com/>`_ is a unique
+          fantasy roleplaying game where you play one of the legendary
+          Guardians of Elumir. Set out on magical quests, battle
+          mysterious creatures and explore a truly unique fantasy
+          world.
+c12_img: |
+          .. image:: pd-images/adyax.jpg
+c12_txt: |
+          `Freerice <http://www.freerice.com/>`_ is developed by World
+          Food Porgramme, the largest UN humanitary organisation.
+          Freerice.com is a social quizz-like game where each good
+          answer to a question make you win 10 rice grains. Since the
+          begining more than 85 billions of rice grains were won
+          trough freerice. Fully connected with twitter, facebook and
+          groups, freerice tracks down each gain of each person. This
+          generates almost 1 MongoDB row for each right answer, wich
+          mean 8 billions of rows currently stored in Freerice
+          MongoDB. Numerous totals are provided to the end user, which
+          are all stored in Mongo too.
+c13_img: |
+          .. image:: pd-images/large_tile.png
+c13_txt: |
+          `lichess.org <http://www.lichess.org/>`_ uses MongoDB to
+          store more than 3 million chess games. It also contains the
+          analysis, users, forum posts and chat messages. Lichess.org
+          needs blazing fast updates and efficient indexing; mongodb
+          gives it both. Lichess.org is OpenSource! Check the code on
+          `http://github.com/ornicar/lila
+          <http://github.com/ornicar/lila>`_. MongoDB is the
+          database behind `Moshen Limited's <http://www.moshen.com/>`_
+          Facebook game Gambino Poker. MongoDB is used to store all
+          game events and player profiles. We use a 3 node replica-set
+          and RAID 10 EBS Volumes.
+c14_img: |
+          .. image:: pd-images/moshen.png
+c14_txt: |
+          MongodDB is the database behind `Moshen Limited's
+          <http://www.moshen.com/>`_ Facebook game Gambino Poker.
+          MongoDB is used to store all game events and player
+          profiles. Moshen uses a 3 node replica-set and RAID 10 EBS
+          Volumes.
+c15_img: |
+          .. image:: pd-
+          images/277130_336908486385043_1309598764_n.jpeg
+c15_txt: |
+          Hitcents uses MongodDB for primary data storage for their
+          iOS/Android app `PictureTHIS
+          <http://www.facebook.com/PictureTHISCommunity>`_. The app is
+          a cooperative social word game.
+c16_img: |
+          .. image:: pd-images/highfive.png
+c16_txt: |
+          `Gamera Labs <http://www.gameralabs.com/>`_ uses MongoDB for
+          the Real-Time game `High5Poker
+          <http://high5poker.gameralabs.com/>`_. The app is a
+          cooperative social word game. MongoDB is used in production
+          for data storage like players information and statistics.
+c17_img: |
+          .. image:: pd-images/logo-doodleordie.png
+c17_txt: |
+          `Doodle or Die <http://doodleordie.com/>`_ uses MongoDB for
+          almost everything in their online drawing game, including
+          game and player information. Their logging and error
+          tracking is also done through Mongo. More can be found in
+          the MongoDC presentation `Mongo or Die
+          <http://www.slideshare.net/Zugwalt/mongo-or-die-how-mongodb-
+          powers-doodle-or-die>`_.
+...

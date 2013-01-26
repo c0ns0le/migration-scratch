@@ -1,0 +1,64 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Mobile
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/mopub-logo.png
+c1_txt: |
+          `MoPub <http://www.mopub.com/>`_ uses MongoDB for realtime
+          stats, budgeting systems, and user storage.
+c2_img: |
+          .. image:: pd-images/2_reasonably_small.png
+c2_txt: |
+          `Countly <http://count.ly>`_ is an extensible, open source
+          mobile analytics solution for mobile application developers.
+          It tracks applications, customer behaviour or game mechanics
+
+          - so you can focus on increasing user loyalty and
+          engagement. With Countly, collected data is converted into
+          meaningful information in true real-time, thanks to
+          underlying infrastructure with MongoDB, Node.js and Nginx.
+c3_img: |
+          .. image:: pd-images/localytics-logo.png
+c3_txt: |
+          `Localytics <http://www.localytics.com/>`_ uses MongoDB to
+          process over 100M datapoints every day for their mobile
+          analytics service.
+c4_img: |
+          .. image:: pd-images/mobile_helix_logo.gif
+c4_txt: |
+          `Mobile Helix <http://www.mobilehelix.com/>`_ uses MongoDB
+          to provide fast data read/write for the Mobile Helix
+          Gateway, which analyzes data that needs to be delivered from
+          an enterprise's network to a mobile device and pre-fetches,
+          batches and schedules its delivery to be as quick and as
+          efficient as possible. MongoDB enables the gateway to
+          seamlessly scale to millions of devices accessing the Mobile
+          Helix system from all over the globe.
+c5_img: |
+          .. image:: pd-images/hi-512-9.png
+c5_txt: |
+          `Nearley <http://www.nearley.com/>`_ is a mobile geo
+          location application to list all facebook users located
+          within your distance. Nearley uses MongoDB to store user
+          interaction and activities in real-time.
+c6_img: |
+          .. image:: pd-images/o2.png
+c6_txt: |
+          O2 uses MongoDB for several applications, including their
+          Priority Moments location based offer service.
+...

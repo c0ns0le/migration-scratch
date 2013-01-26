@@ -1,0 +1,273 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+  - 8: [ content.c8_img, content.c8_txt ]
+  - 9: [ content.c9_img, content.c9_txt ]
+  - 10: [ content.c10_img, content.c10_txt ]
+  - 11: [ content.c11_img, content.c11_txt ]
+  - 12: [ content.c12_img, content.c12_txt ]
+  - 13: [ content.c13_img, content.c13_txt ]
+  - 14: [ content.c14_img, content.c14_txt ]
+  - 15: [ content.c15_img, content.c15_txt ]
+  - 16: [ content.c16_img, content.c16_txt ]
+  - 17: [ content.c17_img, content.c17_txt ]
+  - 18: [ content.c18_img, content.c18_txt ]
+  - 19: [ content.c19_img, content.c19_txt ]
+  - 20: [ content.c20_img, content.c20_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Ecommerce
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/customink.jpg
+c1_txt: |
+          At `CustomInk <http://www.customink.com/>`_, we believe
+          custom t-shirts have the power to turn your group into a
+          team, elevate your gathering to an event, or make your
+          special moment more... well, momentous. That's why we make
+          it easy to create awesome shirts. CustomInk uses MongoDB for
+          a number of different applications including:
+
+          - Supply Chain Management - MongoDB stores information about
+            t-shirt suppliers and local screen printers.
+
+          - Content Management - MongoDB is used to store the `product
+            catalog <http://www.customink.com/categories/>`_, CustomInk
+            sells hundreds of products, not just t-shrits.
+
+          - Logging - MongoDB is used for logging interactions on the
+            website and as a central store for application
+            logs. Learn more about how CustomInk is using MongoDB
+            from their `presentation given at MongoSV 2011
+            <http://www.10gen.com/presentations/mongosv-2011/mongodb-at-
+            customink-adoption-operations-and-community>`_.
+c2_img: |
+          .. image:: pd-images/opensky-logo.png
+c2_txt: |
+          `OpenSky <http://shopopensky.com/>`_ is a free online
+          platform that helps people discover amazingproducts; share
+          them with their friends, family and followers; andearn
+          money. OpenSky uses MongoDB, Symfony 2, Doctrine 2, PHP 5.3,
+          PHPUnit 3.5, jQuery, node.js, Git (with gitflow) and a touch
+          of Java and Python. OpenSky uses MongoDB for just about
+          everything (not just analytics). Along the way they've
+          developed `MongoODM (PHP) <http://www.doctrine-
+          project.org/blog/mongodb-for-ecommerce>`_ and MongoDB
+          drivers for Mule and CAS.
+
+          - `Blending MongoDB with RDBMS for e-commerce
+            <http://www.10gen.com/presentations/mongonyc-2011/blending-
+            mongodb-with-rdbms-for-ecommerce>`_ - Steve Francia's
+            presentation at MongoNYC (June 2011)
+
+          - `Augmenting RDBMS with NoSQL for e-commerce
+            <http://spf13.com/post/augmenting-rdbms-with-nosql-
+            for-e-commerce>`_ - Steve Francia's presentation at Pg East
+            (March 2011)
+
+          - `MongoDB &amp; Ecommerce: A Perfect Combination
+            <http://www.10gen.com/video/misc/ecommerce>`_ - Video from
+            Steve Francia's presentation to the New York MongoDB User
+            Group (October 2010)
+c3_img: |
+          .. image:: pd-images/gg.png
+c3_txt: |
+          `Gilt Groupe <http://www.gilt.com>`_ is an invitation only
+          luxury shopping site. Gilt uses MongoDB for real time
+          ecommerce analytics.
+
+          - `MongoDB at Gilt <http://www.10gen.com/presentations
+            /mongodb-seattle-2012-mongodb-gilt>`_ - Presentation at
+            MongoDB Seattle 2012
+
+          - Gilt CTO Mike Bryzek's presentation at `MongoSF
+            <http://www.10gen.com/event_mongosf_10apr30#gilt>`_ in April
+            2010.
+
+          - `Hummingbird <http://mnutt.github.com/hummingbird/>`_ - a
+            real-time web traffic visualization tool developed by Gilt
+            and powered by MongoDB
+c4_img: |
+          .. image:: pd-images/edelight_logo_orangegrau_ohne-claim.png
+c4_txt: |
+          `edelight <http://www.edelight.de>`_ is a social shopping
+          portal for product recommendations.
+
+          - `MongoDB and edelight: A Tale of Pain and Success in 10
+            Slides <http://www.10gen.com/presentations/mongoberlin2010/e
+            delight>`_ - Fabian Schladitz's Presentation at MongoBerlin
+            (October 2010)
+
+          - `MongoDB: Wieso Edelight statt MySQL auf MongoDB setzt
+            <http://www.excitingcommerce.de/2010/09/edelight-
+            mongodb.html>`_ - Exciting Ecommerce blog (September 2010)
+c5_img: |
+          .. image:: pd-images/logo-totsy.png
+c5_txt: |
+          `Totsy <http://www.totsy.com>`_ offers moms on-the-go and
+          moms-to-be access to brand-specific sales, up to 70_ off
+          retail. Totsy was re-built upon Li3 and MongoDB to correct
+          performance and scaling limitations incurred while on the
+          prior relational-database platform. The transition to
+          MongoDB has resolved all of Totsy's performance and scaling
+          issues.
+
+          - `MongoDB Ecommerce Case Study: Totsy
+            <http://www.10gen.com/video/mongoboston2010/totsy>`_ - Mitch
+            Pirtle's presentation at Mongo Boston (September 2010)
+c6_img: |
+          .. image:: pd-images/logo-plumwillow.png
+c6_txt: |
+          `PlumWillow <http://www.plumwillow.com>`_ is a Social
+          Shopping Network where girls who like fashion can build
+          outfits by drag-and-drop, selecting from thousands of top-
+          brand items. PlumWillow was built by a 'dream team' of core-
+          developers/contributors to PHP, jQuery and MongoDB who
+          utilized the Agile efficiency of MongoDB and the `Vork
+          Enteprise PHP Framework <http://www.vork.us>`_ to bring
+          PlumWillow from concept-to-launch in just a few months.
+c7_img: |
+          .. image:: pd-images/logo-shopwiki.gif
+c7_txt: |
+          `Shopwiki <http://www.shopwiki.com/>`_ uses Mongo as a data
+          store for its shopping search engine, where they commit all
+          the data generated, such as custom analytics. Mongo's
+          performance is such that ShopWiki uses it in cases where
+          MySQL would just not be practical. ShopWiki is also using it
+          as a storage engine for all R&amp;D and data-mining efforts
+          where MongoDB's document oriented architecture offers
+          maximum flexibility.
+
+          - `Avery's Talk at MongoNYC
+            <http://devblog.shopwiki.com/post/660499806/averys-talk-at-
+            mongonyc>`_ - ShopWiki Dev Blog (June 2010)
+c8_img: |
+          .. image:: pd-images/yabblrlogo.png
+c8_txt: |
+          `Yabblr <http://yabblr.com/>`_ uses MongoDB for everything,
+          including inventory management and orders. Yabblr is an
+          E-Commerce platform which flips 'deals' on its head: Instead
+          of pushing random offers at you, Yabblr empowers you to
+          group together with friends to pull deals on products you
+          select. Yabblr uses MongoDB exclusively as a data store for
+          the entire platform, including: - User data - Real time
+          metrics that are used for analyzing user behavior and system
+          health - Inventory management - Customer orders - Event
+          queues and message bus between different systems.
+c9_img: |
+          .. image:: pd-images/ordoro_logo.png
+c9_txt: |
+          `Ordoro <https://www.ordoro.com/>`_ uses MongoDB to store
+          orders, inventory and suppliers. Ordoro deals with
+          everything that happens after a shopper clicks checkout on
+          the retailer's website: print packing lists and shipping
+          labels, manage inventory levels, manage dropshipping, manage
+          customers, manage suppliers etc. Ordoro is the backoffice
+          control panel for SMB etailers.
+c10_img: |
+          .. image:: pd-images/savingstar_logo.png
+c10_txt: |
+          `SavingStar <https://savingstar.com/>`_ uses MongoDB to
+          store our coupon content and service metadata, as well as
+          all of our coupon activation data. The company is the first
+          national, fully digital, grocery eCoupon service, available
+          for free. There's nothing to clip, nothing to print.
+c11_img: |
+          .. image:: pd-images/weddingpaperdivas.png
+c11_txt: |
+          `Wedding Paper Divas <http://www.weddingpaperdivas.com/>`_
+          uses MongoDB to store our categories and products.The
+          company allows users to create `custom wedding invitations
+          <http://www.weddingpaperdivas.com/>`_ online using their
+          personalization tools to make unique and trendy wedding
+          invitations quickly and easily.
+c12_img: |
+          .. image:: pd-images/storeden.png
+c12_txt: |
+          `Storeden <http://www.storeden.com/>`_ is a cloud solution
+          totally based on MongoDB. The easiness of the most popular
+          shopping websites meets the performance of an advanced
+          online sales solution. Storeden is a revolutionary
+          e-Commerce platform that allows users and web-agencies to
+          set up amazing on-line stores in just a few clicks.
+          Everybody has the chance to create applications, graphic
+          themes and 'suites' and to sell
+          them to the other users in the Cloud. Storeden can be
+          perfectly integrated with the most common ERP and CRM
+          platforms, allows the user to effectively leverage on
+          Facebook, Ebay, Google Shopping and Kelkoo as further sales
+          channels and is natively optimized for SEO.
+c13_img: |
+          .. image:: pd-images/gg_logo2.gif
+c13_txt: |
+          `Gittigidiyor.com <http://www.Gittigidiyor.com/>`_ is the
+          biggest e-commerce site in Turkey with more than 7 million
+          registered users. Gittigidiyor.com have a big replicated and
+          sharded MongoDB cluster for storing and for caching a wide
+          range of data.
+c14_img: |
+          .. image:: pd-images/iparalogo.png
+c14_txt: |
+          `iPara <https://www.ipara.com/>`_ uses MongoDB at payment
+          pages to log all kind of user activites. After logging, they
+          analyze those logs to determine new page designs and process
+          flows. iPara offers safe and convenient payment and discount
+          campaigns, providing many advantages for both users and
+          businesses.
+c15_img: |
+          .. image:: pd-images/coinbase_logo_white.png
+c15_txt: |
+          `Coinbase <https://www.coinbase.com/>`_ uses MongoDB for
+          their primary datastore for their web app, api requests,
+          etc. Coinbase is a decentralized, digital currency that is
+          changing the world of payments.
+c16_img: |
+          .. image:: pd-images/logo_en-
+          16f1faef18bed72d5fe7735129a7e62f.gif
+c16_txt: |
+          `local.ch <http://www.local.ch>`_ uses MongoDB as their
+          central data store to serve complete documents for all of
+          their phonebook entries and geo data. Data is consumed by
+          the website www.local.ch as well as their mobile apps.
+c17_img: |
+          .. image:: pd-images/logo-turkishexporter.png
+c17_txt: |
+          `Turkishexporter.net <http://turkishexporter.net/>`_ uses
+          MongoDB to list and filter their products, companies, and
+          leads.
+c18_img: |
+          .. image:: pd-images/bestcovery-logo.png
+c18_txt: |
+          `Bestcovery.com <http://www.bestcovery.com/>`_ uses MongoDB
+          for MyBest pages, which allow users to discover interesting
+          products and curate lists of their own favorite products and
+          services to share with the world.
+c19_img: |
+          .. image:: pd-images/logo-bkc.png
+c19_txt: |
+          `Bestekortingscode.nl <http://www.Bestekortingscode.nl>`_
+          uses MongoDB as their primary database.
+c20_img: |
+          .. image:: pd-images/ic_wishmongo.png
+c20_txt: |
+          `Wish <http://www.wish.com/>`_ is a social platform for
+          helping connect consumers to merchants with great deals on
+          the products they want. They use MongoDB as their primary
+          data store to serve up hundreds of gigabytes of data to
+          almost 10 million users in real-time. It stands behind
+          everything on the site, from their personalization engine to
+          their commerce platform, and supports their growth of
+          millions of new users every month.
+...

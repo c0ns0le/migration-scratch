@@ -1,0 +1,67 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Online Collaboration
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/trello.png
+c1_txt: |
+          `Trello <http://trello.com>`_ is a collaboration tool that
+          organizes your projects into boards. In one glance, Trello
+          tells you what's being worked on, who's working on what, and
+          where something is in a process. Trello stores all
+          historical and non-ephemeral data in MongoDB. The Trello
+          team was attracted to MongoDB for its speed. MongoDB offers
+          very fast writes, faster reads, and better denormalization
+          support; it allows them to store the data of each individual
+          card on the Trello board in a single document in the
+          database and still have the ability to query into (and
+          index) subfields of the document. They were also attracted
+          to MongoDB's reliability: it is really easy to replicate,
+          back up, and restore. Other benefits for the Trello team:
+          using a loose document store makes it easy to run different
+          versions of the Trello code against the same database
+          without fooling around with DB schema migrations. This has a
+          lot of benefits when they push a new version of Trello;
+          there is seldom (if ever) a need to stop access to the app
+          while we do a DB update or backfill.
+
+          - `What's in Trello <http://www.10gen.com/presentations/nyc-
+            meetup-group/whats-in-the-trello>`_ Brett Keifer and the
+            Trello team's presentation at the NYC MongoDB User Group,
+            January 23, 2012.
+
+          - `The Trello Stack <http://blog.fogcreek.com/the-trello-
+            tech-stack/>`_ January 2012 from the `Fog Creek Blog
+            <http://blog.fogcreek.com>`_
+
+          - `Trello Architecture <http://prezi.com/skunatcrkp5m
+            /trello-architecture/>`_
+c2_img: |
+          .. image:: pd-images/flowdock.png
+c2_txt: |
+          `Flowdock <http://www.flowdock.com/>`_ is a modern web-based
+          team messenger, that helps your team to become more
+          organized simply by chatting. Flowdock backend uses MongoDB
+          to store all messages.
+
+          - `Why Flowdock migrated from Cassandra to MongoDB
+            <http://blog.nodeta.fi/2010/07/26/flowdock-migrated-from-
+            cassandra-to-mongodb/>`_ - Flowdock Blog (July 2010)
+c3_img: |
+          .. image:: pd-images/term.png
+c3_txt: |
+          `Sherl.tv <http://shelr.tv/>`_ is service for sharing plain
+          text terminal screencasts from a unix terminal that uses
+          MongoDB as the main data storage for records.
+...

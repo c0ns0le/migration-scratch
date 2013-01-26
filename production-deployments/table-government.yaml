@@ -1,0 +1,82 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Government
+header2: ""
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: pd-images/national-archives.jpg
+c1_txt: |
+          `The National Archives (UK)
+          <http://www.nationalarchives.gov.uk/about/new-
+          catalogue.htm>`_ made details of 11m records available
+          through an `application interface <http://discovery.national
+          archives.gov.uk/SearchUI/api.htm>`_ it published as part of
+          an ongoing programme to get more official records online. It
+          is consolidating numerous existing electronic archives,
+          either by porting them directly or putting them in a service
+          wrapper that can communicate with its unified system. The
+          unified system uses MongoDB and is built on a Microsoft
+          software stack.
+
+          - `National Archives releases public application programming
+            interface for 11m records
+            <http://www.computerweekly.com/news/2240105501/National-
+            Archives-releases-public-application-programming-interface-
+            for-11m-records>`_ - ComputerWorld (Sept 2011)
+
+          - `From SQL Server to MongoDB
+            <http://www.10gen.com/presentations/mongouk-2011/from-sql-
+            server-to-mongodb>`_ - Presentation at MongoDB UK (Sept
+            2011)
+c2_img: |
+          .. image:: pd-images/gov.uk.jpg
+c2_txt: |
+          The British Government launched a beta of its GOV.UK
+          platform, testing a single domain for that could be used
+          throughout government. According to James Stewart, the Tech
+          Lead on the beta of GOV.UK, 'We started out building
+          everything using MySQL but moved to MongoDB as we realised
+          how much of our content fitted its document-centric
+          approach,' said Stewart. 'Over time we've been more and more
+          impressed with it and expect to increase our usage of it in
+          the future.'
+
+          - `Colophon for the GOV.UK beta
+            <http://digital.cabinetoffice.gov.uk/colophon-beta/>`_ - Feb
+            2012
+
+          - `With GOV.UK, British government redefines the online
+            government platform <http://radar.oreilly.com/2012/01/with-
+            govuk-british-government.html>`_ - O'Reilly Radar (Feb 2012)
+c3_img: |
+          .. image:: pd-images/sunlight.png
+c3_txt: |
+          `Sunlight Labs <http://sunlightlabs.com/>`_ is a community
+          of open source developers and designers dedicated to opening
+          up our government to make it more transparent, accountable
+          and responsible. MongoDB powers the `National Data Catalog
+          <http://nationaldatacatalog.com>`_ and the `Drumbone API
+          <http://services.sunlightlabs.com/docs/Drumbone_API/>`_,
+          which is an aggregator of data about members of Congress.
+
+          - `MongoDB at Sunlight <http://www.10gen.com/presentations
+            /mongodb-at-sunlight>`_ - Luis Martinez's Presentation
+            Slides
+
+          - `Civic Hacking <http://blip.tv/file/3680481>`_ - Video
+            from Luigi Montanez's presentation at MongoNYC (May 2010)
+
+          - `How We Use MongoDB at Sunlight
+            <http://sunlightlabs.com/blog/2010/how-we-use-mongodb-
+            sunlight/>`_ blog post (May 2010)
+...
