@@ -44,7 +44,7 @@ Compile and Link C++ Driver
 
 The C++ driver is included in the MongoDB server source repository, and
 can also be downloaded as a separate, "standalone" tarball (See
-`MongoDB Downloads`_). To compile the "standalone" C++ driver, run the
+:ref:`download-cpp-driver`). To compile the "standalone" C++ driver, run the
 ``scons`` command in the top-level directory of the driver sources, e.g.:
 
 .. code-block:: sh
