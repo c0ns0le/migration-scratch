@@ -10,13 +10,14 @@ rows:
 ---
 # table metadata, as meta.<key>
 section: meta
-header1: Education
-header2: ""
+header1: Company
+header2: Description
 ---
 # table content, as content.<key>
 section: content
 c1_img: |
-          .. image:: pd-images/codeacademy.png
+          .. image:: images/codeacademy.png
+             :width: 160px
 c1_txt: |
           `Codecademy <http://www.codecademy.com/>`_ is the easiest
           way to learn to code online. Driven by the belief that
@@ -24,7 +25,8 @@ c1_txt: |
           twenty-first century, Codecademy has educated more than one
           million people in over 100 countries.
 c2_img: |
-          .. image:: pd-images/learnboost.png
+          .. image:: images/learnboost.png
+             :width: 160px
 c2_txt: |
           LearnBoost is a free and amazing `gradebook
           <http://www.learnboost.com/>`_ web app that leverages
@@ -36,19 +38,21 @@ c2_txt: |
           - `Mongoose <http://www.learnboost.com/mongoose/>`_ -
             LearnBoost blog (May 2010)
 c3_img: |
-          Courseoff_0:
+          
 c3_txt: |
           `Courseoff <https://courseoff.com>`_ uses MongoDB stores
           student created schedules as well as the schedule listings
           themselves.
 c4_img: |
-          .. image:: pd-images/boundless-logo.png
+          .. image:: images/boundless-logo.png
+             :width: 160px
 c4_txt: |
           `Boundless Learning <http://www.boundlesslearning.com/>`_
           uses MongoDB as a rapid-prototyping technology to develop a
           robust content management system.
 c5_img: |
-          .. image:: pd-images/FHDA_Color_200W.png
+          .. image:: images/FHDA_Color_200W.png
+             :width: 160px
 c5_txt: |
           `Foothill-De Anza Community College District
           <http://www.fhda.edu/>`_ migrated a problematic document

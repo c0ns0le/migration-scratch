@@ -13,13 +13,14 @@ rows:
 ---
 # table metadata, as meta.<key>
 section: meta
-header1: Healthcare
-header2: ""
+header1: Company
+header2: Description
 ---
 # table content, as content.<key>
 section: content
 c1_img: |
-          .. image:: pd-images/Santosoft-Logo.png
+          .. image:: images/Santosoft-Logo.png
+             :width: 160px
 c1_txt: |
           `Santosoft <http://www.santosoft.com/>`_ uses MongoDB for
           virtually 100_ of its data related stack. They run a fully
@@ -28,7 +29,8 @@ c1_txt: |
           also hope to build the largest common care database
           globally.
 c2_img: |
-          .. image:: pd-images/holadoctor.gif
+          .. image:: images/holadoctor.gif
+             :width: 160px
 c2_txt: |
           `HolaDoctor.com <http://holadoctor.com/es/>`_ is the most
           comprehensive health and wellness portal available in
@@ -38,7 +40,8 @@ c2_txt: |
           persisted on our MongoDB cluster using a custom PHP save
           handler.
 c3_img: |
-          .. image:: pd-images/vitals.gif
+          .. image:: images/vitals.gif
+             :width: 160px
 c3_txt: |
           `Vitals.com <http://vitals.com>`_ consolidates and
           standardizes doctor and other health provider data from over
@@ -53,14 +56,16 @@ c3_txt: |
           us to serve more clients. Based on this success, we are
           transitioning other functionality to MongoDB datasources.
 c4_img: |
-          .. image:: pd-images/talkabouthealth.jpg
+          .. image:: images/talkabouthealth.jpg
+             :width: 160px
 c4_txt: |
           `TalkAboutHealth <http://talkabouthealth.com>`_ matches
           people with similar health concerns for answers and live
           chats. Meet others just like you, learn from experienced
           peers, and share your experiences.
 c5_img: |
-          .. image:: pd-images/earlydoc.png
+          .. image:: images/earlydoc.png
+             :width: 160px
 c5_txt: |
           `Earlydoc <http://www.earlydoc.com/>`_ models medical data,
           which means things like master-identity management and data
@@ -68,7 +73,8 @@ c5_txt: |
           specificly, is where the schemaless design of MongoDB is
           a<b>huge</b> win.
 c6_img: |
-          .. image:: pd-images/Logo-for-alyeska-page.png
+          .. image:: images/Logo-for-alyeska-page.png
+             :width: 160px
 c6_txt: |
           `D Sharp <http://cdn2.dsharpdiabetes.com/>`_ uses MongoDB to
           store detailed medical observations and perform complex
@@ -79,7 +85,8 @@ c6_txt: |
           smartphone or browser. This includes iPhone, iPad, Android,
           Windows Mobile, Blackberry and desktop browsers.
 c7_img: |
-          .. image:: pd-images/vigilant.png
+          .. image:: images/vigilant.png
+             :width: 160px
 c7_txt: |
           `Vigilant Medical <http://vigilantmedical.net>`_ uses
           MongoDB to manage the large, complex, and often sparse
@@ -87,7 +94,8 @@ c7_txt: |
           the entire administrative backbone of Vigilant's enterprise
           web application, ImageShare.
 c8_img: |
-          .. image:: pd-images/mmr.png
+          .. image:: images/mmr.png
+             :width: 160px
 c8_txt: |
           `Mini Medical Record <https://minimedrec.com/mmr.php>`_ is
           designed to improve medical care. While designed to help

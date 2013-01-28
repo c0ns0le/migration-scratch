@@ -1,0 +1,269 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+  - 5: [ content.c5_img, content.c5_txt ]
+  - 6: [ content.c6_img, content.c6_txt ]
+  - 7: [ content.c7_img, content.c7_txt ]
+  - 8: [ content.c8_img, content.c8_txt ]
+  - 9: [ content.c9_img, content.c9_txt ]
+  - 10: [ content.c10_img, content.c10_txt ]
+  - 11: [ content.c11_img, content.c11_txt ]
+  - 12: [ content.c12_img, content.c12_txt ]
+  - 13: [ content.c13_img, content.c13_txt ]
+  - 14: [ content.c14_img, content.c14_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Company
+header2: Description
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: images/sap_logo.gif
+             :width: 160px
+c1_txt: |
+          SAP uses MongoDB as a core component of SAP's platform-
+          as-a-service (PaaS) offering. MongoDB was selected for the
+          enterprise content management (ECM) section of the platform,
+          as its flexibility and scalability will enable SAP to scale
+          its content management service on its PaaS offering to meet
+          customers' requirements while managing data from different
+          applications. More information available on the `10gen blog
+          <http://blog.10gen.com/post/10239727744/mongodb-selected-as-
+          the-core-content-management>`_.
+
+          - `Introduction to SAP's Java Platform as a Service
+            <http://www.10gen.com/presentations/mongouk-2011
+            /introduction-to-saps-java-platform-as-a-service>`_ - Dieter
+            Guendisch's Presentation at MongoUK (September 2011)
+c2_img: |
+          .. image:: images/mtv-networks-small.jpg
+             :width: 160px
+c2_txt: |
+          MongoDB is the repository that powers `MTV Networks'
+          <http://www.10gen.com/customers/mtv-networks>`_ next-
+          generation CMS, which will eventually be used to manage and
+          distribute content for all of MTV Networks' major websites.
+          Current deployments include `SpikeTV.com
+          <http://www.spike.com/>`_ and `Comedy Central Indecision
+          <http://www.indecisionforever.com/>`_, and MTV Networks will
+          be rolling out MongoDB on many other major sites within the
+          next year, most likely including `gametrailers.com
+          <http://www.gametrailers.com/>`_, `thedailyshow.com
+          <http://www.thedailyshow.com/>`_, `comedycentral.com
+          <http://www.comedycentral.com/>`_, `nick.com
+          <http://www.nick.com/>`_, and numerous international
+          properties. Read more on the `MongoDB blog
+          <http://blog.mongodb.org/post/5360007734/mongodb-powering-
+          mtvs-web-properties>`_.
+
+          - `How MTV Leverages MongDB for CMS
+            <http://www.10gen.com/presentations/mongoboston-2011/how-
+            mtv-leverages-mongodb-for-cms>`_ - Jeff Yemin's Presentation
+            for MongoBoston 2011 (October 2011)
+c3_img: |
+          .. image:: images/logo-sourceforge.png
+             :width: 160px
+c3_txt: |
+          MongoDB is used for back-end storage on the `SourceForge
+          <http://sourceforge.net/>`_ front pages, project pages, and
+          download pages for all projects.
+
+          - `Realtime Analytics using MongoDB, Python, Gevent, and
+            ZeroMQ <http://www.10gen.com/presentations/mongosv-2011
+            /realtime-analytics-using-mongodb-python-gevent-and-
+            zeromq>`_ - Rick Copeland's Presentation at MongoSV
+            (December 2011)
+
+          - `Achieving 2+ Years of Mongo Stability and Performance on
+            SF.net <http://www.10gen.com/presentations/mongodallas-2011/
+            achieving-2-plus-years-of-mongo-stability-and-performance-
+            on-sf-net>`_ - Mark Ramm's Presentation at MongoDallas
+            (November 2011)
+
+          - `Rapid and Scalable Development with MongoDB, PyMongo and
+            Ming <http://www.10gen.com/presentations/mongodallas-2011
+            /rapid-and-scalable-development-with-mongodb-pymongo-and-
+            ming>`_ - Mark Ramm's Presentation at MongoDallas (November
+            2011)
+
+          - `Allura - An Open-Source, MongoDB-based Document Oriented
+            SourceForge <http://www.10gen.com/presentations/mongosf-2011
+            /allura-open-source-mongodb-based-document-oriented-
+            sourceforge>`_ - Rick Copeland's Presentation at MongoSF
+            (May 2011)
+
+          - `How SourceForge Uses MongoDB <http://www.10gen.com/presen
+            tations/mongoatlanta2011/sourceforge>`_ - Rick Copeland's
+            Presentation at MongoAtlanta (February 2011)
+
+          - `Scaling SourceForge with MongoDB <http://www.oscon.com/os
+            con2010/public/schedule/detail/13669>`_ - OSCON Presentation
+            (July 2010)
+
+          - `MongoDB at SourceForge
+            <http://www.infoq.com/presentations/MongoDB-at-
+            SourceForge>`_ - QCon London Presentation (March 2010)
+
+          - `How Python, TurboGears, and MongoDB are Transforming
+            SourceForge.net
+            <http://us.pycon.org/2010/conference/schedule/event/110/>`_
+            - PyCon (February 2010)
+
+          - `SourceForge.net releases Ming
+            <http://sourceforge.net/blog/sourceforge-releases-ming/>`_ -
+            SourceForge blog (December 2009)
+
+          - `TurboGears on Sourceforge
+            <http://compoundthinking.com/blog/index.php/2009/07/16
+            /turbogears-on-sourceforge/>`_ - Compound Thinking (July
+            2009)
+c4_img: |
+          .. image:: images/wordnik.png
+             :width: 160px
+c4_txt: |
+          `Wordnik <http://www.10gen.com/customers/wordnik>`_ stores
+          its entire text corpus in MongoDB - 3.5T of data in 20
+          billion records. The speed to query the corpus was cut to
+          1/4 the time it took prior to migrating to MongoDB. More
+          about MongoDB at Wordnik:
+
+          - `From the Cloud and Back
+            <http://www.10gen.com/presentations/mongosv-2011/from-the-
+            cloud-and-back>`_ - Presentation at MongoSV (December 2011)
+
+          - `What drove Wordnik non-relational?
+            <http://www.slideshare.net/fehguy/why-wordnik-went-
+            nonrelational>`_ (August 2011)
+
+          - `Building a Directed Graph with MongoDB
+            <http://www.10gen.com/presentations/mongosf2011/wordnik>`_ -
+            Tony Tam's Presentation at MongoSF (May 2011)
+
+          - `Managing a MongoDB Deployment
+            <http://www.slideshare.net/fehguy/managing-a-mongodb-
+            deployment>`_ - Presentation at Large Scale Production
+            Engineering Meetup (February 2011)
+
+          - `Wordnik: 10 million API requests a day on MongoDB
+            <http://highscalability.com/blog/2011/2/15/wordnik-10
+            -million-api-requests-a-day-on-mongodb-and-scala.html>`_ -
+            High Scalability Blog (February 2011)
+
+          - `Keeping the Lights on with MongoDB
+            <http://www.10gen.com/presentations/mongosv2010/wordnik>`_ -
+            Tony Tam's Presentation at MongoSV 2010 (December 2010)
+
+          - `12 Months with MongoDB <http://blog.wordnik.com/12
+            -months-with-mongodb>`_ - Wordnik Blog (October 2010)
+
+          - `B is for Billion <http://blog.wordnik.com/b-is-for-
+            billion>`_ - Wordnik Blog (July 2010)
+
+          - `MongoDB: Migration from Mysql at Wordnik
+            <http://www.royans.net/arch/mongodb-migration-from-mysql-at-
+            wordnik/>`_ - Scalable Web Architectures (May 2010)
+
+          - `Tony Tam's Presentation at MongoSF
+            <http://www.10gen.com/event_mongosf_10apr30#wordnik>`_
+            (April 2010)
+
+          - `What has technology done for words lately?
+            <http://blog.wordnik.com/what-has-technology-done-for-words-
+            lately>`_ - Wordnik blog (February 2010)
+c5_img: |
+          .. image:: images/harmonyapp.png
+             :width: 160px
+c5_txt: |
+          `Harmony <http://get.harmonyapp.com/>`_ is a powerful web-
+          based platform for creating and managing websites. It helps
+          developers with content editors work together with
+          unprecedented flexibility and simplicity. From stylesheets,
+          images and templates, to pages, blogs, and comments, every
+          piece of Harmony data is stored in MongoDB. Switching to
+          MongoDB from MySQL drastically simplified Harmony's data
+          model and increased the speed at which we can deliver
+          features.
+
+          - `Real World Data Modeling with MongoDB at Harmony <http://
+            www.10gen.com/presentations/mongoboston2010/harmony>`_ -
+            Steve Smith's Presentation at MongoBoston (September 2010)
+
+          - `Steve Smith's presentation about Harmony at MongoSF
+            <http://www.10gen.com/event_mongosf_10apr30#harmonyapp>`_
+            (April 2010)
+c6_img: |
+          .. image:: images/demand_media-logo.png
+             :width: 160px
+c6_txt: |
+          `eHow <http://www.ehow.com/>`_, a web property of `Demand
+          Media <http://www.demandmedia.com/>`_, receives 100MM+
+          unique users on a large content database. MongoDB is
+          perfectly suited for eHow's content management, as the
+          document model exactly matches the delivery model of
+          documents and pages. The Demand Media team rewrote the
+          legacy inherited .NET/SQL system to PHP/Python/MongoDB in a
+          cachless, tierless design, all on one machine with
+          replication.
+c7_img: |
+          .. image:: images/yougameplay.png
+             :width: 160px
+c7_txt: |
+          `MeteKamil <http://yougameplay.com/>`_ uses MongoDB for
+          browsing hundreds of thousands of videos on the websites:
+          YouUnbox.com YouGamePlay.com YouOverClock.com
+          DroidFather.com YouTouchDown.com
+c8_img: |
+          .. image:: images/03_small.png
+             :width: 160px
+c8_txt: |
+          `Omnidimensional <http://omnidimensional.net/>`_ uses
+          MongoDB to store and retrieve large numbers of records.
+          Omnidimensional is a hybrid company that supplies its
+          customers with high-end web applications, user-experience
+          design solutions, webdesign and music or tunes for use in
+          commercials.
+c9_img: |
+          .. image:: images/logo-watchlater.png
+             :width: 160px
+c9_txt: |
+          `Watchlater <http://watchlaterapp.com/>`_ uses MongoDB as
+          their primary database for their Watchlater app.
+c10_img: |
+          .. image:: images/logo-webgenius.jpg
+             :width: 160px
+c10_txt: |
+          `Web Genius <http://www.webgenius.co.nz/>`_ uses MongoDB to
+          host 700 small-to-medium business sites.
+c11_img: |
+          .. image:: images/logo-9elements.jpg
+             :width: 160px
+c11_txt: |
+          9elements uses MongoDB in their Rails projects
+          `meinpraktikum.de <http://www.meinpraktikum.de/>`_
+c12_img: |
+          .. image:: images/logo-tusmedia.gif
+             :width: 160px
+c12_txt: |
+          `Tus Media <http://www.tusclasesparticulares.com//>`_ uses
+          MongoDB as their content management database.
+c13_img: |
+          .. image:: images/logo-amalya-tek.jpg
+             :width: 160px
+c13_txt: |
+          Amalya Tek uses MongoDB as their content repository
+          database.
+c14_img: |
+          .. image:: images/logo-productionminds.png
+             :width: 160px
+c14_txt: |
+          `Production Minds <http://www.productionminds.com/>`_ uses
+          MongoDB as their primary graph-like database for a complex
+          web application.
+...

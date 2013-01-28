@@ -8,13 +8,14 @@ rows:
 ---
 # table metadata, as meta.<key>
 section: meta
-header1: Government
-header2: ""
+header1: Company
+header2: Description
 ---
 # table content, as content.<key>
 section: content
 c1_img: |
-          .. image:: pd-images/national-archives.jpg
+          .. image:: images/national-archives.jpg
+             :width: 160px
 c1_txt: |
           `The National Archives (UK)
           <http://www.nationalarchives.gov.uk/about/new-
@@ -39,7 +40,8 @@ c1_txt: |
             server-to-mongodb>`_ - Presentation at MongoDB UK (Sept
             2011)
 c2_img: |
-          .. image:: pd-images/gov.uk.jpg
+          .. image:: images/gov.uk.jpg
+             :width: 160px
 c2_txt: |
           The British Government launched a beta of its GOV.UK
           platform, testing a single domain for that could be used
@@ -59,7 +61,8 @@ c2_txt: |
             government platform <http://radar.oreilly.com/2012/01/with-
             govuk-british-government.html>`_ - O'Reilly Radar (Feb 2012)
 c3_img: |
-          .. image:: pd-images/sunlight.png
+          .. image:: images/sunlight.png
+             :width: 160px
 c3_txt: |
           `Sunlight Labs <http://sunlightlabs.com/>`_ is a community
           of open source developers and designers dedicated to opening

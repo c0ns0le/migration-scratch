@@ -1,0 +1,40 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Company
+header2: Description
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: images/firebase.png
+             :width: 160px
+c1_txt: |
+          `Firebase <http://www.firebase.com/>`_ is a cloud service
+          that automatically synchronizes data between clients and
+          cloud servers. Apps built with Firebase can be written
+          entirely with client-side JavaScript, update in real-time
+          out-of-the-box, are inherently scalable, and interoperate
+          well with existing services. Firebase offers developers a
+          massively scaleable real-time backend for web applications.
+          Firebase stores all its data in MongoDB which offers the
+          built-in capability for apps to scale automatically and
+          gives each piece of data its own unique URL stored in JSON
+          documents.
+c2_img: |
+          .. image:: images/mongohq.png
+             :width: 160px
+c2_txt: |
+          `MongoHQ <http://www.mongohq.com/>`_ provides a hosting
+          platform for MongoDB and also uses MongoDB as the back-end
+          for its service. Our `hosting centers
+          <http://www.mongodb.org/display/DOCS/Hosting+Center>`_ page
+          provides more information about MongoHQ and other MongoDB
+          hosting options.
+...

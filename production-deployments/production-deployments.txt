@@ -1,0 +1,146 @@
+.. http://www.mongodb.org/display/DOCS/Production+Deployments
+
+.. _production-deployments:
+
+======================
+Production Deployments
+======================
+
+.. default-domain:: mongodb
+
+MongoDB can be used for a lot of different projects; the goal is for it
+to be a fairly general purpose tool. As you can see, many of the use
+cases are online or operational databases in which someone is writing
+an application in front of the database. Business intelligence /
+analytics use is not unusual but usually more specialized. For example,
+real time dashboarding is highly popular, and when the data set gets
+really big, things can make a lot of sense. :ref:`See the use cases
+<use-cases>` page for more on this and for more on when you *wouldn't
+use it*.
+
+If you're using MongoDB in production, we'd love to list you here!
+Please complete this `web form <http://www.10gen.com/we-use-mongodb>`_
+and we will add you.
+
+Archiving
+---------
+
+.. include:: /includes/table-archiving.rst
+
+Cloud Infrastructure Providers
+------------------------------
+
+.. include:: /includes/table-cloud-infrastructure.rst
+
+Content Management
+------------------
+
+.. include:: /includes/table-content-management.rst
+
+Ecommerce
+---------
+
+.. include:: /includes/table-ecommerce.rst
+
+.. seealso::
+
+   `<http://www.slideshare.net/mongodb/mongodb-at-ebay>`_ 
+
+Education
+---------
+
+.. include:: /includes/table-education.rst
+
+Email
+-----
+
+.. include:: /includes/table-email.rst
+
+Finance
+-------
+
+.. include:: /includes/table-finance.rst
+
+Gaming
+------
+
+.. include:: /includes/table-gaming.rst
+
+Government
+----------
+
+.. include:: /includes/table-government.rst
+
+In addition, MongoDB has been used for various projects at the federal,
+state, and city levels in the U.S.
+
+.. note::
+
+   If you are in Washington D.C. area, be sure to check out the annual
+   MongoDB conference there ("MongoDC"), as well as local :ref:`mongodb user
+   groups <mongodb-user-groups>`.
+
+Healthcare
+----------
+
+.. include:: /includes/table-healthcare.rst
+
+Infrastructure
+--------------
+
+.. include:: /includes/table-infrastructure.rst
+
+Intranet
+--------
+
+.. include:: /includes/table-intranet.rst
+
+Metadata Storage
+----------------
+
+.. include:: /includes/table-metadata-storage.rst
+
+Mobile
+------
+
+.. include:: /includes/table-mobile.rst
+
+News & Media
+------------
+
+.. include:: /includes/table-news-and-media.rst
+
+Online Advertising and Marketing 
+---------------------------------
+
+.. include:: /includes/table-online-ad.rst
+
+Online Collaboration
+--------------------
+
+.. include:: /includes/table-online-collaboration.rst
+
+Real-time stats/analytics
+-------------------------
+
+.. include:: /includes/table-real-time-stats.rst
+
+Scientific
+----------
+
+.. include:: /includes/table-scientific.rst
+
+Social Networks
+---------------
+
+.. include:: /includes/table-social-network.rst
+
+Telecommunications
+------------------
+
+.. include:: /includes/table-telecom.rst
+
+More MongoDB Users
+------------------
+
+.. include:: /includes/table-more-mongodb-users.rst

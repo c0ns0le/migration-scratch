@@ -32,13 +32,14 @@ rows:
 ---
 # table metadata, as meta.<key>
 section: meta
-header1: Real-time stats/analytics
-header2: ""
+header1: Company
+header2: Description
 ---
 # table content, as content.<key>
 section: content
 c1_img: |
-          .. image:: pd-images/intuit.gif
+          .. image:: images/intuit.gif
+             :width: 160px
 c1_txt: |
           `Intuit <http://www.10gen.com/customers/intuit>`_ is one of
           the world's largest providers of software and services for
@@ -50,7 +51,8 @@ c1_txt: |
             <http://www.10gen.com/video/mongosv2010/intuit>`_ -
             Presentation at MongoSV (December 2010)
 c2_img: |
-          .. image:: pd-images/buddymedia.png
+          .. image:: images/buddymedia.png
+             :width: 160px
 c2_txt: |
           The `Buddy Media
           <http://www.10gen.com/customers/buddymedia>`_ Platform gives
@@ -69,7 +71,8 @@ c2_txt: |
             media-publisher-what-you-need-to-know/>`_ - Buddy Media blog
             (November 2010)
 c3_img: |
-          .. image:: pd-images/bitly.png
+          .. image:: images/bitly.png
+             :width: 160px
 c3_txt: |
           `bit.ly <http://bit.ly/>`_ allows users to shorten, share,
           and track links. bit.ly uses MongoDB to store user history.
@@ -79,7 +82,8 @@ c3_txt: |
             <http://blip.tv/file/3704043>`_ presentation at MongoNYC
             (May 2010)
 c4_img: |
-          .. image:: pd-images/mms-thumbnail.png
+          .. image:: images/mms-thumbnail.png
+             :width: 160px
 c4_txt: |
           `10gen <http://www.10gen.com/>`_ is the initiator,
           contributor and continual sponsor of the MongoDB project.
@@ -92,7 +96,8 @@ c4_txt: |
           thousands of MongoDB deployments, and uses it to better
           diagnose and resolve customer issues.
 c5_img: |
-          .. image:: pd-images/chartbeat_media_logo.png
+          .. image:: images/chartbeat_media_logo.png
+             :width: 160px
 c5_txt: |
           `Chartbeat <http://chartbeat.com/>`_ is a revolutionary
           real-time analytics service that enables people to
@@ -100,7 +105,7 @@ c5_txt: |
           mitigate it. Chartbeat stores all historical analytics data
           in MongoDB.
 
-          - `MongoDB &amp; EC2: A love story?
+          - `MongoDB & EC2: A love story?
             <http://www.10gen.com/presentations/nyc-meetup-group
             /mongodb-and-ec2-a-love-story>`_ - NY MongoDB User Group
             (Oct 2011)
@@ -113,7 +118,8 @@ c5_txt: |
           - `Kushal Dave's Presentation at MongoNYC
             <http://blip.tv/file/3701052>`_ (May 2010)
 c6_img: |
-          .. image:: pd-images/logo-boxedice.png
+          .. image:: images/logo-boxedice.png
+             :width: 160px
 c6_txt: |
           Server Density is a `server monitoring
           <http://www.serverdensity.com>`_ tool from Boxed Ice. They
@@ -135,8 +141,8 @@ c6_txt: |
             <http://blog.boxedice.com/2010/02/28/notes-from-a
             -production-mongodb-deployment/>`_
 
-          - `Many more
-            <http://blog.boxedice.com/mongodb/>`_ Presentations:
+          - `Many more <http://blog.boxedice.com/mongodb/>`_
+            Presentations:
 
           - `MongoDB Monitoring and Queueing
             <http://www.10gen.com/presentations/mongosf-2011/mongodb-
@@ -159,7 +165,8 @@ c6_txt: |
             availability-real-time-analytics-featuring-boxed-ice-
             server>`_ - Webinar (October 2012)
 c7_img: |
-          .. image:: pd-images/zuberance.png
+          .. image:: images/zuberance.png
+             :width: 160px
 c7_txt: |
           Zuberance started using MongoDB as a reporting engine in
           their enterprise product. In Q3 of 2011, Zuberance decided
@@ -171,7 +178,8 @@ c7_txt: |
             <http://engineering.zuberance.com/2012/01/30/why-we-like-
             mongodb-at-zuberance/>`_ - Zuberance Blog (January 2012)
 c8_img: |
-          .. image:: pd-images/sharethislogosmall.gif
+          .. image:: images/sharethislogosmall.gif
+             :width: 160px
 c8_txt: |
           `ShareThis <http://sharethis.com>`_ makes it easy to share
           ideas and get to the good stuff online. ShareThis is the
@@ -183,7 +191,8 @@ c8_txt: |
             <http://www.10gen.com/presentations/mongosv2010/sharethis>`_
             - Lenin Gali's Presentation at MongoSV (December 2010)
 c9_img: |
-          .. image:: pd-images/gh.png
+          .. image:: images/gh.png
+             :width: 160px
 c9_txt: |
           `GitHub <http://github.com/>`_, the social coding site, is
           using MongoDB for an internal reporting application.
@@ -192,7 +201,8 @@ c9_txt: |
             /mongodb-chicago-2012/mongodb-analytics>`_ - John
             Nunemaker's presentation at MongoChicago 2012)
 c10_img: |
-          .. image:: pd-images/eventbrite.png
+          .. image:: images/eventbrite.png
+             :width: 160px
 c10_txt: |
           `Eventbrite <http://www.eventbrite.com/>`_ gives you all the
           online tools you need to bring people together for an event
@@ -210,7 +220,8 @@ c10_txt: |
             <http://blog.eventbrite.com/guest-post-why-you-should-track-
             page-views-with-mongodb>`_ - Eventbrite Blog (June 2010)
 c11_img: |
-          .. image:: pd-images/blinqmedia-logo.png
+          .. image:: images/blinqmedia-logo.png
+             :width: 160px
 c11_txt: |
           BLiNQ Media, an employee owned social media advertising and
           technology company, is one of 12 companies globally with
@@ -236,14 +247,14 @@ c11_txt: |
             results-for-facebook-advertisers?from=share_email>`_ -
             Presentation at Mongo Atlanta (February 2011)
 c12_img: |
-          .. image:: pd-images/yottaa.png
+          .. image:: images/yottaa.png
+             :width: 160px
 c12_txt: |
           `Yottaa <http://www.yottaa.com>`_ offers Performance
           Analytics, a cloud service that monitors, ranks and analyzes
           the performance of millions of web sites, providing an open
-          database to answer questions such as 'why
-          performance matters' and 'how
-          fast is my site?'. Yottaa is using Ruby on
+          database to answer questions such as 'why performance
+          matters' and 'how fast is my site?'. Yottaa is using Ruby on
           Rails and MongoDB to build its scalable analytics engine.
 
           - `How Yottaa Uses MongoDB <http://blog.yottaa.com/2010/09
@@ -255,7 +266,8 @@ c12_txt: |
             with-mongodb-ruby-on-rails>`_ - Jared Rosoff's presentation
             at RubyConfChina (June 2010)
 c13_img: |
-          .. image:: pd-images/buzzfeed.jpg
+          .. image:: images/buzzfeed.jpg
+             :width: 160px
 c13_txt: |
           `BuzzFeed <http://www.buzzfeed.com/>`_ is a trends
           aggregator that uses a web crawler and human editors to find
@@ -263,7 +275,8 @@ c13_txt: |
           an analytics system tracking over 400 million monthly events
           from MySQL to MongoDB.
 c14_img: |
-          .. image:: pd-images/ubervu.png
+          .. image:: images/ubervu.png
+             :width: 160px
 c14_txt: |
           `uberVU <http://www.ubervu.com/>`_ is an intuitive social
           media management and analytics service used by companies of
@@ -276,24 +289,25 @@ c14_txt: |
             /intelligent-stream-filtering-using-mongodb>`_ - Mihnea
             Giurgea's Presentation at MongoUK (September 2011)
 c15_img: |
-          .. image:: pd-images/copperegg_logo_250px.png
+          .. image:: images/copperegg_logo_250px.png
+             :width: 160px
 c15_txt: |
-          `CopperEgg <http://www.copperegg.com/?utm_source=mongodb&amp
-          ;utm_medium=listing&amp;utm_campaign=partner>`_ RevealCloud
-          `Awesome Cloud Monitoring <http://www.copperegg.com/product
-          /cloud-monitoring/?utm_source=mongodb&amp;utm_medium=listing
-          &amp;utm_campaign=partner>`_ CopperEgg is able to achieve
-          its super real-time updates and alerts of the RevealCloud
-          product with the help of MongoDB. Mongo was the only DB that
-          fit the requirements of extremely rapid storage and
-          retrieval of customer monitoring data to provide on-screen
-          updates every few seconds (NOT minutes). CopperEgg monitors
-          thousands of end points world-wide in real-time. RevealCloud
-          is available to application development organizations to
-          give the instant visibility of system performance in any
-          stage of the development lifecycle, from initial design
-          through production, helping ensure SLAsand giving your
-          customers the response times they expect right now.
+          `CopperEgg <http://www.copperegg.com/?utm_source=mongodb&utm
+          _medium=listing&utm_campaign=partner>`_ RevealCloud `Awesome
+          Cloud Monitoring <http://www.copperegg.com/product/cloud-mon
+          itoring/?utm_source=mongodb&utm_medium=listing&utm_campaign=
+          partner>`_ CopperEgg is able to achieve its super real-time
+          updates and alerts of the RevealCloud product with the help
+          of MongoDB. Mongo was the only DB that fit the requirements
+          of extremely rapid storage and retrieval of customer
+          monitoring data to provide on-screen updates every few
+          seconds (NOT minutes). CopperEgg monitors thousands of end
+          points world-wide in real-time. RevealCloud is available to
+          application development organizations to give the instant
+          visibility of system performance in any stage of the
+          development lifecycle, from initial design through
+          production, helping ensure SLAsand giving your customers the
+          response times they expect right now.
 
           - `Designing Algorithms that Scale Horizontally with MongoDB
             <http://www.10gen.com/presentations/mongodallas-2011
@@ -301,7 +315,8 @@ c15_txt: |
             mongodb>`_ - Luke Ehresman's Presentation at MongoDallas
             (November 2011)
 c16_img: |
-          .. image:: pd-images/loggly-logo.jpg
+          .. image:: images/loggly-logo.jpg
+             :width: 160px
 c16_txt: |
           `Loggly <http://loggly.com/>`_ uses MongoDB as a repository
           of statistics and summary information for time series log
@@ -312,14 +327,16 @@ c16_txt: |
           graphs, reports, dashboards and exciting visualizations for
           users.
 c17_img: |
-          .. image:: pd-images/pattern-builders-logo.png
+          .. image:: images/pattern-builders-logo.png
+             :width: 160px
 c17_txt: |
           `Pattern Builders <http://patternbuilders.com/>`_ built a
           .NET based streaming analytics engine using MongoDB.
           Relational databases and MSMQ were integrated with MongoDB
           for high performance and a great user experience.
 c18_img: |
-          .. image:: pd-images/gograph_logo.gif
+          .. image:: images/gograph_logo.gif
+             :width: 160px
 c18_txt: |
           `Go Graph <http://www.gograph.com/>`_ Stock Photography
           offers over 7 million stock images and graphics. We use
@@ -330,14 +347,16 @@ c18_txt: |
           are able to serve up better results which will translate
           into a better overall user experience.
 c19_img: |
-          .. image:: pd-images/VinTank.png
+          .. image:: images/VinTank.png
+             :width: 160px
 c19_txt: |
           `VinTank <http://www.vintank.com/>`_ uses MongoDB to power
           the analytics and reporting for their social media listening
           and social CRM features. The company is the only digital
           think tank for the wine industry.
 c20_img: |
-          .. image:: pd-images/logotype_TC_bg_323235.png
+          .. image:: images/logotype_TC_bg_323235.png
+             :width: 160px
 c20_txt: |
           `Trunk Club <http://www.trunkclub.com/>`_ uses MongoDB for a
           variety of applications, including real-time analytics,
@@ -348,40 +367,45 @@ c20_txt: |
           deliver a highly personalized experience that helps guys
           look their best and saves them time.
 
-          - [Lightweight Business Intelligence with MongoDB
 c21_img: |
-          http://www.10gen.com/presentations/mongodb-chicago-2012
-          /lightweight-business-intelligence-mongodb]
+         
 c21_txt: |
-          <ul type='square'>
 
-          - Cory Ehmke's presentation at MongoChicago 2012)
+          `Lightweight Business Intelligence with MongoDB 
+          <http://www.10gen.com/presentations/mongodb-chicago-2012
+          /lightweight-business-intelligence-mongodb>`_
+
+          - Cory Ehmke's presentation at MongoDBChicago 2012
 c22_img: |
-          .. image:: pd-images/minfil.se-gooood.png
+          .. image:: images/minfil.se-gooood.png
+             :width: 160px
 c22_txt: |
           `MinFil.se <http://minfil.se/>`_uses MongoDB for distributed
-          &amp; redundant file storage capability. Using MongoDB,
-          GridFS' service basically scales infinitely---they just add
-          more servers as their storage requirement grows, Real-Time
+          & redundant file storage capability. Using MongoDB, GridFS'
+          service basically scales infinitely---they just add more
+          servers as their storage requirement grows, Real-Time
           Analytics for all our users, all individual files, and for
           the service in general, tracking pageviews, downloads,
           unique downlods, referrers, etc
 c23_img: |
-          .. image:: pd-images/jlkjljklmkmmm.egg_0c5d2.png
+          .. image:: images/jlkjljklmkmmm.egg_0c5d2.png
+             :width: 160px
 c23_txt: |
           `Appboy <http://www.appboy.com/>`_uses MongoDB for
-          distributed &amp; redundant file storage capability. Appboy
-          is a customer relationship management, marketing, and user
+          distributed & redundant file storage capability. Appboy is a
+          customer relationship management, marketing, and user
           analytics platform for mobile applications. They use MongoDB
           as their primary datastore and analytics backend.
 c24_img: |
-          .. image:: pd-images/ukraine-copy.jpg
+          .. image:: images/ukraine-copy.jpg
+             :width: 160px
 c24_txt: |
           `Ukrainian Navigation Systems <http://ukrnavi.com/>`_uses
           MongoDB for its main project database. The company
           manufactures advanced systems for GPS-monitoring.
 c25_img: |
-          .. image:: pd-images/brand_logo_black.png
+          .. image:: images/brand_logo_black.png
+             :width: 160px
 c25_txt: |
           `ChannelMeter <http://channelmeter.com>`_ harvests hourly
           and daily analytics from YouTube for millions of videos and
@@ -390,14 +414,16 @@ c25_txt: |
           provides reports, analytics, and recommendations for
           individual vloggers and corporate giants alike.
 c26_img: |
-          .. image:: pd-images/logo-gopollgo.jpg
+          .. image:: images/logo-gopollgo.jpg
+             :width: 160px
 c26_txt: |
           `GoPollGo <http://www.gopollgo.com/>`_ uses MongoDB as their
           main data store. They've found it to be great for real-time
           analytics, which is a big component for them and their
           users, who include ABC News, ESPN, Netflix and Yahoo.
 c27_img: |
-          .. image:: pd-images/logo-minewhat.png
+          .. image:: images/logo-minewhat.png
+             :width: 160px
 c27_txt: |
           `MineWhat <http://www.minewhat.com/>`_ is an automatic
           shopping assistance platform for ecommerce. MongoDB powers

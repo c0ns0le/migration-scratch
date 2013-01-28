@@ -1,0 +1,83 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+  - 4: [ content.c4_img, content.c4_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Company
+header2: Description
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          .. image:: images/secondmarket.jpg
+             :width: 160px
+c1_txt: |
+          `SecondMarket <https://www.secondmarket.com/>`_ is the
+          online marketplace for alternative assets such as private
+          company stock, structured products & bankruptcy claims.
+          SecondMarket uses mongoDB for storing its diverse asset
+          classes in a single collection utilizing the power of the
+          schema free nature of mongoDB. We also store organization
+          news and activity in mongoDB.
+
+          - `Mongo & Mongeez on the SecondMarket Engineering Blog
+            <http://engineering.secondmarket.com/post/17156303982/mongo-
+            mongeez>`_ - Feb 2012
+
+          - `Mongeez <https://github.com/secondmarket/mongeez>`_ the
+            open source, change management tool developed for MongoDB.]
+
+          - `Second Market, MongoDB and Mongeez for Change Management 
+            <http://www.10gen.com/presentations/mongonyc-2011/secondmark
+            et>`_ - Michael Lysaght's Presentation at MongoNYC (June
+            2011)
+
+          - `Mongeez at SecondMarket
+            <http://www.10gen.com/presentations/nyc-meetup-group
+            /mongeez-at-secondmarket>`_ -Michael Lysaght's presentation
+            at the MongoDB User Group (January 2012)
+c2_img: |
+          .. image:: images/acr2.jpg
+             :width: 160px
+c2_txt: |
+          `Athena Capital Research <http://www.athenacr.com/>`_ is a
+          quantitative investment manager, specializing in automated
+          trading strategies.
+
+          - `How a Hedge Fund Uses MongoDB
+            <http://www.10gen.com/presentations/mongonyc-2011/how-a
+            -hedge-fund-uses-mongodb>`_ - Roman Shtylman's Presentation
+            at MongoNYC (June 2011)
+
+          - `Low Latency Event Logging with BSON
+            <http://www.10gen.com/presentations/mongosv2010/acr>`_ -
+            Andrew Morrow's Presentation at MongoSV (December 2010)
+c3_img: |
+          .. image:: images/logo_equilar.gif
+             :width: 160px
+c3_txt: |
+          `Equilar <http://www.equilar.com/>`_ uncovers the direct
+          pathways to the most influential high net worth individuals,
+          and delivers immediate and actionable insight into the
+          equity wealth events that drive business development
+          opportunities. Equilar uses Mongo DB to map and analyze the
+          connections between over 300,000 executives and board
+          members in companies worldwide.
+c4_img: |
+          .. image:: images/aurigausa-logo.png
+             :width: 160px
+c4_txt: |
+          `Auriga USA <http://www.aurigausallc.com/>`_ is a financial
+          services company that operates in the residential mortgage
+          space. Moving to MongoDB solved a host of problems, and
+          assisted Auriga USA in upgrading the functionality of their
+          loan inventory management system to handle many new features
+          and different types of assets, including student loans,
+          credit cards, and asset-back securities.
+...

@@ -1,0 +1,51 @@
+# table structure. all content symbolic.
+section: layout
+header: [ meta.header1, meta.header2 ]
+rows:
+  - 1: [ content.c1_img, content.c1_txt ]
+  - 2: [ content.c2_img, content.c2_txt ]
+  - 3: [ content.c3_img, content.c3_txt ]
+---
+# table metadata, as meta.<key>
+section: meta
+header1: Company
+header2: Description
+---
+# table content, as content.<key>
+section: content
+c1_img: |
+          CERN
+c1_txt: |
+          MongoDB_at_the_Energy_Frontier_1:
+
+          - CERN uses MongoDB for Large Hadron Collider data.
+
+          - `MongoDB at the Energy Frontier
+            <http://www.10gen.com/presentations/MongoNYC-2012/MongoDB-
+            at-the-Energy-Frontier>`_ - MongoNYC presentation (May 2012)
+
+          - `Holy Large Hadron Collider, Batman!
+            <http://blog.mongodb.org/post/660037122/holy-large-hadron-
+            collider-batman>`_ - MongoDB Blog (June 2010)
+c2_img: |
+          Mount Sinai Institute
+c2_txt: |
+          The Mount Sinai Institute for Genomics and Multiscale
+          Biology uses MongoDB to help with various computational
+          genomics tasks
+c3_img: |
+          Springer
+c3_txt: |
+          Realtime_springer_com_1:
+
+          - `Realtime.springer.com <http://realtime.springer.com/>`_
+            is a service that aggregates together downloads of Springer
+            journal articles and book chapters in real time and displays
+            them in a variety of visualizations. The goal of this
+            service is to provide the scientific community with valuable
+            information about how the literature is being used 'right
+            now'. MongoDB is used to store the details of one million
+            downloads per day from across Springer's sites. Map reduce
+            jobs generate collections for the last 7, 30, and 90 days
+            for around 2,000 journal and 40,000 book titles.
+...

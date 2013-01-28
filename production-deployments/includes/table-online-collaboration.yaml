@@ -8,13 +8,14 @@ rows:
 ---
 # table metadata, as meta.<key>
 section: meta
-header1: Online Collaboration
-header2: ""
+header1: Company
+header2: Description
 ---
 # table content, as content.<key>
 section: content
 c1_img: |
-          .. image:: pd-images/trello.png
+          .. image:: images/trello.png
+             :width: 160px
 c1_txt: |
           `Trello <http://trello.com>`_ is a collaboration tool that
           organizes your projects into boards. In one glance, Trello
@@ -48,7 +49,8 @@ c1_txt: |
           - `Trello Architecture <http://prezi.com/skunatcrkp5m
             /trello-architecture/>`_
 c2_img: |
-          .. image:: pd-images/flowdock.png
+          .. image:: images/flowdock.png
+             :width: 160px
 c2_txt: |
           `Flowdock <http://www.flowdock.com/>`_ is a modern web-based
           team messenger, that helps your team to become more
@@ -59,7 +61,8 @@ c2_txt: |
             <http://blog.nodeta.fi/2010/07/26/flowdock-migrated-from-
             cassandra-to-mongodb/>`_ - Flowdock Blog (July 2010)
 c3_img: |
-          .. image:: pd-images/term.png
+          .. image:: images/term.png
+             :width: 160px
 c3_txt: |
           `Sherl.tv <http://shelr.tv/>`_ is service for sharing plain
           text terminal screencasts from a unix terminal that uses
